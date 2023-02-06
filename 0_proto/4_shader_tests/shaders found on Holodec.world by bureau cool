@@ -1,0 +1,526 @@
+`
+    varying vec2 vUv;
+    varying vec2 ovUv;
+    varying vec3 nPosition;
+
+    uniform sampler2D map;
+    uniform float amount;
+    uniform float perc;
+    uniform float time;
+    uniform float ratio;
+    uniform float opacity;
+    uniform float scale;
+    uniform vec2 offset;
+    uniform vec2 ratioMulti;
+
+
+    void main() {
+
+        vec3 nPosition = position;
+
+        vec2 nVuv = uv;
+        ovUv = uv;
+
+        vec4 t2 = texture2D(map, ovUv).rgba;
+
+        nVuv.x -= 0.5;
+        nVuv.y -= 0.5;
+
+        nVuv *= vec2(1.0 + (1.0-opacity) * (0.5-distance(vec2(0.0), nVuv)) * 1.0);
+
+        nVuv.x *= ratioMulti.x;
+        nVuv.y *= ratioMulti.y;
+        nVuv /= vec2(1.0 + scale);
+        nVuv.x += offset.x;
+        nVuv.y += offset.y;
+        nVuv.x += 0.5;
+        nVuv.y += 0.5;
+
+        vec4 mvPosition = modelViewMatrix * vec4(nPosition, 1.0);
+        gl_Position = projectionMatrix * mvPosition;
+        vUv = nVuv;
+    }
+`
+`
+    #include <packing>
+    varying vec2 vUv;
+    varying vec2 ovUv;
+    varying vec3 nPosition;
+
+    uniform sampler2D map;
+    uniform float perc;
+    uniform float time;
+    // uniform float offset;
+    uniform float ratio;
+    uniform float opacity;
+    uniform float stripHeight;
+    uniform float xerox;
+    uniform float dif;
+
+    uniform vec2 pos;
+
+    // 2D Random
+    float random (in vec2 st) {
+        return fract(sin(dot(st.xy,
+                             vec2(12.9898,78.233)))
+                     * 43758.5453123);
+    }
+    
+    // 2D Noise based on Morgan McGuire @morgan3d
+    // https://www.shadertoy.com/view/4dS3Wd
+    float noise (in vec2 st) {
+        vec2 i = floor(st);
+        vec2 f = fract(st);
+    
+        // Four corners in 2D of a tile
+        float a = random(i);
+        float b = random(i + vec2(1.0, 0.0));
+        float c = random(i + vec2(0.0, 1.0));
+        float d = random(i + vec2(1.0, 1.0));
+    
+        // Smooth Interpolation
+    
+        // Cubic Hermine Curve.  Same as SmoothStep()
+        vec2 u = f*f*(3.0-2.0*f);
+        // u = smoothstep(0.,1.,f);
+    
+        // Mix 4 coorners percentages
+        return mix(a, b, u.x) +
+                (c - a)* u.y * (1.0 - u.x) +
+                (d - b) * u.x * u.y;
+    }
+
+    vec3 czm_saturation(vec3 rgb, float adjustment)
+    {
+        // Algorithm from Chapter 16 of OpenGL Shading Language
+        const vec3 W = vec3(0.2125, 0.7154, 0.0721);
+        vec3 intensity = vec3(dot(rgb, W));
+        return mix(intensity, rgb, adjustment);
+    }
+
+
+    void main() {
+
+      vec2 pos = vec2(vUv*2.0);
+
+      // Use the noise function
+      // float n = noise(pos);
+
+        // float amount = (sin(time*0.2 + perc * 5.0)*0.5+0.5) * n;
+        float amount = (sin(time*0.2 + perc * 5.0)*0.5+0.5);
+
+        vec2 nVuv = vUv;
+        nVuv -= vec2(0.5);
+        // nVuv.x *= 1.0 - amount * ((sin(time*0.5+nVuv.y)*5.0));
+        nVuv += vec2(0.5);
+
+        vec4 t2 = texture2D(map, nVuv).rgba;
+
+        // vec4 outC = t2 * (1.0 + 0.5) * dAvrg;
+
+        // float multi = sin(ovUv.y * 60.0*stripWidthAmount + ovUv.x * 60.0*stripWidthAmount + time*2.5*offset + perc)*0.5+0.5;
+        // float multi2 = sin(ovUv.y * 60.0*stripWidthAmount + ovUv.x * 60.0*stripWidthAmount + 3.1+ time*2.5*offset + perc)*0.5+0.5;
+        
+        // nVuv += vec2(0.5);
+
+      // t2.rgb = t2.rgb * (1.0-amount)*(nVuv.y) + (vec3(1.0)-t2.rgb) * (amount);
+        // t2.rgb *= vec3(1.4);
+        t2.rgb = czm_saturation(t2.rgb, 1.5);
+        vec2 novUv = ovUv;
+        novUv -= vec2(0.5);
+        float alpha = distance(vec2(0.0), novUv);
+        novUv += vec2(0.5);
+
+        gl_FragColor = vec4(vec3(t2), (1.0-alpha*2.0) * opacity);
+        // gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    }
+`
+
+
+
+
+
+
+
+
+
+`
+    varying vec2 vUv;
+    varying vec2 ovUv;
+    varying vec3 nPosition;
+
+    uniform sampler2D map;
+    uniform float amount;
+    uniform float perc;
+    uniform float time;
+    uniform float ratio;
+    uniform float opacity;
+    uniform float scale;
+    uniform vec2 offset;
+    uniform vec2 ratioMulti;
+
+
+    void main() {
+
+        vec3 nPosition = position;
+
+        vec2 nVuv = uv;
+        ovUv = uv;
+
+        vec4 t2 = texture2D(map, ovUv).rgba;
+
+        nVuv.x -= 0.5;
+        nVuv.y -= 0.5;
+
+        // nVuv *= vec2(1.0 + (1.0-opacity) * (0.5-distance(vec2(0.0), nVuv)) * 1.0);
+
+        nVuv.x *= ratioMulti.x;
+        nVuv.y *= ratioMulti.y;
+        nVuv /= vec2(1.0 + scale);
+        nVuv.x += offset.x;
+        nVuv.y += offset.y;
+        nVuv.x += 0.5;
+        nVuv.y += 0.5;
+
+        vec4 mvPosition = modelViewMatrix * vec4(nPosition, 1.0);
+        gl_Position = projectionMatrix * mvPosition;
+        vUv = nVuv;
+    }
+`
+`
+    #include <packing>
+    varying vec2 vUv;
+    varying vec2 ovUv;
+    varying vec3 nPosition;
+
+    uniform sampler2D map;
+    uniform float perc;
+    uniform float time;
+    // uniform float offset;
+    uniform float ratio;
+    uniform float opacity;
+    uniform float stripHeight;
+    uniform float xerox;
+    uniform float dif;
+
+    uniform vec2 pos;
+
+    // 2D Random
+    float random (in vec2 st) {
+        return fract(sin(dot(st.xy,
+                             vec2(12.9898,78.233)))
+                     * 43758.5453123);
+    }
+    
+    // 2D Noise based on Morgan McGuire @morgan3d
+    // https://www.shadertoy.com/view/4dS3Wd
+    float noise (in vec2 st) {
+        vec2 i = floor(st);
+        vec2 f = fract(st);
+    
+        // Four corners in 2D of a tile
+        float a = random(i);
+        float b = random(i + vec2(1.0, 0.0));
+        float c = random(i + vec2(0.0, 1.0));
+        float d = random(i + vec2(1.0, 1.0));
+    
+        // Smooth Interpolation
+    
+        // Cubic Hermine Curve.  Same as SmoothStep()
+        vec2 u = f*f*(3.0-2.0*f);
+        // u = smoothstep(0.,1.,f);
+    
+        // Mix 4 coorners percentages
+        return mix(a, b, u.x) +
+                (c - a)* u.y * (1.0 - u.x) +
+                (d - b) * u.x * u.y;
+    }
+
+    vec3 czm_saturation(vec3 rgb, float adjustment)
+    {
+        // Algorithm from Chapter 16 of OpenGL Shading Language
+        const vec3 W = vec3(0.2125, 0.7154, 0.0721);
+        vec3 intensity = vec3(dot(rgb, W));
+        return mix(intensity, rgb, adjustment);
+    }
+
+
+    void main() {
+
+      vec2 pos = vec2(vUv*2.0);
+
+      vec4 t = texture2D(map, vUv).rgba;
+
+      // Use the noise function
+      float n = noise(pos);
+
+        // float amount = (sin(time*0.2 + perc * 5.0)*0.5+0.5) * n;
+        float amount = (sin(time*0.2 + perc * 5.0)*0.5+0.5);
+
+        vec2 nVuv = vUv;
+        nVuv -= vec2(0.5);
+        nVuv.x *= 1.0 + ((nVuv.y*perc)*10.1)*n*t.r;
+        nVuv += vec2(0.5);
+
+        vec4 t2 = texture2D(map, nVuv).rgba;
+
+        // vec4 outC = t2 * (1.0 + 0.5) * dAvrg;
+
+        // float multi = sin(ovUv.y * 60.0*stripWidthAmount + ovUv.x * 60.0*stripWidthAmount + time*2.5*offset + perc)*0.5+0.5;
+        // float multi2 = sin(ovUv.y * 60.0*stripWidthAmount + ovUv.x * 60.0*stripWidthAmount + 3.1+ time*2.5*offset + perc)*0.5+0.5;
+        
+        // nVuv += vec2(0.5);
+
+      // t2.rgb = t2.rgb * (1.0-amount)*(nVuv.y) + (vec3(1.0)-t2.rgb) * (amount);
+        // t2.r *= float(1.4 + amount);
+        // t2.rgb = czm_saturation(t2.rgb, 1.5);
+        vec2 novUv = ovUv;
+        novUv -= vec2(0.5);
+        float alpha = distance(vec2(0.0), novUv);
+        novUv += vec2(0.5);
+
+        gl_FragColor = vec4(vec3(t2), (1.0-alpha*2.0) * opacity);
+        // gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    }
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+    varying vec2 vUv;
+
+    uniform sampler2D map;
+
+    void main() {
+
+        vec3 nPosition = position;
+
+        vec2 nVuv = uv;
+        nVuv.x -= 0.5;
+        nVuv.x /= 2.0;
+        nVuv.x += 0.25;
+        nVuv.x += 0.5;
+        vec4 t = texture2D(map, nVuv).rgba;
+        float tAvrg = (t.r + t.g + t.b) / 3.0;
+
+        nPosition.z = tAvrg * 1.0;
+
+        vec4 mvPosition = modelViewMatrix * vec4(nPosition, 1.0);
+        gl_Position = projectionMatrix * mvPosition;
+        vUv = uv;
+    }
+`
+`
+    #include <packing>
+    varying vec2 vUv;
+    uniform sampler2D map;
+    uniform sampler2D map2;
+    uniform sampler2D stageMap;
+    uniform float wolrdToStageProgress;
+    uniform float time;
+    uniform float ratio;
+
+    uniform float start;
+    uniform float stop;
+    uniform float speed;
+    uniform float contrast;
+    uniform float amount;
+    uniform float mouseDown;
+    uniform vec2 mouse;
+
+    void main() {
+
+        vec4 mA = texture2D(map, vUv).rgba;
+
+        vec2 nVuv = vUv;
+        nVuv -= vec2(0.5);
+        nVuv.x *= 1.0 - 2.1 * mA.r * distance(nVuv, mouse) * mouseDown;
+        nVuv.y *= 1.0 - 2.1 * mA.r * distance(nVuv, mouse) * mouseDown;
+        nVuv += vec2(0.5);
+
+        vec4 m = texture2D(map, nVuv).rgba;
+        vec4 m2 = texture2D(map2, vUv).rgba;
+
+        // vec4 outC = mix(m, m2, 1.0-m.a);
+
+        // gl_FragColor = vec4(vec3(1.0)-vec3(m.r-m2.r, m.g-m2.g, m.b-m2.b),  1.0);
+        
+
+        // gl_FragColor = vec4(vec3(m.r-m2.r, m.g-m2.g, m.b-m2.b),  1.0);
+        float mAvrg = (m.r + m.g + m.b)/3.0;
+        if (mAvrg < 0.5) {
+          mAvrg = smoothstep(0.4, 1.0, mAvrg);
+        }
+
+        gl_FragColor = vec4(vec3(m), mAvrg);
+    }
+`
+
+
+
+
+`
+    varying vec2 vUv;
+
+    uniform sampler2D map;
+
+    void main() {
+
+        vec3 nPosition = position;
+
+        vec2 nVuv = uv;
+        nVuv.x -= 0.5;
+        nVuv.x /= 2.0;
+        nVuv.x += 0.25;
+        nVuv.x += 0.5;
+        vec4 t = texture2D(map, nVuv).rgba;
+        float tAvrg = (t.r + t.g + t.b) / 3.0;
+
+        nPosition.z = tAvrg * 1.0;
+
+        vec4 mvPosition = modelViewMatrix * vec4(nPosition, 1.0);
+        gl_Position = projectionMatrix * mvPosition;
+        vUv = uv;
+    }
+`
+`
+    #include <packing>
+    varying vec2 vUv;
+    uniform sampler2D map;
+    uniform sampler2D map2;
+    uniform float time;
+    uniform float ratio;
+    uniform float opacity;
+    uniform float color;
+
+    void main() {
+        vec4 m = texture2D(map, vUv).rgba;
+        vec4 m2 = texture2D(map2, vUv).rgba;
+
+        vec4 outColor = vec4(1.0, 0.6, 0.6, 1.0);
+        gl_FragColor = mix(outColor, m, m2.a*opacity);
+        
+        gl_FragColor = mix(m2, gl_FragColor, m2.a*opacity);
+        float colorAvrg = (gl_FragColor.r + gl_FragColor.b + gl_FragColor.g)/3.0;
+        gl_FragColor = vec4(vec3(colorAvrg) * vec3(1.0-color) + gl_FragColor.rgb * vec3(color), gl_FragColor.a * (0.4 + color*0.6));
+    }
+`
+
+
+
+
+
+`
+    varying vec2 vUvCoords;
+
+    varying vec2 coord;
+
+    uniform sampler2D bufferTexture;
+    uniform float time;
+
+    uniform float distort4;
+
+    varying vec3 vPosition;
+
+
+    void main() {
+    vUvCoords = uv;
+
+    coord = uv;
+
+    vec3 newPosition = position;
+    // newPosition.x += cos(time*0.01+position.x)*50.0;
+
+    // newPosition.y *= 1.0 + sin(uv.x*0.1)*0.1*-abs(uv.x)*distort4;
+
+    vPosition = newPosition;
+
+    vec4 mvPosition = modelViewMatrix * vec4(newPosition, 1.0);
+    
+    gl_Position = projectionMatrix * mvPosition;
+    }
+``
+    #include <packing>
+    varying vec2 vUvCoords;
+
+
+    const float PI = 3.141592653589793;
+    uniform vec2 center;
+    uniform float radius;
+    uniform float strength;
+    
+    uniform float opacity;
+    uniform float time;
+    uniform float buffer_bufferamount;
+    uniform float buffer_xScale;
+    
+    uniform float displaceamount;
+    uniform float displaceavrg;
+    
+    uniform float hoverAmount;
+    
+    uniform float distort1;
+    uniform float distort2;
+    uniform float distort3;
+    
+    uniform float distortMulti;
+    
+    varying vec2 coord;
+    
+    uniform sampler2D bufferTexture;//Our input texture
+    
+    uniform sampler2D drawingTexture;
+    
+    uniform vec2 position1;
+    uniform vec2 position2;
+    uniform float position1Size;
+    uniform float position2Size;
+    
+    uniform vec2 mouse;
+    varying vec3 vPosition;
+    
+    // uniform float PI;
+    
+    void main() {
+    
+        vec2 newCoords = vUvCoords;
+    
+        vec2 newCoords3 = vUvCoords;
+        vec4 drawing = texture2D(drawingTexture, newCoords3);
+    
+        vec2 newCoords2 = vUvCoords;
+    
+        newCoords2.x -= 0.5;
+        newCoords2.y -= 0.5;
+    
+    
+        // newCoords2.y += 0.001;
+
+    
+        newCoords2.x += 0.5;
+        newCoords2.y += 0.5;
+    
+        vec4 info = texture2D(bufferTexture, newCoords2);
+    
+        info *= vec4(0.95);
+    
+    
+        gl_FragColor = vec4(vec3(info),1.0-drawing.a);
+        gl_FragColor = mix(gl_FragColor, drawing, drawing.a);
+
+    }
+    
+`

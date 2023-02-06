@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "NewEdge6666-Rounded";
+  src: url("../fonts/NewEdge6666-LightRounded.otf") format("opentype"),
+       url("../fonts/NewEdge6666-LightRounded.woff") format("woff");
+}
+
+body {
+  margin: 0; background: white;
+  font-family: "NewEdge6666-Rounded";
+}
+
+#background-creature {
+  position: fixed;
+  top: -100px; right: -100px; bottom: -100px; left: -100px;
+  video { width: 100%; height: 100%; object-fit: cover;}
+}
+
+#aiscreens {
+  .aiscreen {
+    position: fixed;
+    overflow: hidden;
+    border-radius: 5px;
+    background-position: center center; background-size: cover;
+  }
+}
+
+
+
