@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+// -----------------------------------------------------------------------------
+// Variables
+// -----------------------------------------------------------------------------
+
+$uicolor: #f4ff00;
+$inspector-w-lg: 33.33333vw;
+
+// -----------------------------------------------------------------------------
+// External files import
+// -----------------------------------------------------------------------------
+
+@import 'bootstrap-scss/_functions';
+@import 'bootstrap-scss/_variables';
+@import 'bootstrap-scss/mixins/_breakpoints';
+@import '_reset';
+@import '_typography';
+@import '_mixins';
+@import 'hamburger-settings';
+@import 'hamburgers/hamburgers';
+
+// -----------------------------------------------------------------------------
+// Utilities
+// -----------------------------------------------------------------------------
+
+.color-white-50 { color: rgba(white, 0.5); }
+.bg-white { background-color: white; }
+.no-u { text-decoration: none; }
+.u-hover { text-decoration: none; &:hover { text-decoration: underline; } }
+.pointer { cursor: pointer; }
+.upper { text-transform: uppercase; }
+.lower { text-transform: none; }
+
+// .space-1 { height: #{$space * 1}; }
+
+// -----------------------------------------------------------------------------
+// General tags & classes
+// -----------------------------------------------------------------------------
+
+* {
+  // text-rendering: auto;
+  // text-rendering: optimizeSpeed;
+  // text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision; // OK on chrome
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "NewEdge6666-Rounded";
+  width: 100vw;
+  background-color: #656565;
+  color: white;
+}
+
+main {}
+
+hr {
+  border-top: 1px solid rgba(yellow, 0.8);
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10%;
+  color: inherit;
+  // &:hover { color: white; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+p {
+  margin-bottom: 0.6em;
+}
+
+// -----------------------------------------------------------------------------
+// REUSABLE PIECES
+// -----------------------------------------------------------------------------
+
+@keyframes blink {
+  0%  { opacity: 0.5; }
+  25% { opacity: 0.5; }
+  50% { opacity: 0.3; }
+  75% { opacity: 0.5; }
+  100%{ opacity: 0.5; }
+}
+
+// -----------------------------------------------------------------------------
+// SPECIFIC
+// -----------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------
+// Part :: Trash columns
+// ------------------------------------------------------------------------
+
+#trash-columns {
+  position: fixed;
+  z-index: 10;
+  top: 0; right: 0; bottom: 0; left: 0;
+  pointer-events: none;
+  .trash-column {
+    // border: 1px solid green;
+    font-family: $font-mono;
+    font-size: 9px;
+    color: rgba(255,255,255,0.5);
+    line-break: anywhere;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+// ------------------------------------------------------------------------
+// Section :: Titles
+// ------------------------------------------------------------------------
+
+#title-logo {
+  z-index: 30;
+  position: fixed;
+  top: 15px; right: 15px;
+  @include media-breakpoint-up(lg) {
+    img {
+      height: 50px;
+    }
+    bottom: 30px; left: 30px;
+    top: auto; right: auto;
+  }
+}
+#title-summerschool {
+  z-index: 30;
+  position: fixed;
+  top: 15px; left: 15px;
+  @include media-breakpoint-up(lg) {
+    img {
+      height: 70px;
+    }
+    top: 30px; left: 30px;
+  }
+}
+
+// ------------------------------------------------------------------------
+// Section :: Tiles
+// ------------------------------------------------------------------------
+
+$tileSize-s: 33.33333333%;
+$tileSize-m: 25%;
+$tileSize-l: 20%;
+$tileSize-inspector-m: 50%;
+$tileSize-inspector-l: 33.33333333%;
+#body-content {
+  z-index: 20;
+  position: relative;
+  width: 100%;
+  transition: width 200ms, filter 600ms;
+
+  &.blur {
+    filter: blur(50px);
+  }
+  
+
+  .event-image {
+    display: block;
+    width: 100%;
+  }
+
+
+  #tiles {
+    font-size: 0;
+    width: 100%;
+    position: relative;
+
+    .tile {
+      position: relative;
+      display: inline-block;
+
+      width: $tileSize-s;
+      padding-top: $tileSize-s;
+      @include media-breakpoint-up(lg) {
+        width: $tileSize-m;
+        padding-top: $tileSize-m;
+      }
+      @include media-breakpoint-up(xl) {
+        width: $tileSize-l;
+        padding-top: $tileSize-l;
+      }
+
+      background-color: black;
+      // overflow: hidden;
+      .img {
+        position: absolute; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        background-position: center center; background-size: cover;
+        filter: grayscale(1);
+        transition: filter 400ms;
+      }
+      .highlight {
+        z-index: 25;
+        position: absolute;
+        border: 1px solid $uicolor;
+        transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 500ms 300ms;
+        width: 0; height: 0;
+        opacity: 0;
+        // overflow: hidden;
+
+        // text
+        p {
+          padding-top: 5px;
+          position: absolute;
+          width: 15vw;
+          width: 100%;
+          height: 100%; 
+          top: 100%;
+          left: 0;
+          // text-align: right;
+          font-size: 8px;
+          font-family: $font-asem;
+          color: $uicolor;
+        }
+
+        &.active { 
+          opacity: 1;
+          transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 200ms;
+        }
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------------------------
+// Section :: Language
+// ------------------------------------------------------------------------
+
+body[data-page-uid='language'] {
+  #language-bg {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+    background-color: black;
+    .layer {
+      position: absolute;
+      top: -200px; right: -200px; bottom: -200px; left: -200px;
+      filter: blur(5vmax);
+      background-size: cover;
+      background-position: center center;
+      opacity: 0.4;
+    }
+  }
+}
+
+
+// ------------------------------------------------------------------------
+// Section :: Program
+// ------------------------------------------------------------------------
+
+#program {
+  z-index: 15;
+  position: relative;
+  .program-item {
+    @include font-sans-xl;
+    p {
+      text-align: center;
+    }
+  }
+}
+
+// ------------------------------------------------------------------------
+// Section :: Creature
+// ------------------------------------------------------------------------
+
+#creature {
+  z-index: 40;
+  position: fixed;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  pointer-events: none;
+}
+
+// ------------------------------------------------------------------------
+// Section :: inspector
+// ------------------------------------------------------------------------
+
+$cc-lises-h: 27px;
+$cc-border-grey: #cacdd1;
+$cc-bg-grey: #f1f3f4;
+$cc-text-grey: #5f6368;
+$cc-text-red: #FF0100;
+
+#inspector {
+  z-index: 30;
+  position: fixed;
+  bottom: -60vh;
+  left: 0; right: 0;
+  height: 50vh;
+  min-height: 50vh;
+  max-height: 50vh;
+  overflow: hidden;
+  color: $cc-text-grey;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+
+  transition: bottom 200ms, right 200ms;
+  // opacity: 0;
+  
+  // --- Translucid BG
+  // background-color: rgba(255, 255, 255, 0.5);
+  // backdrop-filter: blur(20px);
+
+  @include media-breakpoint-up(lg) {
+    bottom: 0; left: auto; right: -50vw; top: 0;
+    height: auto;
+    max-height: none;
+    min-height: none;
+    width: $inspector-w-lg;
+    border-left: 1px solid $cc-border-grey;
+  }
+
+  .header {
+    background-color: $cc-bg-grey;
+    height: $cc-lises-h;
+    min-height: $cc-lises-h;
+    max-height: $cc-lises-h;
+    font-family: system-ui, sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $cc-border-grey;
+
+    a.tab {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-decoration: none;
+      &:hover, &.active {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: black;
+      }
+      &.icon {
+        width: 26px;
+        text-align: center;
+      }
+      &:not(.icon) {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    .separator {
+      margin: 5px;
+      width: 0px;
+      height: 15px;
+      border-left: 1px solid $cc-border-grey;
+    }
+  }
+
+  .content {
+    justify-self: stretch;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    .item {
+      min-height: $cc-lises-h;
+      position: relative;
+      padding: 5px;
+      padding-left: 26px;
+      @include font-mono-s;
+
+      &.c-alert {
+        color: #5c3c00;
+        background-color: #FFFBE5;
+        border-bottom: 1px solid #FFF5C2;
+        &::before {
+          position: absolute;
+          content: url('../images/icon-console-alert.svg');
+          left: 7px;
+        }
+      }
+      &.c-error {
+        color: $cc-text-red;
+        background-color: #FFF0F0;
+        border-bottom: 1px solid #FFD6D6;
+        &::before {
+          position: absolute;
+          content: url('../images/icon-console-error.svg');
+          left: 7px;
+        }
+      }
+      &.c-log {
+        color: #303942;
+        background-color: white;
+        border-bottom: 1px solid #F0F0F0;
+      }
+      &.c-content {
+        color: $cc-text-red;
+        background-color: white;
+        padding-left: 7px;
+        border-bottom: 1px solid #F0F0F0;
+        
+        &.l {
+          @include font-sans-l;
+        }
+        &.m {
+          @include font-sans-m;
+        }
+
+      }
+    }
+  }
+}
+
+body[data-inspector-open="true"] {
+  #body-content {
+    @include media-breakpoint-up(lg) {
+      width: #{100vw - $inspector-w-lg};
+    }
+    #tiles .tile {
+      @include media-breakpoint-up(lg) {
+        width: $tileSize-inspector-m;
+        padding-top: $tileSize-inspector-m;
+      }
+      @include media-breakpoint-up(xl) {
+        width: $tileSize-inspector-l;
+        padding-top: $tileSize-inspector-l;
+      }
+    }
+  }
+  #inspector {
+    bottom: 0vh;
+    @include media-breakpoint-up(lg) {
+      right: 0vw;
+    }
+  }
+}
+
+
+
+
+
+// ------------------------------------------------------------------------
+// Layout
+// ------------------------------------------------------------------------
+
+// .container-fluid {
+//   max-width: 940px; 
+//   max-width: 1100px; 
+//   margin-left: auto; margin-right: auto;
+//   padding-left: 30px; padding-right: 30px;
+//   @include media-breakpoint-down(xs) {
+//     padding-left: 15px; padding-right: 15px;
+//   }
+// }
+
+// -----------------------------------------------------------------------------
+// BOOTSTRAP BREAKPOINTS
+// -----------------------------------------------------------------------------
+
+// xs ---                 Portrait phones
+// sm ---  576px and up   Small devices (landscape phones)
+// md ---  768px and up   Medium devices (tablets)
+// lg ---  992px and up   Large devices (desktops)
+// xl --- 1200px and up   Extra large devices (large desktops)
+
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-only(md) { ... }
+// @include media-breakpoint-between(md, xl) { ... }
+// @include media-breakpoint-down(lg) { ... }

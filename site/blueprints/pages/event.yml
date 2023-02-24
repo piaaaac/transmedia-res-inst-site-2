@@ -1,0 +1,81 @@
+title: Event
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+
+          names:
+            label: Name(s)
+            type: textarea
+            size: tiny
+            maxlength: 150
+            width: 1/2
+
+          dateText:
+            label: Dates text
+            type: textarea
+            size: tiny
+            maxlength: 150
+            width: 1/2
+
+          shortDescription:
+            label: Short description
+            type: textarea
+            size: tiny
+            maxlength: 250
+
+          # ----------------
+          # Dates / Times
+
+          # startDate:
+          #   required: true
+          #   type: date
+          #   width: 1/2
+          
+          # endDate:
+          #   type: date
+          #   width: 1/2
+
+          # startTime:
+          #   type: time
+          #   width: 1/2
+
+          # endTime:
+          #   type: time
+          #   width: 1/2
+
+          # ----------------
+
+          fullDescription:
+            label: Full description
+            type: textarea
+            size: tiny
+            maxlength: 1000
+
+          computerVisionJson:
+            type: textarea
+            buttons: false
+            font: monospace
+
+
+  sidebar:
+    width: 1/3
+    sections:
+      pages:
+        type: pages
+        template: default
+      files:
+        type: files
+
+
+
+
+
+
+
+
+

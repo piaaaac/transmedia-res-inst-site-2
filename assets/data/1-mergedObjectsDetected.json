@@ -1,0 +1,5574 @@
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-animal-organs-inside-of-a-computer_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "diningtable",
+        "confidence": 0.49526724219322205,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9112194501436673
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-animal-organs-inside-of-a-computer_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "diningtable",
+        "confidence": 0.4390450119972229,
+        "normX": 0,
+        "normY": 0.06751528153052697,
+        "normW": 1,
+        "normH": 0.857464441886315
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-human-organs-inside-of-a-computer_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "broccoli",
+        "confidence": 0.4872136414051056,
+        "normX": 0.24325906313382661,
+        "normY": 0.24018379358144906,
+        "normW": 0.045055040946373574,
+        "normH": 0.05253909184382512
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-human-organs-inside-of-a-computer_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "oven",
+        "confidence": 0.4791680872440338,
+        "normX": 0.10139079277332012,
+        "normY": 0.43054753083449143,
+        "normW": 0.29350516429314244,
+        "normH": 0.3058644441457895
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-human-organs-inside-of-a-computer_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "broccoli",
+        "confidence": 0.4510606825351715,
+        "normX": 0.24732642907362717,
+        "normY": 0.16421130987314078,
+        "normW": 0.040622894580547624,
+        "normH": 0.06163934560922476
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-organs-made-of-technology_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "giraffe",
+        "confidence": 0.5054160356521606,
+        "normX": 0.023515254259109497,
+        "normY": 0.08001107435960036,
+        "normW": 0.2471449627326085,
+        "normH": 0.3644292904780461
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-organs-made-of-technology_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "vase",
+        "confidence": 0.4910009503364563,
+        "normX": 0.09710946449866661,
+        "normY": 0.36202500416682315,
+        "normW": 0.34550046920776367,
+        "normH": 0.4156189331641564
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-modeled-organs-made-of-technology_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:15 GMT",
+        "label": "person",
+        "confidence": 0.4118677079677582,
+        "normX": 0.6416354546180139,
+        "normY": 0.48437668726994443,
+        "normW": 0.3461104906522311,
+        "normH": 0.48171050731952375
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "Amorphic-creature-made-of-darkness_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:16 GMT",
+        "label": "cat",
+        "confidence": 0.7319219708442688,
+        "normX": 0.27243317090548,
+        "normY": 0.3045385434077336,
+        "normW": 0.5929955335763785,
+        "normH": 0.3622932800879845
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "Amorphic-creature-made-of-darkness_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:16 GMT",
+        "label": "person",
+        "confidence": 0.5470149517059326,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9666055532602164,
+        "normH": 0.9259458688589243
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "Amorphic-creature-made-of-darkness_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:16 GMT",
+        "label": "person",
+        "confidence": 0.4929402768611908,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9496574401855469
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "Amorphic-creature-made-of-darkness_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:16 GMT",
+        "label": "person",
+        "confidence": 0.4536711275577545,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-alien-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:16 GMT",
+        "label": "person",
+        "confidence": 0.4520350694656372,
+        "normX": 0.9310952700101413,
+        "normY": 0.8897539285513071,
+        "normW": 0.03736694042499249,
+        "normH": 0.09603713108943059
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "person",
+        "confidence": 0.5634930729866028,
+        "normX": 0.029845625162124634,
+        "normY": 0.0014893114566802979,
+        "normW": 0.9300277943794544,
+        "normH": 0.9730610824548281
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "person",
+        "confidence": 0.4616936147212982,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8666569636418269,
+        "normH": 0.8852207477276142
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "person",
+        "confidence": 0.44878095388412476,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9448036047128531,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "person",
+        "confidence": 0.44455641508102417,
+        "normX": 0.07431000471115112,
+        "normY": 0.0033614039421081543,
+        "normW": 0.84279354260518,
+        "normH": 0.83156674183332
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "person",
+        "confidence": 0.4356957674026489,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9914641747107873,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "keyboard",
+        "confidence": 0.5274871587753296,
+        "normX": 0.39020068828876203,
+        "normY": 0.2695331023289607,
+        "normW": 0.5292530793410081,
+        "normH": 0.3066507669595572
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-chimera-created-with-a-lion-a-goat-and-a-snake-in-the-style-of-albrecht-durer-etching_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "bench",
+        "confidence": 0.47733888030052185,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-chimera-created-with-a-lion-a-goat-and-a-snake-in-the-style-of-albrecht-durer-etching_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:17 GMT",
+        "label": "person",
+        "confidence": 0.45331069827079773,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9169586621798002
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.798255443572998,
+        "normX": 0.1197358644925631,
+        "normY": 0.1830741442166842,
+        "normW": 0.8802641355074369,
+        "normH": 0.7707954553457407
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.789042055606842,
+        "normX": 0.163576236137977,
+        "normY": 0.049003811982961804,
+        "normW": 0.836423763862023,
+        "normH": 0.7676767294223492
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.7446895837783813,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8792460514948919,
+        "normH": 0.7546410193810096
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.7421847581863403,
+        "normX": 0.30889386397141677,
+        "normY": 0.13859117031097412,
+        "normW": 0.6911061360285833,
+        "normH": 0.719773741868826
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.7047790288925171,
+        "normX": 0,
+        "normY": 0.20518941145676833,
+        "normW": 0.9082312217125525,
+        "normH": 0.7574478296133188
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.6288943290710449,
+        "normX": 0.32782752697284406,
+        "normY": 0.06332319974899292,
+        "normW": 0.6614069571861854,
+        "normH": 0.7367393466142508
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.6016029119491577,
+        "normX": 0,
+        "normY": 0.17011393033541167,
+        "normW": 0.8010343404916617,
+        "normH": 0.6786812268770658
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.5772614479064941,
+        "normX": 0.2775431046119103,
+        "normY": 0.1885650524726281,
+        "normW": 0.7224568953880897,
+        "normH": 0.7492818648998554
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.5766518712043762,
+        "normX": 0.010025829076766968,
+        "normY": 0,
+        "normW": 0.9862288718040173,
+        "normH": 0.8690107785738431
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.5504112243652344,
+        "normX": 0,
+        "normY": 0.03853967556586632,
+        "normW": 0.762329468360314,
+        "normH": 0.783107014802786
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "keyboard",
+        "confidence": 0.5483291745185852,
+        "normX": 0.11332443127265343,
+        "normY": 0.011758238077163696,
+        "normW": 0.6147147967265203,
+        "normH": 0.3830823325193845
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.5009207129478455,
+        "normX": 0.035481005907058716,
+        "normY": 0,
+        "normW": 0.9281532649810498,
+        "normH": 0.7364065463726337
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.4384838044643402,
+        "normX": 0.021923571825027466,
+        "normY": 0.003915309906005859,
+        "normW": 0.64534936272181,
+        "normH": 0.3905815344590407
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "cat",
+        "confidence": 0.41779977083206177,
+        "normX": 0.09299999016981858,
+        "normY": 0.2501092507289006,
+        "normW": 0.9070000098301814,
+        "normH": 0.7498907492710993
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.5709707736968994,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9717857654278095,
+        "normH": 0.8364155842707708
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.45614883303642273,
+        "normX": 0.11248758206000695,
+        "normY": 0,
+        "normW": 0.887512417939993,
+        "normH": 0.8567745502178485
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:18 GMT",
+        "label": "dog",
+        "confidence": 0.4004884660243988,
+        "normX": 0.031722068786621094,
+        "normY": 0,
+        "normW": 0.9682779312133789,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.7316138744354248,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9576742465679462,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.6550571918487549,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9148624860323392,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.5699119567871094,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.5548703074455261,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.5508843064308167,
+        "normX": 0.07335350146660438,
+        "normY": 0,
+        "normW": 0.9266464985333956,
+        "normH": 0.913430800804725
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.5251680612564087,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9864086004403921,
+        "normH": 0.9576788682204026
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.45220088958740234,
+        "normX": 0.22204813590416542,
+        "normY": 0.0514485239982605,
+        "normW": 0.7779518640958346,
+        "normH": 0.8979908182070806
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.43764954805374146,
+        "normX": 0.02852267026901245,
+        "normY": 0.0746999979019165,
+        "normW": 0.9714773297309875,
+        "normH": 0.9253000020980835
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.4290473163127899,
+        "normX": 0.26030832070570725,
+        "normY": 0,
+        "normW": 0.7396916792942927,
+        "normH": 0.8723217157217172
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-temple-made-of-bone-inside-of-a-human-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:19 GMT",
+        "label": "person",
+        "confidence": 0.42117491364479065,
+        "normX": 0.18653317598196176,
+        "normY": 0.11764273276695839,
+        "normW": 0.8134668240180383,
+        "normH": 0.8823572672330416
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-creature-with-the-shape-of-an-industrial-wardrobe-with-tubes-and-metal-inside-a-white-temple-in-the-style-of-1960-movie_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:20 GMT",
+        "label": "person",
+        "confidence": 0.4075891375541687,
+        "normX": 0.32657854373638445,
+        "normY": 0.09385853547316331,
+        "normW": 0.6553442661578839,
+        "normH": 0.8093785139230582
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-jelly-egg-covered-by-sticky-translucent-fluid-with-its-shell-broken-and-a-black-creature-emerging_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:20 GMT",
+        "label": "cat",
+        "confidence": 0.528577446937561,
+        "normX": 0.3355532426100511,
+        "normY": 0.051829906610342175,
+        "normW": 0.6147944377018855,
+        "normH": 0.8917118402627798
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-jelly-egg-covered-by-sticky-translucent-fluid-with-its-shell-broken-and-a-black-creature-emerging_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:20 GMT",
+        "label": "cat",
+        "confidence": 0.47759538888931274,
+        "normX": 0.13246622452369103,
+        "normY": 0.0490264892578125,
+        "normW": 0.8675337754763089,
+        "normH": 0.9509735107421875
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-jelly-egg-covered-by-sticky-translucent-fluid_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:20 GMT",
+        "label": "person",
+        "confidence": 0.5382324457168579,
+        "normX": 0,
+        "normY": 0.00400698184967041,
+        "normW": 0.8841711924626277,
+        "normH": 0.9959930181503296
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-coming-out-of-a-skin-colored-pink-plant-that-gives-birth-all-immersed-in-glossy-fluids_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:21 GMT",
+        "label": "bowl",
+        "confidence": 0.4542025327682495,
+        "normX": 0.014991551637649536,
+        "normY": 0.07173150777816772,
+        "normW": 0.9604459794668051,
+        "normH": 0.8692488899597755
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-coming-out-of-a-skin-colored-pink-plant-that-gives-birth-all-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:21 GMT",
+        "label": "zebra",
+        "confidence": 0.5754122138023376,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9454801999605619
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-coming-out-of-a-skin-colored-pink-plant-that-gives-birth-all-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:21 GMT",
+        "label": "zebra",
+        "confidence": 0.5089668035507202,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9521964146540716,
+        "normH": 0.9090635593120868
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-coming-out-of-a-skin-colored-pink-plant-that-gives-birth-all-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:21 GMT",
+        "label": "zebra",
+        "confidence": 0.44818171858787537,
+        "normX": 0.03138414025306702,
+        "normY": 0,
+        "normW": 0.9376076528659234,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.8972302079200745,
+        "normX": 0,
+        "normY": 0.012091338634490967,
+        "normW": 1,
+        "normH": 0.987908661365509
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.8745011687278748,
+        "normX": 0,
+        "normY": 0.049603164196014404,
+        "normW": 1,
+        "normH": 0.9503968358039856
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.8148036599159241,
+        "normX": 0,
+        "normY": 0.13996309500474197,
+        "normW": 0.9587774276733398,
+        "normH": 0.8600369049952581
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.7940674424171448,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.7503757476806641,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.85810059767503
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.7472258806228638,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.7331815361976624,
+        "normX": 0,
+        "normY": 0.17356454409085786,
+        "normW": 1,
+        "normH": 0.8264354559091421
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.6458390355110168,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8720576212956355,
+        "normH": 0.8313382222102239
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.6457617282867432,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9876274695763221
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-organism-made-only-by-many-limbs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:22 GMT",
+        "label": "cat",
+        "confidence": 0.4983327090740204,
+        "normX": 0.02894580364227295,
+        "normY": 0,
+        "normW": 0.942550411591163,
+        "normH": 0.673309692969689
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "amorphic-organism-made-of-dark-horror_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "tie",
+        "confidence": 0.49264994263648987,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8704713674692007,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "amorphic-organism-made-of-dark-horror_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "tie",
+        "confidence": 0.45866966247558594,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.725061636704665,
+        "normH": 0.8498857204730694
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "amorphic-organism-made-of-dark-horror_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "person",
+        "confidence": 0.4428207576274872,
+        "normX": 0,
+        "normY": 0.04712533950805664,
+        "normW": 1,
+        "normH": 0.9528746604919434
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "person",
+        "confidence": 0.5046564340591431,
+        "normX": 0.17168145913344163,
+        "normY": 0.10166388291579026,
+        "normW": 0.8069144212282621,
+        "normH": 0.8983361170842097
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "person",
+        "confidence": 0.48325055837631226,
+        "normX": 0.43148491932795596,
+        "normY": 0,
+        "normW": 0.568515080672044,
+        "normH": 0.8879351249107947
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "person",
+        "confidence": 0.439279705286026,
+        "normX": 0.28560396341177136,
+        "normY": 0,
+        "normW": 0.7143960365882287,
+        "normH": 0.8878251589261569
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "person",
+        "confidence": 0.41511857509613037,
+        "normX": 0.33875006895798904,
+        "normY": 0.12243249783149132,
+        "normW": 0.6301046884976901,
+        "normH": 0.8775675021685087
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "person",
+        "confidence": 0.41106006503105164,
+        "normX": 0.04571014642715454,
+        "normY": 0.1315619945526123,
+        "normW": 0.7559344722674444,
+        "normH": 0.8684380054473877
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-unfamiliar-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "cat",
+        "confidence": 0.6441131234169006,
+        "normX": 0.07949271568885216,
+        "normY": 0.07852000456589919,
+        "normW": 0.9205072843111478,
+        "normH": 0.8547253608703613
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-unfamiliar-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "cat",
+        "confidence": 0.5533459782600403,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-unfamiliar-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "cat",
+        "confidence": 0.4940526783466339,
+        "normX": 0.26473232416006237,
+        "normY": 0.1161651611328125,
+        "normW": 0.7352676758399377,
+        "normH": 0.7864005749042218
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "an-unfamiliar-organism-made-with-one-bone_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:23 GMT",
+        "label": "cat",
+        "confidence": 0.4457051455974579,
+        "normX": 0,
+        "normY": 0.2669379160954402,
+        "normW": 0.829004507798415,
+        "normH": 0.7330620839045598
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-made-of-metal-and-hair-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:25 GMT",
+        "label": "person",
+        "confidence": 0.6553420424461365,
+        "normX": 0,
+        "normY": 0.07563894987106323,
+        "normW": 0.9198857820951022,
+        "normH": 0.8448748634411738
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-made-of-metal-and-hair-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:25 GMT",
+        "label": "person",
+        "confidence": 0.6028973460197449,
+        "normX": 0.0882719480074369,
+        "normY": 0.0782696925676786,
+        "normW": 0.9117280519925631,
+        "normH": 0.8414122966619638
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-made-of-metal-and-hair-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:25 GMT",
+        "label": "toothbrush",
+        "confidence": 0.43241235613822937,
+        "normX": 0.37225048358623797,
+        "normY": 0,
+        "normW": 0.5504121780395508,
+        "normH": 0.38498823459331805
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:25 GMT",
+        "label": "person",
+        "confidence": 0.6125167608261108,
+        "normX": 0.7642755508422852,
+        "normY": 0,
+        "normW": 0.2287138425386869,
+        "normH": 0.984479023860051
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.4781342148780823,
+        "normX": 0,
+        "normY": 0.06954121589660645,
+        "normW": 0.5598945617675781,
+        "normH": 0.8622935185065637
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "frisbee",
+        "confidence": 0.4446108639240265,
+        "normX": 0.1697222086099478,
+        "normY": 0.29169506293076736,
+        "normW": 0.16895384054917556,
+        "normH": 0.13769936561584473
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.4419934153556824,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.5511861947866586,
+        "normH": 0.7194696573110727
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.43874391913414,
+        "normX": 0.7699157274686373,
+        "normY": 0.18109046495877779,
+        "normW": 0.2072010040283203,
+        "normH": 0.6512042192312387
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.426330029964447,
+        "normX": 0.14743307003608117,
+        "normY": 0.10958390969496506,
+        "normW": 0.5560337121670063,
+        "normH": 0.7853553661933312
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.40047818422317505,
+        "normX": 0.4995704430800218,
+        "normY": 0.11525788673987755,
+        "normW": 0.45821376947256237,
+        "normH": 0.7879424828749436
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bolts-inside-of-a-microorganism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "cat",
+        "confidence": 0.7317937612533569,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bolts-inside-of-a-microorganism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "cat",
+        "confidence": 0.6777863502502441,
+        "normX": 0.104079191501324,
+        "normY": 0.027214467525482178,
+        "normW": 0.8959208084986761,
+        "normH": 0.9727855324745178
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bolts-inside-of-a-microorganism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "cat",
+        "confidence": 0.6359678506851196,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9939628014197717
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bolts-inside-of-a-microorganism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "cat",
+        "confidence": 0.5547446012496948,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bolts-inside-of-a-microorganism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "cat",
+        "confidence": 0.49467921257019043,
+        "normX": 0.1949766966012808,
+        "normY": 0,
+        "normW": 0.8050233033987192,
+        "normH": 0.9647095020000751
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "bolts-inside-of-a-microorganism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "cat",
+        "confidence": 0.4943797290325165,
+        "normX": 0.015293300151824951,
+        "normY": 0,
+        "normW": 0.984706699848175,
+        "normH": 0.90784058204064
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "connections-made-of-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.5590010285377502,
+        "normX": 0,
+        "normY": 0.10497018924126258,
+        "normW": 0.9986624350914588,
+        "normH": 0.8950298107587374
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "connections-made-of-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.4607182443141937,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9354378626896784,
+        "normH": 0.8280355013333834
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "connections-made-of-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.4488103687763214,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8203890140240009,
+        "normH": 0.7766611392681415
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "connections-made-of-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:26 GMT",
+        "label": "person",
+        "confidence": 0.43200618028640747,
+        "normX": 0.09175977340111366,
+        "normY": 0.3001902653620793,
+        "normW": 0.8153315874246451,
+        "normH": 0.6998097346379206
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "connections-made-of-skin_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:27 GMT",
+        "label": "person",
+        "confidence": 0.4621574878692627,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9625539779663086
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "connections-made-of-skin_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:27 GMT",
+        "label": "person",
+        "confidence": 0.41363781690597534,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:27 GMT",
+        "label": "person",
+        "confidence": 0.5443105697631836,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9510151056142954
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:27 GMT",
+        "label": "person",
+        "confidence": 0.4443550705909729,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8921298980712891,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:27 GMT",
+        "label": "person",
+        "confidence": 0.42571768164634705,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8792469318096454,
+        "normH": 0.8415085719181941
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:27 GMT",
+        "label": "person",
+        "confidence": 0.40302374958992004,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-digesting-dark-earth-processes_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "cat",
+        "confidence": 0.44058290123939514,
+        "normX": 0,
+        "normY": 0.029022634029388428,
+        "normW": 1,
+        "normH": 0.9374149991915777
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-digesting-dark-earth-processes_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "cat",
+        "confidence": 0.43623068928718567,
+        "normX": 0,
+        "normY": 0.05438882112503052,
+        "normW": 0.9262439287625827,
+        "normH": 0.9456111788749695
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "person",
+        "confidence": 0.459059476852417,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9247765174278846,
+        "normH": 0.9958638411301833
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "cat",
+        "confidence": 0.42851483821868896,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "donut",
+        "confidence": 0.42167502641677856,
+        "normX": 0,
+        "normY": 0.4483174544114333,
+        "normW": 0.7631424390352689,
+        "normH": 0.5499690862802359
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "person",
+        "confidence": 0.4023037254810333,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8538179397583008,
+        "normH": 0.9945750603309045
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:28 GMT",
+        "label": "person",
+        "confidence": 0.41133546829223633,
+        "normX": 0,
+        "normY": 0.16808043993436372,
+        "normW": 0.8570415790264423,
+        "normH": 0.8072428703308105
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:29 GMT",
+        "label": "suitcase",
+        "confidence": 0.6722722053527832,
+        "normX": 0.01810804009437561,
+        "normY": 0.010164499282836914,
+        "normW": 0.9502059106643383,
+        "normH": 0.8285961701319768
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-organism-melting-and-digesting-earth-processes_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:29 GMT",
+        "label": "dog",
+        "confidence": 0.4839874804019928,
+        "normX": 0.030216290400578424,
+        "normY": 0.4617254917438214,
+        "normW": 0.20391220312852126,
+        "normH": 0.5298880430368277
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-organism-melting-and-digesting-earth-processes_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:29 GMT",
+        "label": "dog",
+        "confidence": 0.4193803668022156,
+        "normX": 0.03945435468967144,
+        "normY": 0.47128809415377104,
+        "normW": 0.2746591522143437,
+        "normH": 0.517643928527832
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "dead-organism-melting-and-digesting-industrial-landscape_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:30 GMT",
+        "label": "person",
+        "confidence": 0.4733036756515503,
+        "normX": 0,
+        "normY": 0.06801307201385498,
+        "normW": 1,
+        "normH": 0.931986927986145
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "death-mask-for-a-bacteria-made-of-dark-demon-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:30 GMT",
+        "label": "person",
+        "confidence": 0.471662700176239,
+        "normX": 0.024667799472808838,
+        "normY": 0,
+        "normW": 0.9753322005271912,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "death-mask-for-a-bacteria-made-of-dark-demon-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:30 GMT",
+        "label": "cat",
+        "confidence": 0.44305381178855896,
+        "normX": 0,
+        "normY": 0.14197903413038987,
+        "normW": 1,
+        "normH": 0.8580209658696101
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:31 GMT",
+        "label": "scissors",
+        "confidence": 0.7155959606170654,
+        "normX": 0.6799725019014798,
+        "normY": 0.07167728130634014,
+        "normW": 0.2978390180147611,
+        "normH": 0.3726045168363131
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:31 GMT",
+        "label": "scissors",
+        "confidence": 0.7035384774208069,
+        "normX": 0.04828183467571552,
+        "normY": 0.04315196092312153,
+        "normW": 0.4353933517749493,
+        "normH": 0.4264224905234117
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:31 GMT",
+        "label": "scissors",
+        "confidence": 0.4480576515197754,
+        "normX": 0.0022912919521331787,
+        "normY": 0,
+        "normW": 0.9757005457694714,
+        "normH": 0.7423331920917218
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:31 GMT",
+        "label": "scissors",
+        "confidence": 0.4247925877571106,
+        "normX": 0.13707780838012695,
+        "normY": 0.03239038586616516,
+        "normW": 0.862922191619873,
+        "normH": 0.5061317475942465
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:31 GMT",
+        "label": "scissors",
+        "confidence": 0.4234604239463806,
+        "normX": 0,
+        "normY": 0.05724811553955078,
+        "normW": 0.8843099153958834,
+        "normH": 0.8774758852445163
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:31 GMT",
+        "label": "scissors",
+        "confidence": 0.4154873490333557,
+        "normX": 0.034418000624730036,
+        "normY": 0.15122805191920355,
+        "normW": 0.4737695868198688,
+        "normH": 0.37774941554436314
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "remote",
+        "confidence": 0.7868631482124329,
+        "normX": 0.10261959296006423,
+        "normY": 0.08968406457167405,
+        "normW": 0.8973804070399358,
+        "normH": 0.825424469434298
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "remote",
+        "confidence": 0.6482537388801575,
+        "normX": 0.06325006484985352,
+        "normY": 0,
+        "normW": 0.9367499351501465,
+        "normH": 0.8606165372408353
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "remote",
+        "confidence": 0.45857229828834534,
+        "normX": 0.20359248381394607,
+        "normY": 0.26909488898057204,
+        "normW": 0.7533045915456918,
+        "normH": 0.730905111019428
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "person",
+        "confidence": 0.4467847943305969,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.820527223440317
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "cell phone",
+        "confidence": 0.43857863545417786,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8088050255408654,
+        "normH": 0.7584532224214994
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "remote",
+        "confidence": 0.42887547612190247,
+        "normX": 0.04322314262390137,
+        "normY": 0.1633607057424692,
+        "normW": 0.9075387257796067,
+        "normH": 0.8243787105266864
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "cell phone",
+        "confidence": 0.4181455075740814,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8912399732149564,
+        "normH": 0.8488073348999023
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-robotic-parts-from-an-organism-whose-shape-compose-the-letter-s_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:32 GMT",
+        "label": "person",
+        "confidence": 0.4157087206840515,
+        "normX": 0,
+        "normY": 0.12808665862450233,
+        "normW": 0.8468210513775165,
+        "normH": 0.8719133413754977
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letter-s-emerging-and-etched-on-it_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:33 GMT",
+        "label": "motorbike",
+        "confidence": 0.5034194588661194,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8184299468994141,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-organism-that-operates-itself-with-knives-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.8207620978355408,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8806710610022912
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-organism-that-operates-itself-with-knives-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.6097020506858826,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9400615692138672
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-organism-that-operates-itself-with-knives-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.5759940147399902,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-organism-that-operates-itself-with-knives-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.538849949836731,
+        "normX": 0,
+        "normY": 0.05046314001083374,
+        "normW": 1,
+        "normH": 0.9495368599891663
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-organism-that-operates-itself-with-knives-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.5266421437263489,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-creature-from-the-sea-digesting-genitals-underground_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "cat",
+        "confidence": 0.5693086981773376,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9197338544405423
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-creature-from-the-sea-digesting-genitals-underground_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "cat",
+        "confidence": 0.4872463643550873,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9939685234656701
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-creature-from-the-sea-digesting-genitals-underground_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.5580027103424072,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9349693151620718
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-creature-from-the-sea-digesting-genitals-underground_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.5433974266052246,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8949084648719201
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-creature-from-the-sea-digesting-genitals-underground_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:34 GMT",
+        "label": "person",
+        "confidence": 0.45208239555358887,
+        "normX": 0.06682199239730835,
+        "normY": 0.05261156192192665,
+        "normW": 0.9331780076026917,
+        "normH": 0.8812354252888606
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "glass-insect-on-black-background-detail-close-up.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:35 GMT",
+        "label": "person",
+        "confidence": 0.4503616690635681,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9450037296001728
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "glossy-flesh-organism-that-comunicates-by-etching-letters-on-itself_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:35 GMT",
+        "label": "vase",
+        "confidence": 0.6600714921951294,
+        "normX": 0.5157250624436599,
+        "normY": 0.2793130507835975,
+        "normW": 0.258116942185622,
+        "normH": 0.5998403475834773
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "glossy-intestines-cloud.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:36 GMT",
+        "label": "person",
+        "confidence": 0.5123052597045898,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "human-organs-connected-to-create-an-organism-that-self-operates-with-a-knife_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:36 GMT",
+        "label": "tie",
+        "confidence": 0.5849802494049072,
+        "normX": 0.017896168507062472,
+        "normY": 0,
+        "normW": 0.23493266793397757,
+        "normH": 0.8414247219379132
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "human-organs-connected-to-create-an-organism-that-self-operates-with-a-knife_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:36 GMT",
+        "label": "tie",
+        "confidence": 0.5362717509269714,
+        "normX": 0.029771552636073187,
+        "normY": 0.0373511016368866,
+        "normW": 0.21793618110510019,
+        "normH": 0.6219138296750876
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "human-organs-connected-to-create-an-organism-that-self-operates-with-a-knife_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:36 GMT",
+        "label": "tie",
+        "confidence": 0.46405360102653503,
+        "normX": 0.06277336982580331,
+        "normY": 0,
+        "normW": 0.2368658001606281,
+        "normH": 0.873072257408729
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "human-organs-connected-to-create-an-organism-that-self-operates-with-a-knife_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:36 GMT",
+        "label": "tie",
+        "confidence": 0.4328067898750305,
+        "normX": 0.07187123023546658,
+        "normY": 0.03804779052734375,
+        "normW": 0.21884703177672166,
+        "normH": 0.6327773607694186
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "hybridity-within-fractured-ecosystems-by-roughly-knitting-together-two-species-that-may-have-not-needed-to-conjoin-before_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:37 GMT",
+        "label": "person",
+        "confidence": 0.4329257905483246,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9153278790987455
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "hybridity-within-fractured-ecosystems-by-roughly-knitting-together-two-species-that-may-have-not-needed-to-conjoin-before_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:37 GMT",
+        "label": "person",
+        "confidence": 0.42317673563957214,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-bacteria-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "scissors",
+        "confidence": 0.4851146936416626,
+        "normX": 0.22141355734605056,
+        "normY": 0.09041747680077186,
+        "normW": 0.7785864426539495,
+        "normH": 0.9095825231992282
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-bacteria-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "person",
+        "confidence": 0.4554517865180969,
+        "normX": 0,
+        "normY": 0.1153272665463961,
+        "normW": 0.7042469611534705,
+        "normH": 0.8846727334536039
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-bacteria-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "scissors",
+        "confidence": 0.4253235459327698,
+        "normX": 0.038498878479003906,
+        "normY": 0.0646558403968811,
+        "normW": 0.9615011215209961,
+        "normH": 0.9353441596031189
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "traffic light",
+        "confidence": 0.5071431994438171,
+        "normX": 0.6240945229163537,
+        "normY": 0.06737215702350323,
+        "normW": 0.038537759047288164,
+        "normH": 0.08108802025134747
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "bottle",
+        "confidence": 0.48892173171043396,
+        "normX": 0.9288157683152419,
+        "normY": 0.07121017346015343,
+        "normW": 0.03345848963810848,
+        "normH": 0.07051663215343769
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "keyboard",
+        "confidence": 0.5301918983459473,
+        "normX": 0.6386998983529898,
+        "normY": 0.22020901166475737,
+        "normW": 0.34010769770695615,
+        "normH": 0.09442666860727164
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:38 GMT",
+        "label": "keyboard",
+        "confidence": 0.5063732862472534,
+        "normX": 0.6158155294565054,
+        "normY": 0.2648123777829684,
+        "normW": 0.37775516510009766,
+        "normH": 0.13218129598177397
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "bottle",
+        "confidence": 0.414876252412796,
+        "normX": 0.4554262894850511,
+        "normY": 0.6387842618502103,
+        "normW": 0.08366852540236253,
+        "normH": 0.173430296090933
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "person",
+        "confidence": 0.5349958539009094,
+        "normX": 0.16900203778193548,
+        "normY": 0.8574932538546048,
+        "normW": 0.04084966732905461,
+        "normH": 0.04259909116304838
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "traffic light",
+        "confidence": 0.5151620507240295,
+        "normX": 0.22219445155217096,
+        "normY": 0.5488278315617487,
+        "normW": 0.05231116368220402,
+        "normH": 0.06502140485323392
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "traffic light",
+        "confidence": 0.43394795060157776,
+        "normX": 0.25873904961806077,
+        "normY": 0.09151301934168889,
+        "normW": 0.03048814260042631,
+        "normH": 0.07264791085169865
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "bench",
+        "confidence": 0.40151676535606384,
+        "normX": 0.12942833166856033,
+        "normY": 0.8254552254310021,
+        "normW": 0.11554455757141113,
+        "normH": 0.08863295041597806
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "person",
+        "confidence": 0.40004652738571167,
+        "normX": 0.24230483862069938,
+        "normY": 0.8602236967820388,
+        "normW": 0.038904666900634766,
+        "normH": 0.03673194004939152
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_6.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "traffic light",
+        "confidence": 0.4039889872074127,
+        "normX": 0.914023912869967,
+        "normY": 0.5320513065044696,
+        "normW": 0.04548725715050331,
+        "normH": 0.09064887120173527
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "traffic light",
+        "confidence": 0.5439727902412415,
+        "normX": 0.8342541181124173,
+        "normY": 0.30972612821138823,
+        "normW": 0.05999550452599159,
+        "normH": 0.07112363668588492
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "traffic light",
+        "confidence": 0.4950542747974396,
+        "normX": 0.839391121497521,
+        "normY": 0.08178173578702487,
+        "normW": 0.040869492750901446,
+        "normH": 0.08029778187091534
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "keyboard",
+        "confidence": 0.42870017886161804,
+        "normX": 0.37401272700383115,
+        "normY": 0.43692834560687727,
+        "normW": 0.3838810553917518,
+        "normH": 0.08299970626831055
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:39 GMT",
+        "label": "car",
+        "confidence": 0.41531631350517273,
+        "normX": 0.01930428009766799,
+        "normY": 0.9178909155038687,
+        "normW": 0.05876093185864962,
+        "normH": 0.04493500636174129
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:40 GMT",
+        "label": "motorbike",
+        "confidence": 0.40721940994262695,
+        "normX": 0.014236032962799072,
+        "normY": 0,
+        "normW": 0.8044679119036748,
+        "normH": 0.7980010692889874
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "inhuman-section-of-an-alien-organism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:40 GMT",
+        "label": "diningtable",
+        "confidence": 0.475188285112381,
+        "normX": 0.03458213806152344,
+        "normY": 0,
+        "normW": 0.9654178619384766,
+        "normH": 0.82396910740779
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "inhuman-section-of-an-alien-organism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:40 GMT",
+        "label": "bowl",
+        "confidence": 0.42827436327934265,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "inhuman-section-of-an-alien-organism_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:40 GMT",
+        "label": "cat",
+        "confidence": 0.43666982650756836,
+        "normX": 0.3983154296875,
+        "normY": 0.450103759765625,
+        "normW": 0.4995756149291992,
+        "normH": 0.42330668522761417
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "inhuman-section-of-an-alien-organism_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:40 GMT",
+        "label": "cat",
+        "confidence": 0.4082533121109009,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8831209036020132
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "metal-slime-organism-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:41 GMT",
+        "label": "sports ball",
+        "confidence": 0.6172763109207153,
+        "normX": 0.7700845278226413,
+        "normY": 0.668082017164964,
+        "normW": 0.09939127701979417,
+        "normH": 0.09879493713378906
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "metal-slime-organism-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:41 GMT",
+        "label": "bowl",
+        "confidence": 0.4079976975917816,
+        "normX": 0.5810463245098407,
+        "normY": 0.16998461576608512,
+        "normW": 0.2726699388944186,
+        "normH": 0.32943371626046986
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "metallic-organism-made-of-electric-wires-and-cables_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:41 GMT",
+        "label": "zebra",
+        "confidence": 0.47315722703933716,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8696859799898587,
+        "normH": 0.8127337969266452
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "metallic-organism-made-of-electric-wires-and-cables_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:41 GMT",
+        "label": "zebra",
+        "confidence": 0.41001060605049133,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.812481586749737
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "old-ibm-computer-components-connected-by-human-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:42 GMT",
+        "label": "remote",
+        "confidence": 0.4015219211578369,
+        "normX": 0.15923098417428824,
+        "normY": 0.18883430040799654,
+        "normW": 0.8312464310572698,
+        "normH": 0.7727500108572153
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organism-made-of-cyborg-limbs-at-home-old-1950-photograph-black-and-white_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:43 GMT",
+        "label": "person",
+        "confidence": 0.4100198745727539,
+        "normX": 0.08458414444556603,
+        "normY": 0,
+        "normW": 0.9154158555544339,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organism-made-of-human-genitals_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:43 GMT",
+        "label": "tie",
+        "confidence": 0.5785579681396484,
+        "normX": 0.5111897541926458,
+        "normY": 0.42665584270770734,
+        "normW": 0.14807429680457482,
+        "normH": 0.5733441572922927
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organism-made-of-human-genitals_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:43 GMT",
+        "label": "tie",
+        "confidence": 0.5602213740348816,
+        "normX": 0.5946929638202374,
+        "normY": 0.43973405544574445,
+        "normW": 0.14109494135929987,
+        "normH": 0.5602659445542556
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.6885974407196045,
+        "normX": 0.04209020504584679,
+        "normY": 0.02727225422859192,
+        "normW": 0.9114769330391517,
+        "normH": 0.9209739680473621
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.6657232642173767,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8685088524451623
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.5510409474372864,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8498800717867337,
+        "normH": 0.8180481103750376
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.5242431163787842,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8054745747492864
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.5042330026626587,
+        "normX": 0.23681345352759728,
+        "normY": 0.05207163095474243,
+        "normW": 0.7631865464724027,
+        "normH": 0.9479283690452576
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.4590006470680237,
+        "normX": 0,
+        "normY": 0.05306839942932129,
+        "normW": 0.883823248056265,
+        "normH": 0.890655939395611
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_11.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:44 GMT",
+        "label": "person",
+        "confidence": 0.40393009781837463,
+        "normX": 0.1006995439529419,
+        "normY": 0.09319872122544509,
+        "normW": 0.8993004560470581,
+        "normH": 0.906801278774555
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.8514884114265442,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.7391725182533264,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9175300598144531,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.7385174036026001,
+        "normX": 0.017757415771484375,
+        "normY": 0,
+        "normW": 0.9822425842285156,
+        "normH": 0.9298042884239783
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.7349823117256165,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.6823498010635376,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8720094240628756,
+        "normH": 0.9702133031991812
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.5890870690345764,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.6934124873234675,
+        "normH": 0.9649171829223633
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.523038387298584,
+        "normX": 0,
+        "normY": 0.17731871971717247,
+        "normW": 1,
+        "normH": 0.8226812802828275
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.5136436820030212,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9962030557485727,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.48126110434532166,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7632991350614108,
+        "normH": 0.8286719689002404
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.4333888590335846,
+        "normX": 0.10078537464141846,
+        "normY": 0.0020290017127990723,
+        "normW": 0.8992146253585815,
+        "normH": 0.9979709982872009
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_13.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "person",
+        "confidence": 0.42182594537734985,
+        "normX": 0,
+        "normY": 0.12352585792541504,
+        "normW": 1,
+        "normH": 0.876474142074585
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_15.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "giraffe",
+        "confidence": 0.6054459810256958,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8867708352895883
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_15.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "cat",
+        "confidence": 0.5481438636779785,
+        "normX": 0,
+        "normY": 0.056847572326660156,
+        "normW": 1,
+        "normH": 0.9431524276733398
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_15.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "cat",
+        "confidence": 0.5412198305130005,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9650883307823768,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_15.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "giraffe",
+        "confidence": 0.5321696400642395,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9805798163780799,
+        "normH": 0.8629468037531927
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_15.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "giraffe",
+        "confidence": 0.4410702884197235,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9200559762807993
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:45 GMT",
+        "label": "zebra",
+        "confidence": 0.46660712361335754,
+        "normX": 0.05305078396430382,
+        "normY": 0.2809021472930908,
+        "normW": 0.39770536239330584,
+        "normH": 0.7190978527069092
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "person",
+        "confidence": 0.5339367389678955,
+        "normX": 0,
+        "normY": 0.00647813081741333,
+        "normW": 0.8271081631000226,
+        "normH": 0.9935218691825867
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "person",
+        "confidence": 0.48485955595970154,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "person",
+        "confidence": 0.449146568775177,
+        "normX": 0,
+        "normY": 0.054499030113220215,
+        "normW": 1,
+        "normH": 0.9455009698867798
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "motorbike",
+        "confidence": 0.5211661458015442,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9061542657705454
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "motorbike",
+        "confidence": 0.4850611686706543,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8842883476844201
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "motorbike",
+        "confidence": 0.42098352313041687,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9097575407761794
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_6.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:46 GMT",
+        "label": "mouse",
+        "confidence": 0.49446603655815125,
+        "normX": 0.3919098193828876,
+        "normY": 0.2982653471139761,
+        "normW": 0.17621656564565805,
+        "normH": 0.241668517772968
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-engraved-in-the-sand-top-view-photography_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:48 GMT",
+        "label": "cat",
+        "confidence": 0.4549703598022461,
+        "normX": 0.00571933388710022,
+        "normY": 0.12415141325730544,
+        "normW": 0.8406296487037952,
+        "normH": 0.8758485867426946
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "person",
+        "confidence": 0.557540237903595,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.907343497643104,
+        "normH": 0.867709966806265
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "cat",
+        "confidence": 0.45989999175071716,
+        "normX": 0.2689296282254733,
+        "normY": 0.2411655279306265,
+        "normW": 0.7310703717745267,
+        "normH": 0.7588344720693735
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "person",
+        "confidence": 0.5531495213508606,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "person",
+        "confidence": 0.5494992136955261,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9028047414926382
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "person",
+        "confidence": 0.5457600951194763,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "person",
+        "confidence": 0.4563907980918884,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9991325231698843,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "cat",
+        "confidence": 0.428954154253006,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9042460368229792,
+        "normH": 0.9511456856360803
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-digesting-a-cyborg-creature_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:49 GMT",
+        "label": "teddy bear",
+        "confidence": 0.6322208642959595,
+        "normX": 0.6383311198307917,
+        "normY": 0.4186711311340332,
+        "normW": 0.3491761867816632,
+        "normH": 0.46463383161104643
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-black-background_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:50 GMT",
+        "label": "person",
+        "confidence": 0.41336944699287415,
+        "normX": 0.39246434431809646,
+        "normY": 0.29650965103736293,
+        "normW": 0.5175466537475586,
+        "normH": 0.6920208747570331
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:50 GMT",
+        "label": "person",
+        "confidence": 0.5816954970359802,
+        "normX": 0,
+        "normY": 0.2241383699270395,
+        "normW": 0.7076679376455454,
+        "normH": 0.7758616300729605
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:51 GMT",
+        "label": "scissors",
+        "confidence": 0.4872603118419647,
+        "normX": 0,
+        "normY": 0.04549694061279297,
+        "normW": 0.9907062970674955,
+        "normH": 0.954503059387207
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_10.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "person",
+        "confidence": 0.522365152835846,
+        "normX": 0.013156235218048096,
+        "normY": 0,
+        "normW": 0.9868437647819519,
+        "normH": 0.8020786138681265
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_10.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "cell phone",
+        "confidence": 0.4911867380142212,
+        "normX": 0,
+        "normY": 0.05425622830024132,
+        "normW": 0.6100127880389874,
+        "normH": 0.8749757821743305
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_10.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "person",
+        "confidence": 0.46502283215522766,
+        "normX": 0.07290819058051476,
+        "normY": 0,
+        "normW": 0.9270918094194852,
+        "normH": 0.8945710842426007
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "person",
+        "confidence": 0.4676246643066406,
+        "normX": 0,
+        "normY": 0.1764815770662748,
+        "normW": 1,
+        "normH": 0.8235184229337252
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "person",
+        "confidence": 0.4636209011077881,
+        "normX": 0.10622429847717285,
+        "normY": 0.23342609405517578,
+        "normW": 0.8937757015228271,
+        "normH": 0.7665739059448242
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "person",
+        "confidence": 0.43842753767967224,
+        "normX": 0.02161306142807007,
+        "normY": 0.059442877769470215,
+        "normW": 0.9783869385719299,
+        "normH": 0.9405571222305298
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:52 GMT",
+        "label": "dog",
+        "confidence": 0.4423936605453491,
+        "normX": 0.3186843211834247,
+        "normY": 0.7425760122445914,
+        "normW": 0.5074403102581317,
+        "normH": 0.2513517966637245
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_6.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:53 GMT",
+        "label": "banana",
+        "confidence": 0.46498367190361023,
+        "normX": 0.24438507740314191,
+        "normY": 0.71624022263747,
+        "normW": 0.16828505809490496,
+        "normH": 0.13541845174936148
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_6.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:53 GMT",
+        "label": "sports ball",
+        "confidence": 0.4377874732017517,
+        "normX": 0.23345387898958647,
+        "normY": 0.7221367909358098,
+        "normW": 0.09857403315030612,
+        "normH": 0.0599668209369366
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.42327001690864563,
+        "normX": 0.8143518154437726,
+        "normY": 0.18756851783165565,
+        "normW": 0.18082567361684945,
+        "normH": 0.32423760340763974
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "teddy bear",
+        "confidence": 0.4068586230278015,
+        "normX": 0.7362453020535983,
+        "normY": 0.2622792170597957,
+        "normW": 0.1543105932382437,
+        "normH": 0.15195571459256685
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "cat",
+        "confidence": 0.5487026572227478,
+        "normX": 0.09392872223487267,
+        "normY": 0,
+        "normW": 0.8083530389345609,
+        "normH": 0.9552029096163236
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "cat",
+        "confidence": 0.45098501443862915,
+        "normX": 0.15697785524221566,
+        "normY": 0,
+        "normW": 0.8361294269561768,
+        "normH": 0.8718598439143255
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "sofa",
+        "confidence": 0.44114524126052856,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7626957526573768,
+        "normH": 0.8906067334688627
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.6734631657600403,
+        "normX": 0.10325181484222412,
+        "normY": 0,
+        "normW": 0.8967481851577759,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.5850914716720581,
+        "normX": 0.06414461135864258,
+        "normY": 0,
+        "normW": 0.7303423881530762,
+        "normH": 0.9732291881854718
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.5847867727279663,
+        "normX": 0.11749023657578689,
+        "normY": 0.046127498149871826,
+        "normW": 0.7703186365274283,
+        "normH": 0.9538725018501282
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.5365068316459656,
+        "normX": 0.0056008994579315186,
+        "normY": 0.06706765064826378,
+        "normW": 0.8402788020097293,
+        "normH": 0.9329323493517362
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.5282488465309143,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7252427614652194,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:54 GMT",
+        "label": "person",
+        "confidence": 0.46721261739730835,
+        "normX": 0.1599752536186805,
+        "normY": 0,
+        "normW": 0.8287237057319055,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:55 GMT",
+        "label": "person",
+        "confidence": 0.4966621994972229,
+        "normX": 0,
+        "normY": 0.01832553744316101,
+        "normW": 0.7463736900916467,
+        "normH": 0.801136505145293
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:55 GMT",
+        "label": "cat",
+        "confidence": 0.4362575113773346,
+        "normX": 0.09564235577216515,
+        "normY": 0.6028064581064078,
+        "normW": 0.6653995055418748,
+        "normH": 0.39719354189359224
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:55 GMT",
+        "label": "person",
+        "confidence": 0.43154290318489075,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.884936626140888,
+        "normH": 0.8467125525841346
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rorschach_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:55 GMT",
+        "label": "person",
+        "confidence": 0.40801337361335754,
+        "normX": 0.011546075344085693,
+        "normY": 0.04292580714592567,
+        "normW": 0.5032009940880996,
+        "normH": 0.7646887394098135
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "rotting-organism-made-of-waves-and-jelly_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.43879151344299316,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9057004635150616
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.7368506193161011,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.706040620803833,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.6938354969024658,
+        "normX": 0,
+        "normY": 0.07280468940734863,
+        "normW": 0.8146291879507211,
+        "normH": 0.9271953105926514
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.6686715483665466,
+        "normX": 0,
+        "normY": 0.04018518557915321,
+        "normW": 0.9950136037973257,
+        "normH": 0.9339141937402579
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.6444294452667236,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9409971970778245
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.6084504723548889,
+        "normX": 0.0380939245223999,
+        "normY": 0,
+        "normW": 0.9619060754776001,
+        "normH": 0.9075778814462515
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.5560193657875061,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8843184251051682
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "simulacra-organism-with-blood-photo-realistic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "cat",
+        "confidence": 0.5072488188743591,
+        "normX": 0.0012569725513458252,
+        "normY": 0.09816220173468956,
+        "normW": 0.5712630634124463,
+        "normH": 0.9018377982653104
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "slug-creature-made-of-flesh-digesting-a-mainframe-unit_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:56 GMT",
+        "label": "person",
+        "confidence": 0.4811386168003082,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "tubular-organisms-absorbing-each-other_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:57 GMT",
+        "label": "sofa",
+        "confidence": 0.4954853355884552,
+        "normX": 0.08679399123558632,
+        "normY": 0,
+        "normW": 0.9132060087644137,
+        "normH": 0.7920461801382211
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "tubular-organisms-absorbing-each-other_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:57 GMT",
+        "label": "sofa",
+        "confidence": 0.4719710648059845,
+        "normX": 0.11861836910247803,
+        "normY": 0.0840379916704618,
+        "normW": 0.881381630897522,
+        "normH": 0.833513489136329
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "tubular-organisms-absorbing-each-other_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:26:57 GMT",
+        "label": "sofa",
+        "confidence": 0.429941862821579,
+        "normX": 0.051918208599090576,
+        "normY": 0.11513030529022217,
+        "normW": 0.9480817914009094,
+        "normH": 0.8848696947097778
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "3d-modeled-animal-organs-inside-of-a-computer_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:28 GMT",
+        "label": "oven",
+        "confidence": 0.6591049432754517,
+        "normX": 0.027383923530578613,
+        "normY": 0.0694989264011383,
+        "normW": 0.9737375974655151,
+        "normH": 0.7901913821697235
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "Amorphic-creature-made-of-darkness_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "bird",
+        "confidence": 0.9612173438072205,
+        "normX": 0.0027734339237213135,
+        "normY": 0.04808327555656433,
+        "normW": 0.9073430001735687,
+        "normH": 0.8565011322498322
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "Amorphic-creature-made-of-darkness_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "person",
+        "confidence": 0.6582005620002747,
+        "normX": 0.08714652061462402,
+        "normY": 0.0009069442749023438,
+        "normW": 0.8524051904678345,
+        "normH": 0.9000179767608643
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "Amorphic-creature-made-of-darkness_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "person",
+        "confidence": 0.9149036407470703,
+        "normX": 0.0643078088760376,
+        "normY": 0.013533532619476318,
+        "normW": 0.8707338571548462,
+        "normH": 0.9754992723464966
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "person",
+        "confidence": 0.544520914554596,
+        "normX": 0.009184956550598145,
+        "normY": -0.007454365491867065,
+        "normW": 0.6486048698425293,
+        "normH": 0.7673073709011078
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "apple",
+        "confidence": 0.5449825525283813,
+        "normX": 0.01275777816772461,
+        "normY": 0.3237922787666321,
+        "normW": 0.35182154178619385,
+        "normH": 0.37924325466156006
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-chimera-created-with-a-lion-a-goat-and-a-snake-in-the-style-of-albrecht-durer-etching_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "banana",
+        "confidence": 0.82510906457901,
+        "normX": 0.5201404690742493,
+        "normY": 0.11926789581775665,
+        "normW": 0.3218625783920288,
+        "normH": 0.2743714898824692
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-chimera-created-with-a-lion-a-goat-and-a-snake-in-the-style-of-albrecht-durer-etching_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "banana",
+        "confidence": 0.5792222619056702,
+        "normX": 0.25556880235671997,
+        "normY": 0.25036540627479553,
+        "normW": 0.4624304175376892,
+        "normH": 0.2376307249069214
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-cloud-of-synthetic-organs-and-metal-robotic-arms_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "bed",
+        "confidence": 0.5176060199737549,
+        "normX": 0.03404414653778076,
+        "normY": 0.014235317707061768,
+        "normW": 0.949393630027771,
+        "normH": 0.974204421043396
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-cloud-of-synthetic-organs-and-metal-robotic-arms_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "motorcycle",
+        "confidence": 0.8501285910606384,
+        "normX": 0.0016904771327972412,
+        "normY": 0.005744487047195435,
+        "normW": 0.9974052011966705,
+        "normH": 0.989982932806015
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "cake",
+        "confidence": 0.6732624173164368,
+        "normX": 0.02620139718055725,
+        "normY": 0.06204313039779663,
+        "normW": 0.9614039361476898,
+        "normH": 0.8888959884643555
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-seat-made-with-bones_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:31 GMT",
+        "label": "dog",
+        "confidence": 0.9269180297851562,
+        "normX": 0.050515323877334595,
+        "normY": 0.14763355255126953,
+        "normW": 0.47448644042015076,
+        "normH": 0.6676909923553467
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-seat-made-with-bones_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:31 GMT",
+        "label": "dog",
+        "confidence": 0.8408485054969788,
+        "normX": 0.05768626928329468,
+        "normY": 0.15123999118804932,
+        "normW": 0.8618089556694031,
+        "normH": 0.7147136926651001
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-seat-made-with-bones_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:31 GMT",
+        "label": "dog",
+        "confidence": 0.8089703917503357,
+        "normX": 0.4576285779476166,
+        "normY": 0.18921732902526855,
+        "normW": 0.48402050137519836,
+        "normH": 0.6664570569992065
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "alien-creature-with-the-shape-of-a-wardrobe-with-wings-and-metal-inside-a-white-temple_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:32 GMT",
+        "label": "zebra",
+        "confidence": 0.7162596583366394,
+        "normX": 0.5281001925468445,
+        "normY": -0.004783540964126587,
+        "normW": 0.47151803970336914,
+        "normH": 0.9957315027713776
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "alien-creature-with-the-shape-of-a-wardrobe-with-wings-and-metal-inside-a-white-temple_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:32 GMT",
+        "label": "zebra",
+        "confidence": 0.5963172912597656,
+        "normX": 0.10584527254104614,
+        "normY": 0.0031295418739318848,
+        "normW": 0.7621476054191589,
+        "normH": 0.9904859662055969
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "alien-organism-coming-out-of-a-skin-colored-pink-plant-that-gives-birth-all-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:33 GMT",
+        "label": "zebra",
+        "confidence": 0.8282433748245239,
+        "normX": 0.00653424859046936,
+        "normY": 0.0239088237285614,
+        "normW": 0.9878472983837128,
+        "normH": 0.9687946140766144
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "an-unfamiliar-organism-made-with-one-bone_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:35 GMT",
+        "label": "teddy bear",
+        "confidence": 0.7412808537483215,
+        "normX": 0.02986598014831543,
+        "normY": 0.00991123914718628,
+        "normW": 0.9249918460845947,
+        "normH": 0.9858641624450684
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "anatomy-of-an-alien-organism-made-only-by-many-organs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:36 GMT",
+        "label": "vase",
+        "confidence": 0.8895344734191895,
+        "normX": 0.16081127524375916,
+        "normY": 0.14236465096473694,
+        "normW": 0.5890595018863678,
+        "normH": 0.7620727717876434
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "animal-organs-connected-by-lightning_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:36 GMT",
+        "label": "bed",
+        "confidence": 0.8731026649475098,
+        "normX": 0.006603121757507324,
+        "normY": 0.003718733787536621,
+        "normW": 0.9919973611831665,
+        "normH": 0.9883314967155457
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "animal-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:36 GMT",
+        "label": "vase",
+        "confidence": 0.8719263672828674,
+        "normX": 0.1880703568458557,
+        "normY": 0.2462056279182434,
+        "normW": 0.3187327980995178,
+        "normH": 0.5917104482650757
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "bacteria-made-of-metal-and-hair-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:37 GMT",
+        "label": "scissors",
+        "confidence": 0.7832512259483337,
+        "normX": 0.006168872117996216,
+        "normY": 0.011869728565216064,
+        "normW": 0.9873176515102386,
+        "normH": 0.9213148355484009
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "bacteria-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:37 GMT",
+        "label": "vase",
+        "confidence": 0.571582555770874,
+        "normX": 0.0010500475764274597,
+        "normY": 0.011479020118713379,
+        "normW": 0.2242640033364296,
+        "normH": 0.9639742374420166
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:37 GMT",
+        "label": "cake",
+        "confidence": 0.8302248120307922,
+        "normX": 0.04135245084762573,
+        "normY": 0.005742967128753662,
+        "normW": 0.9216040372848511,
+        "normH": 0.9725962281227112
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "cables-melting-with-an-alien-organism-in-the-style-of-3d-modeled-blender_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:38 GMT",
+        "label": "vase",
+        "confidence": 0.9537677764892578,
+        "normX": 0.024981141090393066,
+        "normY": 0.31195223331451416,
+        "normW": 0.5681438446044922,
+        "normH": 0.6630376577377319
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "connections-made-of-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:38 GMT",
+        "label": "giraffe",
+        "confidence": 0.6440059542655945,
+        "normX": 0.06860920786857605,
+        "normY": 0.08269920945167542,
+        "normW": 0.8811205923557281,
+        "normH": 0.8590256869792938
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:39 GMT",
+        "label": "tie",
+        "confidence": 0.9187407493591309,
+        "normX": 0.35046112537384033,
+        "normY": 0.37618470191955566,
+        "normW": 0.3097398281097412,
+        "normH": 0.583838939666748
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:39 GMT",
+        "label": "person",
+        "confidence": 0.5078263282775879,
+        "normX": 0.02323812246322632,
+        "normY": 0.007546156644821167,
+        "normW": 0.9459065794944763,
+        "normH": 0.9837199747562408
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-creature-digesting-dark-earth-processes_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:39 GMT",
+        "label": "dog",
+        "confidence": 0.5413855910301208,
+        "normX": 0.10036006569862366,
+        "normY": 0.29426535964012146,
+        "normW": 0.9050644338130951,
+        "normH": 0.5152727663516998
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:40 GMT",
+        "label": "cake",
+        "confidence": 0.7167717814445496,
+        "normX": 0.003445237874984741,
+        "normY": 0.0005301237106323242,
+        "normW": 0.994180828332901,
+        "normH": 0.9680755138397217
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:40 GMT",
+        "label": "person",
+        "confidence": 0.7446936964988708,
+        "normX": 0.010455131530761719,
+        "normY": 0.0010025501251220703,
+        "normW": 0.9140234589576721,
+        "normH": 0.8959159851074219
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-organism-melting-and-digesting-earth-processes_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:41 GMT",
+        "label": "cake",
+        "confidence": 0.5155960917472839,
+        "normX": 0.004689812660217285,
+        "normY": 0.049310505390167236,
+        "normW": 0.9607874155044556,
+        "normH": 0.8960626721382141
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-organism-melting-and-digesting-landscapes_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:41 GMT",
+        "label": "bird",
+        "confidence": 0.7120145559310913,
+        "normX": 0.0035885870456695557,
+        "normY": 0.04483500123023987,
+        "normW": 0.9853560626506805,
+        "normH": 0.9030645787715912
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "elongated-stretched-metal-spikes-penetrate-glossy-human-organ-on-3d-modeling-view_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:42 GMT",
+        "label": "tie",
+        "confidence": 0.5639320611953735,
+        "normX": 0.029422730207443237,
+        "normY": -0.003701716661453247,
+        "normW": 0.7983696758747101,
+        "normH": 0.9965110123157501
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:43 GMT",
+        "label": "banana",
+        "confidence": 0.5443123579025269,
+        "normX": 0.30194544792175293,
+        "normY": 0.7103910446166992,
+        "normW": 0.4336507320404053,
+        "normH": 0.285929799079895
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:44 GMT",
+        "label": "motorcycle",
+        "confidence": 0.7841890454292297,
+        "normX": 0.0112324059009552,
+        "normY": 0.08359435200691223,
+        "normW": 0.7074359357357025,
+        "normH": 0.8998005092144012
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letter-s-emerging-and-etched-on-it_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:44 GMT",
+        "label": "keyboard",
+        "confidence": 0.6781927943229675,
+        "normX": 0.0060672760009765625,
+        "normY": 0.032678306102752686,
+        "normW": 0.9867767691612244,
+        "normH": 0.9528168439865112
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letters-emerging-and-etched-on-it_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:45 GMT",
+        "label": "person",
+        "confidence": 0.9272735714912415,
+        "normX": 0.15134871006011963,
+        "normY": 0.0555742084980011,
+        "normW": 0.5935628414154053,
+        "normH": 0.6007078588008881
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-creature-intertwined-with-earth-processes-underground_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:46 GMT",
+        "label": "bed",
+        "confidence": 0.6867296695709229,
+        "normX": -0.018628835678100586,
+        "normY": 0.06296977400779724,
+        "normW": 1.0336313247680664,
+        "normH": 0.9310944378376007
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glossy-flesh-organism-that-comunicates-by-etching-letters-on-itself_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:46 GMT",
+        "label": "mouse",
+        "confidence": 0.8268967866897583,
+        "normX": 0.060084372758865356,
+        "normY": 0.004384428262710571,
+        "normW": 0.3981207609176636,
+        "normH": 0.35960111021995544
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glossy-flesh-organism-that-comunicates-by-etching-letters-on-itself_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:46 GMT",
+        "label": "dining table",
+        "confidence": 0.5261750817298889,
+        "normX": 0.005265384912490845,
+        "normY": 0.005755215883255005,
+        "normW": 0.9842297732830048,
+        "normH": 0.9855099618434906
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glossy-flesh-organism-that-comunicates-with-words-sculpted-on-itself.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:47 GMT",
+        "label": "person",
+        "confidence": 0.747602105140686,
+        "normX": 0.0032065212726593018,
+        "normY": -0.003541886806488037,
+        "normW": 0.996312826871872,
+        "normH": 1.002704381942749
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "human-organs-connected-to-create-an-organism-that-self-operates-with-a-knife_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:47 GMT",
+        "label": "tie",
+        "confidence": 0.5049179792404175,
+        "normX": 0.23322319984436035,
+        "normY": 0.006442397832870483,
+        "normW": 0.5657647848129272,
+        "normH": 0.9864524900913239
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybrid-organism-made-of-white-thunders_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "surfboard",
+        "confidence": 0.639095664024353,
+        "normX": 0.6843483448028564,
+        "normY": 0.054748132824897766,
+        "normW": 0.30542075634002686,
+        "normH": 0.2816572040319443
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-between-fractured-organisms_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "vase",
+        "confidence": 0.5288486480712891,
+        "normX": 0.0569646954536438,
+        "normY": 0.00940755009651184,
+        "normW": 0.9361588954925537,
+        "normH": 0.9790694415569305
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-between-fractured-organisms_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "bowl",
+        "confidence": 0.8448341488838196,
+        "normX": 0.29705843329429626,
+        "normY": 0.2696482539176941,
+        "normW": 0.3033962547779083,
+        "normH": 0.5019783973693848
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-within-fractured-ecosystems-by-roughly-knitting-together-two-species-that-may-have-not-needed-to-conjoin-before_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "bird",
+        "confidence": 0.6255786418914795,
+        "normX": 0.22973228991031647,
+        "normY": 0.010884344577789307,
+        "normW": 0.37728844583034515,
+        "normH": 0.49562686681747437
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-within-fractured-ecosystems-by-roughly-knitting-together-two-species-that-may-have-not-needed-to-conjoin-before_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "bird",
+        "confidence": 0.5139968395233154,
+        "normX": -0.005932897329330444,
+        "normY": 0.09837967157363892,
+        "normW": 0.4466330111026764,
+        "normH": 0.8716294765472412
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "industrial-bacteria-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:49 GMT",
+        "label": "clock",
+        "confidence": 0.588975727558136,
+        "normX": 0.6367830634117126,
+        "normY": 0.5071589946746826,
+        "normW": 0.3506886959075928,
+        "normH": 0.4512636661529541
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "industrial-organism-digesting-earth-processes_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:49 GMT",
+        "label": "fire hydrant",
+        "confidence": 0.5209861397743225,
+        "normX": 0.0030621886253356934,
+        "normY": 0.04641634225845337,
+        "normW": 0.7649205923080444,
+        "normH": 0.9345822334289551
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:50 GMT",
+        "label": "clock",
+        "confidence": 0.550795316696167,
+        "normX": 0.0038361549377441406,
+        "normY": 0.23216435313224792,
+        "normW": 0.5476844906806946,
+        "normH": 0.666322261095047
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "inhuman-section-of-an-alien-organism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:51 GMT",
+        "label": "vase",
+        "confidence": 0.8828590512275696,
+        "normX": 0.004959970712661743,
+        "normY": 0.005032151937484741,
+        "normW": 0.9905465543270111,
+        "normH": 0.9868200123310089
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "lettter-B-emerging-from-a-piece-of-flesh.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:51 GMT",
+        "label": "person",
+        "confidence": 0.8357709050178528,
+        "normX": 0.01591828465461731,
+        "normY": 0.12747424840927124,
+        "normW": 0.8062116801738739,
+        "normH": 0.7014018297195435
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "metallic-organism-made-of-electric-wires-and-cables_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:52 GMT",
+        "label": "zebra",
+        "confidence": 0.9530532360076904,
+        "normX": 0.0070352256298065186,
+        "normY": 0.019302725791931152,
+        "normW": 0.9611304104328156,
+        "normH": 0.9740689992904663
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-cyborg-limbs-at-home-old-1950-photograph-black-and-white_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:53 GMT",
+        "label": "person",
+        "confidence": 0.540084958076477,
+        "normX": 0.0906158983707428,
+        "normY": 0.006090641021728516,
+        "normW": 0.837423175573349,
+        "normH": 0.990985631942749
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-human-genitals_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:53 GMT",
+        "label": "banana",
+        "confidence": 0.5245909094810486,
+        "normX": 0.0034646987915039062,
+        "normY": 0.007476150989532471,
+        "normW": 0.9846770763397217,
+        "normH": 0.9875986576080322
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-robot-limbs-on-black-background_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "bench",
+        "confidence": 0.6241180300712585,
+        "normX": 0.008895128965377808,
+        "normY": 0.057355016469955444,
+        "normW": 0.9681737720966339,
+        "normH": 0.9107346832752228
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-transparent-insect-wings-on-black-background-by-national-geographic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "giraffe",
+        "confidence": 0.6413239240646362,
+        "normX": 0.012527614831924438,
+        "normY": 0.06907415390014648,
+        "normW": 0.9607149064540863,
+        "normH": 0.8389637470245361
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-transparent-insect-wings-on-black-background-by-national-geographic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "giraffe",
+        "confidence": 0.5546281933784485,
+        "normX": 0.008852243423461914,
+        "normY": 0.03266468644142151,
+        "normW": 0.859491229057312,
+        "normH": 0.5094458758831024
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-only-by-many-limbs_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "zebra",
+        "confidence": 0.9108979105949402,
+        "normX": 0.5116070508956909,
+        "normY": 0.07428377866744995,
+        "normW": 0.3309222459793091,
+        "normH": 0.8998458385467529
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-only-by-many-limbs_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "zebra",
+        "confidence": 0.8210835456848145,
+        "normX": 0.7416146993637085,
+        "normY": 0.06051340699195862,
+        "normW": 0.25524401664733887,
+        "normH": 0.9025690257549286
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-only-by-many-limbs_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "zebra",
+        "confidence": 0.5222152471542358,
+        "normX": 0.32093560695648193,
+        "normY": 0.08225661516189575,
+        "normW": 0.22510617971420288,
+        "normH": 0.8515273332595825
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "banana",
+        "confidence": 0.9808021783828735,
+        "normX": 0.11437925696372986,
+        "normY": 0.31281137466430664,
+        "normW": 0.4271235764026642,
+        "normH": 0.6364459991455078
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_12.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:55 GMT",
+        "label": "vase",
+        "confidence": 0.7399653196334839,
+        "normX": 0.4862615466117859,
+        "normY": 0.032882481813430786,
+        "normW": 0.5109405517578125,
+        "normH": 0.9513890445232391
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:56 GMT",
+        "label": "bed",
+        "confidence": 0.5906332731246948,
+        "normX": 0.0124664306640625,
+        "normY": 0.02038872241973877,
+        "normW": 0.9752448797225952,
+        "normH": 0.9221519231796265
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:56 GMT",
+        "label": "cake",
+        "confidence": 0.5693235993385315,
+        "normX": 0.06978622078895569,
+        "normY": 0.019450008869171143,
+        "normW": 0.9182197749614716,
+        "normH": 0.9702154397964478
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-digested-by-water-jelly_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:58 GMT",
+        "label": "person",
+        "confidence": 0.8587811589241028,
+        "normX": 0.010414928197860718,
+        "normY": 0.02162519097328186,
+        "normW": 0.9836589395999908,
+        "normH": 0.8968767821788788
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-digesting-a-cyborg-creature-engraved-in-the-sand-top-view-photography_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:58 GMT",
+        "label": "airplane",
+        "confidence": 0.899770200252533,
+        "normX": 0.16272401809692383,
+        "normY": 0.12543103098869324,
+        "normW": 0.52759850025177,
+        "normH": 0.7234174311161041
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:59 GMT",
+        "label": "motorcycle",
+        "confidence": 0.7200461626052856,
+        "normX": 0.0050067901611328125,
+        "normY": 0.01282656192779541,
+        "normW": 1.0002689361572266,
+        "normH": 0.984738826751709
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-black-background_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:59 GMT",
+        "label": "motorcycle",
+        "confidence": 0.8119413256645203,
+        "normX": 0.0018909871578216553,
+        "normY": 0.00321197509765625,
+        "normW": 0.9955439865589142,
+        "normH": 0.9919767379760742
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-black-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:00 GMT",
+        "label": "bicycle",
+        "confidence": 0.5171371698379517,
+        "normX": 0.29171743988990784,
+        "normY": 0.04985940456390381,
+        "normW": 0.543763130903244,
+        "normH": 0.4646199941635132
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:00 GMT",
+        "label": "scissors",
+        "confidence": 0.9264126420021057,
+        "normX": 0.10706967115402222,
+        "normY": 0.2587217092514038,
+        "normW": 0.8764599561691284,
+        "normH": 0.6472634077072144
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:00 GMT",
+        "label": "scissors",
+        "confidence": 0.6414909958839417,
+        "normX": 0.004134446382522583,
+        "normY": 0.0073615312576293945,
+        "normW": 0.9915688931941986,
+        "normH": 0.9824649691581726
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:01 GMT",
+        "label": "person",
+        "confidence": 0.502125084400177,
+        "normX": 0.010722815990447998,
+        "normY": 0.014889895915985107,
+        "normW": 0.9661562442779541,
+        "normH": 0.9760329723358154
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "plant-parasite-penetrating-a-cyborg-creature-3d-modeled-on-black-background.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:01 GMT",
+        "label": "banana",
+        "confidence": 0.5694669485092163,
+        "normX": 0.5464942455291748,
+        "normY": 0.023819446563720703,
+        "normW": 0.4529632329940796,
+        "normH": 0.9627530574798584
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_10.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:01 GMT",
+        "label": "motorcycle",
+        "confidence": 0.5491382479667664,
+        "normX": 0.007243156433105469,
+        "normY": 0.009599238634109497,
+        "normW": 0.9699182510375977,
+        "normH": 0.970106452703476
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:02 GMT",
+        "label": "cake",
+        "confidence": 0.5503323674201965,
+        "normX": 0.0021072328090667725,
+        "normY": 0.15091904997825623,
+        "normW": 0.9677715599536896,
+        "normH": 0.8334541618824005
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:02 GMT",
+        "label": "vase",
+        "confidence": 0.6442229747772217,
+        "normX": -0.004007577896118164,
+        "normY": 0.004830837249755859,
+        "normW": 1.0030951499938965,
+        "normH": 0.821618914604187
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_8.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:02 GMT",
+        "label": "frisbee",
+        "confidence": 0.6396276950836182,
+        "normX": 0.010176330804824829,
+        "normY": 0.28069061040878296,
+        "normW": 0.3546385169029236,
+        "normH": 0.7115585803985596
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:03 GMT",
+        "label": "elephant",
+        "confidence": 0.8154662251472473,
+        "normX": 0.03404712677001953,
+        "normY": 0.15617603063583374,
+        "normW": 0.9595352411270142,
+        "normH": 0.8391674757003784
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "rotting-organism-made-of-textiles-in-the-desert_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:04 GMT",
+        "label": "umbrella",
+        "confidence": 0.8347806334495544,
+        "normX": 0.005890369415283203,
+        "normY": 0.2825685143470764,
+        "normW": 0.9923371076583862,
+        "normH": 0.5608662366867065
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "rotting-organism-made-of-textiles-in-the-desert_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "banana",
+        "confidence": 0.5673179626464844,
+        "normX": 0.0842389166355133,
+        "normY": 0.24425509572029114,
+        "normW": 0.9073948562145233,
+        "normH": 0.6206153333187103
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "rotting-organism-made-of-waves-and-jelly_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "pizza",
+        "confidence": 0.7282444834709167,
+        "normX": 0.003994554281234741,
+        "normY": 0.002969413995742798,
+        "normW": 0.9924451410770416,
+        "normH": 0.9760987460613251
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "slug-creature-made-of-flesh-digesting-a-mainframe-unit_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "sports ball",
+        "confidence": 0.7633426189422607,
+        "normX": 0.022484391927719116,
+        "normY": 0.02196665108203888,
+        "normW": 0.5059897005558014,
+        "normH": 0.4058755487203598
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "slug-creature-made-of-flesh-digesting-a-mainframe-unit_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "tennis racket",
+        "confidence": 0.5750357508659363,
+        "normX": 0.009716838598251343,
+        "normY": 0.005867332220077515,
+        "normW": 0.9818010628223419,
+        "normH": 0.9735865890979767
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "typeface-melting-with-an-alien-organism-in-the-style-of-3d-modeled-blender_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:06 GMT",
+        "label": "bird",
+        "confidence": 0.9829972982406616,
+        "normX": 0.06523799896240234,
+        "normY": 0.03381967544555664,
+        "normW": 0.9248589277267456,
+        "normH": 0.7988250255584717
+    }
+]
