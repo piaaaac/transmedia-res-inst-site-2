@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "NewEdge6666-Rounded";
+  src: url("../fonts/NewEdge6666-LightRounded.otf") format("opentype"), url("../fonts/NewEdge6666-LightRounded.woff") format("woff"); }
+body {
+  margin: 0;
+  background: white;
+  font-family: "NewEdge6666-Rounded"; }
+
+#tiles {
+  font-size: 0; }
+  #tiles .tile {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    padding-top: 20%;
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(1);
+    transition: filter 400ms; }
+
+/*# sourceMappingURL=style.css.map */

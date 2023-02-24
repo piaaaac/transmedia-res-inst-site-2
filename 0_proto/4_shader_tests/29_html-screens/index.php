@@ -18,8 +18,8 @@ $thumbs = glob("$thumbsFolder/*.{jpeg,jpg,gif,png}", GLOB_BRACE);
 
 <div id="background-creature">
   <video autoplay muted loop>
-    <source src="../videos/cave-bg-1.mp4" type="video/mp4">
-    <source src="../videos/cave-bg-1.webm" type="video/ogg">
+    <source src="../videos/cave-bg-2.mp4" type="video/mp4">
+    <source src="../videos/cave-bg-2.ogg" type="video/ogg">
   </video>
 </div>
 

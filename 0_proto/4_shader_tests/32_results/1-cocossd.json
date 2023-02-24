@@ -1,0 +1,1120 @@
+[
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "3d-modeled-animal-organs-inside-of-a-computer_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:28 GMT",
+        "label": "oven",
+        "confidence": 0.6591049432754517,
+        "normX": 0.027383923530578613,
+        "normY": 0.0694989264011383,
+        "normW": 0.9737375974655151,
+        "normH": 0.7901913821697235
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "Amorphic-creature-made-of-darkness_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "bird",
+        "confidence": 0.9612173438072205,
+        "normX": 0.0027734339237213135,
+        "normY": 0.04808327555656433,
+        "normW": 0.9073430001735687,
+        "normH": 0.8565011322498322
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "Amorphic-creature-made-of-darkness_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "person",
+        "confidence": 0.6582005620002747,
+        "normX": 0.08714652061462402,
+        "normY": 0.0009069442749023438,
+        "normW": 0.8524051904678345,
+        "normH": 0.9000179767608643
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "Amorphic-creature-made-of-darkness_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "person",
+        "confidence": 0.9149036407470703,
+        "normX": 0.0643078088760376,
+        "normY": 0.013533532619476318,
+        "normW": 0.8707338571548462,
+        "normH": 0.9754992723464966
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:29 GMT",
+        "label": "person",
+        "confidence": 0.544520914554596,
+        "normX": 0.009184956550598145,
+        "normY": -0.007454365491867065,
+        "normW": 0.6486048698425293,
+        "normH": 0.7673073709011078
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "TRANSMEDIA-RESEARCH-INSTITUTE-written-on-an-animal-organ_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "apple",
+        "confidence": 0.5449825525283813,
+        "normX": 0.01275777816772461,
+        "normY": 0.3237922787666321,
+        "normW": 0.35182154178619385,
+        "normH": 0.37924325466156006
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-chimera-created-with-a-lion-a-goat-and-a-snake-in-the-style-of-albrecht-durer-etching_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "banana",
+        "confidence": 0.82510906457901,
+        "normX": 0.5201404690742493,
+        "normY": 0.11926789581775665,
+        "normW": 0.3218625783920288,
+        "normH": 0.2743714898824692
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-chimera-created-with-a-lion-a-goat-and-a-snake-in-the-style-of-albrecht-durer-etching_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "banana",
+        "confidence": 0.5792222619056702,
+        "normX": 0.25556880235671997,
+        "normY": 0.25036540627479553,
+        "normW": 0.4624304175376892,
+        "normH": 0.2376307249069214
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-cloud-of-synthetic-organs-and-metal-robotic-arms_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "bed",
+        "confidence": 0.5176060199737549,
+        "normX": 0.03404414653778076,
+        "normY": 0.014235317707061768,
+        "normW": 0.949393630027771,
+        "normH": 0.974204421043396
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-cloud-of-synthetic-organs-and-metal-robotic-arms_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "motorcycle",
+        "confidence": 0.8501285910606384,
+        "normX": 0.0016904771327972412,
+        "normY": 0.005744487047195435,
+        "normW": 0.9974052011966705,
+        "normH": 0.989982932806015
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-one-bone-creature-born-from-melting_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:30 GMT",
+        "label": "cake",
+        "confidence": 0.6732624173164368,
+        "normX": 0.02620139718055725,
+        "normY": 0.06204313039779663,
+        "normW": 0.9614039361476898,
+        "normH": 0.8888959884643555
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-seat-made-with-bones_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:31 GMT",
+        "label": "dog",
+        "confidence": 0.9269180297851562,
+        "normX": 0.050515323877334595,
+        "normY": 0.14763355255126953,
+        "normW": 0.47448644042015076,
+        "normH": 0.6676909923553467
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-seat-made-with-bones_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:31 GMT",
+        "label": "dog",
+        "confidence": 0.8408485054969788,
+        "normX": 0.05768626928329468,
+        "normY": 0.15123999118804932,
+        "normW": 0.8618089556694031,
+        "normH": 0.7147136926651001
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-seat-made-with-bones_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:31 GMT",
+        "label": "dog",
+        "confidence": 0.8089703917503357,
+        "normX": 0.4576285779476166,
+        "normY": 0.18921732902526855,
+        "normW": 0.48402050137519836,
+        "normH": 0.6664570569992065
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "alien-creature-with-the-shape-of-a-wardrobe-with-wings-and-metal-inside-a-white-temple_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:32 GMT",
+        "label": "zebra",
+        "confidence": 0.7162596583366394,
+        "normX": 0.5281001925468445,
+        "normY": -0.004783540964126587,
+        "normW": 0.47151803970336914,
+        "normH": 0.9957315027713776
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "alien-creature-with-the-shape-of-a-wardrobe-with-wings-and-metal-inside-a-white-temple_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:32 GMT",
+        "label": "zebra",
+        "confidence": 0.5963172912597656,
+        "normX": 0.10584527254104614,
+        "normY": 0.0031295418739318848,
+        "normW": 0.7621476054191589,
+        "normH": 0.9904859662055969
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "alien-organism-coming-out-of-a-skin-colored-pink-plant-that-gives-birth-all-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:33 GMT",
+        "label": "zebra",
+        "confidence": 0.8282433748245239,
+        "normX": 0.00653424859046936,
+        "normY": 0.0239088237285614,
+        "normW": 0.9878472983837128,
+        "normH": 0.9687946140766144
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "an-unfamiliar-organism-made-with-one-bone_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:35 GMT",
+        "label": "teddy bear",
+        "confidence": 0.7412808537483215,
+        "normX": 0.02986598014831543,
+        "normY": 0.00991123914718628,
+        "normW": 0.9249918460845947,
+        "normH": 0.9858641624450684
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "anatomy-of-an-alien-organism-made-only-by-many-organs_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:36 GMT",
+        "label": "vase",
+        "confidence": 0.8895344734191895,
+        "normX": 0.16081127524375916,
+        "normY": 0.14236465096473694,
+        "normW": 0.5890595018863678,
+        "normH": 0.7620727717876434
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "animal-organs-connected-by-lightning_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:36 GMT",
+        "label": "bed",
+        "confidence": 0.8731026649475098,
+        "normX": 0.006603121757507324,
+        "normY": 0.003718733787536621,
+        "normW": 0.9919973611831665,
+        "normH": 0.9883314967155457
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "animal-organs-connected-with-wires_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:36 GMT",
+        "label": "vase",
+        "confidence": 0.8719263672828674,
+        "normX": 0.1880703568458557,
+        "normY": 0.2462056279182434,
+        "normW": 0.3187327980995178,
+        "normH": 0.5917104482650757
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "bacteria-made-of-metal-and-hair-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:37 GMT",
+        "label": "scissors",
+        "confidence": 0.7832512259483337,
+        "normX": 0.006168872117996216,
+        "normY": 0.011869728565216064,
+        "normW": 0.9873176515102386,
+        "normH": 0.9213148355484009
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "bacteria-with-ankles-and-joints_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:37 GMT",
+        "label": "vase",
+        "confidence": 0.571582555770874,
+        "normX": 0.0010500475764274597,
+        "normY": 0.011479020118713379,
+        "normW": 0.2242640033364296,
+        "normH": 0.9639742374420166
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "bacteria-with-ankles-and-joints_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:37 GMT",
+        "label": "cake",
+        "confidence": 0.8302248120307922,
+        "normX": 0.04135245084762573,
+        "normY": 0.005742967128753662,
+        "normW": 0.9216040372848511,
+        "normH": 0.9725962281227112
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "cables-melting-with-an-alien-organism-in-the-style-of-3d-modeled-blender_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:38 GMT",
+        "label": "vase",
+        "confidence": 0.9537677764892578,
+        "normX": 0.024981141090393066,
+        "normY": 0.31195223331451416,
+        "normW": 0.5681438446044922,
+        "normH": 0.6630376577377319
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "connections-made-of-skin_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:38 GMT",
+        "label": "giraffe",
+        "confidence": 0.6440059542655945,
+        "normX": 0.06860920786857605,
+        "normY": 0.08269920945167542,
+        "normW": 0.8811205923557281,
+        "normH": 0.8590256869792938
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:39 GMT",
+        "label": "tie",
+        "confidence": 0.9187407493591309,
+        "normX": 0.35046112537384033,
+        "normY": 0.37618470191955566,
+        "normW": 0.3097398281097412,
+        "normH": 0.583838939666748
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "cyborg-chimera-monster_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:39 GMT",
+        "label": "person",
+        "confidence": 0.5078263282775879,
+        "normX": 0.02323812246322632,
+        "normY": 0.007546156644821167,
+        "normW": 0.9459065794944763,
+        "normH": 0.9837199747562408
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-creature-digesting-dark-earth-processes_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:39 GMT",
+        "label": "dog",
+        "confidence": 0.5413855910301208,
+        "normX": 0.10036006569862366,
+        "normY": 0.29426535964012146,
+        "normW": 0.9050644338130951,
+        "normH": 0.5152727663516998
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:40 GMT",
+        "label": "cake",
+        "confidence": 0.7167717814445496,
+        "normX": 0.003445237874984741,
+        "normY": 0.0005301237106323242,
+        "normW": 0.994180828332901,
+        "normH": 0.9680755138397217
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-creature-penetrating-and-digesting-bacteria-photographed-in-a-white-studio-set_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:40 GMT",
+        "label": "person",
+        "confidence": 0.7446936964988708,
+        "normX": 0.010455131530761719,
+        "normY": 0.0010025501251220703,
+        "normW": 0.9140234589576721,
+        "normH": 0.8959159851074219
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-organism-melting-and-digesting-earth-processes_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:41 GMT",
+        "label": "cake",
+        "confidence": 0.5155960917472839,
+        "normX": 0.004689812660217285,
+        "normY": 0.049310505390167236,
+        "normW": 0.9607874155044556,
+        "normH": 0.8960626721382141
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dead-organism-melting-and-digesting-landscapes_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:41 GMT",
+        "label": "bird",
+        "confidence": 0.7120145559310913,
+        "normX": 0.0035885870456695557,
+        "normY": 0.04483500123023987,
+        "normW": 0.9853560626506805,
+        "normH": 0.9030645787715912
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "elongated-stretched-metal-spikes-penetrate-glossy-human-organ-on-3d-modeling-view_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:42 GMT",
+        "label": "tie",
+        "confidence": 0.5639320611953735,
+        "normX": 0.029422730207443237,
+        "normY": -0.003701716661453247,
+        "normW": 0.7983696758747101,
+        "normH": 0.9965110123157501
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "five-3d-modeled-glossy-human-organs-connected-with-wires_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:43 GMT",
+        "label": "banana",
+        "confidence": 0.5443123579025269,
+        "normX": 0.30194544792175293,
+        "normY": 0.7103910446166992,
+        "normW": 0.4336507320404053,
+        "normH": 0.285929799079895
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letter-s-emerging-and-etched-on-it.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:44 GMT",
+        "label": "motorcycle",
+        "confidence": 0.7841890454292297,
+        "normX": 0.0112324059009552,
+        "normY": 0.08359435200691223,
+        "normW": 0.7074359357357025,
+        "normH": 0.8998005092144012
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letter-s-emerging-and-etched-on-it_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:44 GMT",
+        "label": "keyboard",
+        "confidence": 0.6781927943229675,
+        "normX": 0.0060672760009765625,
+        "normY": 0.032678306102752686,
+        "normW": 0.9867767691612244,
+        "normH": 0.9528168439865112
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-organism-that-operates-itself-with-blades-with-letters-emerging-and-etched-on-it_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:45 GMT",
+        "label": "person",
+        "confidence": 0.9272735714912415,
+        "normX": 0.15134871006011963,
+        "normY": 0.0555742084980011,
+        "normW": 0.5935628414154053,
+        "normH": 0.6007078588008881
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-creature-intertwined-with-earth-processes-underground_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:46 GMT",
+        "label": "bed",
+        "confidence": 0.6867296695709229,
+        "normX": -0.018628835678100586,
+        "normY": 0.06296977400779724,
+        "normW": 1.0336313247680664,
+        "normH": 0.9310944378376007
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glossy-flesh-organism-that-comunicates-by-etching-letters-on-itself_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:46 GMT",
+        "label": "mouse",
+        "confidence": 0.8268967866897583,
+        "normX": 0.060084372758865356,
+        "normY": 0.004384428262710571,
+        "normW": 0.3981207609176636,
+        "normH": 0.35960111021995544
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glossy-flesh-organism-that-comunicates-by-etching-letters-on-itself_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:46 GMT",
+        "label": "dining table",
+        "confidence": 0.5261750817298889,
+        "normX": 0.005265384912490845,
+        "normY": 0.005755215883255005,
+        "normW": 0.9842297732830048,
+        "normH": 0.9855099618434906
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glossy-flesh-organism-that-comunicates-with-words-sculpted-on-itself.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:47 GMT",
+        "label": "person",
+        "confidence": 0.747602105140686,
+        "normX": 0.0032065212726593018,
+        "normY": -0.003541886806488037,
+        "normW": 0.996312826871872,
+        "normH": 1.002704381942749
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "human-organs-connected-to-create-an-organism-that-self-operates-with-a-knife_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:47 GMT",
+        "label": "tie",
+        "confidence": 0.5049179792404175,
+        "normX": 0.23322319984436035,
+        "normY": 0.006442397832870483,
+        "normW": 0.5657647848129272,
+        "normH": 0.9864524900913239
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybrid-organism-made-of-white-thunders_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "surfboard",
+        "confidence": 0.639095664024353,
+        "normX": 0.6843483448028564,
+        "normY": 0.054748132824897766,
+        "normW": 0.30542075634002686,
+        "normH": 0.2816572040319443
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-between-fractured-organisms_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "vase",
+        "confidence": 0.5288486480712891,
+        "normX": 0.0569646954536438,
+        "normY": 0.00940755009651184,
+        "normW": 0.9361588954925537,
+        "normH": 0.9790694415569305
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-between-fractured-organisms_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "bowl",
+        "confidence": 0.8448341488838196,
+        "normX": 0.29705843329429626,
+        "normY": 0.2696482539176941,
+        "normW": 0.3033962547779083,
+        "normH": 0.5019783973693848
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-within-fractured-ecosystems-by-roughly-knitting-together-two-species-that-may-have-not-needed-to-conjoin-before_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "bird",
+        "confidence": 0.6255786418914795,
+        "normX": 0.22973228991031647,
+        "normY": 0.010884344577789307,
+        "normW": 0.37728844583034515,
+        "normH": 0.49562686681747437
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "hybridity-within-fractured-ecosystems-by-roughly-knitting-together-two-species-that-may-have-not-needed-to-conjoin-before_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:48 GMT",
+        "label": "bird",
+        "confidence": 0.5139968395233154,
+        "normX": -0.005932897329330444,
+        "normY": 0.09837967157363892,
+        "normW": 0.4466330111026764,
+        "normH": 0.8716294765472412
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "industrial-bacteria-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:49 GMT",
+        "label": "clock",
+        "confidence": 0.588975727558136,
+        "normX": 0.6367830634117126,
+        "normY": 0.5071589946746826,
+        "normW": 0.3506886959075928,
+        "normH": 0.4512636661529541
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "industrial-organism-digesting-earth-processes_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:49 GMT",
+        "label": "fire hydrant",
+        "confidence": 0.5209861397743225,
+        "normX": 0.0030621886253356934,
+        "normY": 0.04641634225845337,
+        "normW": 0.7649205923080444,
+        "normH": 0.9345822334289551
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "industrial-organisms-penetrating-and-digesting-each-other-in-the-style-of-a-technical-drawing_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:50 GMT",
+        "label": "clock",
+        "confidence": 0.550795316696167,
+        "normX": 0.0038361549377441406,
+        "normY": 0.23216435313224792,
+        "normW": 0.5476844906806946,
+        "normH": 0.666322261095047
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "inhuman-section-of-an-alien-organism_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:51 GMT",
+        "label": "vase",
+        "confidence": 0.8828590512275696,
+        "normX": 0.004959970712661743,
+        "normY": 0.005032151937484741,
+        "normW": 0.9905465543270111,
+        "normH": 0.9868200123310089
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "lettter-B-emerging-from-a-piece-of-flesh.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:51 GMT",
+        "label": "person",
+        "confidence": 0.8357709050178528,
+        "normX": 0.01591828465461731,
+        "normY": 0.12747424840927124,
+        "normW": 0.8062116801738739,
+        "normH": 0.7014018297195435
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "metallic-organism-made-of-electric-wires-and-cables_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:52 GMT",
+        "label": "zebra",
+        "confidence": 0.9530532360076904,
+        "normX": 0.0070352256298065186,
+        "normY": 0.019302725791931152,
+        "normW": 0.9611304104328156,
+        "normH": 0.9740689992904663
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-cyborg-limbs-at-home-old-1950-photograph-black-and-white_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:53 GMT",
+        "label": "person",
+        "confidence": 0.540084958076477,
+        "normX": 0.0906158983707428,
+        "normY": 0.006090641021728516,
+        "normW": 0.837423175573349,
+        "normH": 0.990985631942749
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-human-genitals_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:53 GMT",
+        "label": "banana",
+        "confidence": 0.5245909094810486,
+        "normX": 0.0034646987915039062,
+        "normY": 0.007476150989532471,
+        "normW": 0.9846770763397217,
+        "normH": 0.9875986576080322
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-robot-limbs-on-black-background_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "bench",
+        "confidence": 0.6241180300712585,
+        "normX": 0.008895128965377808,
+        "normY": 0.057355016469955444,
+        "normW": 0.9681737720966339,
+        "normH": 0.9107346832752228
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-transparent-insect-wings-on-black-background-by-national-geographic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "giraffe",
+        "confidence": 0.6413239240646362,
+        "normX": 0.012527614831924438,
+        "normY": 0.06907415390014648,
+        "normW": 0.9607149064540863,
+        "normH": 0.8389637470245361
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-of-transparent-insect-wings-on-black-background-by-national-geographic_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "giraffe",
+        "confidence": 0.5546281933784485,
+        "normX": 0.008852243423461914,
+        "normY": 0.03266468644142151,
+        "normW": 0.859491229057312,
+        "normH": 0.5094458758831024
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-only-by-many-limbs_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "zebra",
+        "confidence": 0.9108979105949402,
+        "normX": 0.5116070508956909,
+        "normY": 0.07428377866744995,
+        "normW": 0.3309222459793091,
+        "normH": 0.8998458385467529
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-only-by-many-limbs_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "zebra",
+        "confidence": 0.8210835456848145,
+        "normX": 0.7416146993637085,
+        "normY": 0.06051340699195862,
+        "normW": 0.25524401664733887,
+        "normH": 0.9025690257549286
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organism-made-only-by-many-limbs_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "zebra",
+        "confidence": 0.5222152471542358,
+        "normX": 0.32093560695648193,
+        "normY": 0.08225661516189575,
+        "normW": 0.22510617971420288,
+        "normH": 0.8515273332595825
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:54 GMT",
+        "label": "banana",
+        "confidence": 0.9808021783828735,
+        "normX": 0.11437925696372986,
+        "normY": 0.31281137466430664,
+        "normW": 0.4271235764026642,
+        "normH": 0.6364459991455078
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_12.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:55 GMT",
+        "label": "vase",
+        "confidence": 0.7399653196334839,
+        "normX": 0.4862615466117859,
+        "normY": 0.032882481813430786,
+        "normW": 0.5109405517578125,
+        "normH": 0.9513890445232391
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:56 GMT",
+        "label": "bed",
+        "confidence": 0.5906332731246948,
+        "normX": 0.0124664306640625,
+        "normY": 0.02038872241973877,
+        "normW": 0.9752448797225952,
+        "normH": 0.9221519231796265
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "organisms-penetrating-and-digesting-each-other_7.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:56 GMT",
+        "label": "cake",
+        "confidence": 0.5693235993385315,
+        "normX": 0.06978622078895569,
+        "normY": 0.019450008869171143,
+        "normW": 0.9182197749614716,
+        "normH": 0.9702154397964478
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-digested-by-water-jelly_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:58 GMT",
+        "label": "person",
+        "confidence": 0.8587811589241028,
+        "normX": 0.010414928197860718,
+        "normY": 0.02162519097328186,
+        "normW": 0.9836589395999908,
+        "normH": 0.8968767821788788
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-digesting-a-cyborg-creature-engraved-in-the-sand-top-view-photography_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:58 GMT",
+        "label": "airplane",
+        "confidence": 0.899770200252533,
+        "normX": 0.16272401809692383,
+        "normY": 0.12543103098869324,
+        "normW": 0.52759850025177,
+        "normH": 0.7234174311161041
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-digesting-a-cyborg-creature-on-white-background_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:59 GMT",
+        "label": "motorcycle",
+        "confidence": 0.7200461626052856,
+        "normX": 0.0050067901611328125,
+        "normY": 0.01282656192779541,
+        "normW": 1.0002689361572266,
+        "normH": 0.984738826751709
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-black-background_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:45:59 GMT",
+        "label": "motorcycle",
+        "confidence": 0.8119413256645203,
+        "normX": 0.0018909871578216553,
+        "normY": 0.00321197509765625,
+        "normW": 0.9955439865589142,
+        "normH": 0.9919767379760742
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-black-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:00 GMT",
+        "label": "bicycle",
+        "confidence": 0.5171371698379517,
+        "normX": 0.29171743988990784,
+        "normY": 0.04985940456390381,
+        "normW": 0.543763130903244,
+        "normH": 0.4646199941635132
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:00 GMT",
+        "label": "scissors",
+        "confidence": 0.9264126420021057,
+        "normX": 0.10706967115402222,
+        "normY": 0.2587217092514038,
+        "normW": 0.8764599561691284,
+        "normH": 0.6472634077072144
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_3.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:00 GMT",
+        "label": "scissors",
+        "confidence": 0.6414909958839417,
+        "normX": 0.004134446382522583,
+        "normY": 0.0073615312576293945,
+        "normW": 0.9915688931941986,
+        "normH": 0.9824649691581726
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "parasite-penetrating-a-cyborg-creature-on-white-background_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:01 GMT",
+        "label": "person",
+        "confidence": 0.502125084400177,
+        "normX": 0.010722815990447998,
+        "normY": 0.014889895915985107,
+        "normW": 0.9661562442779541,
+        "normH": 0.9760329723358154
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "plant-parasite-penetrating-a-cyborg-creature-3d-modeled-on-black-background.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:01 GMT",
+        "label": "banana",
+        "confidence": 0.5694669485092163,
+        "normX": 0.5464942455291748,
+        "normY": 0.023819446563720703,
+        "normW": 0.4529632329940796,
+        "normH": 0.9627530574798584
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_10.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:01 GMT",
+        "label": "motorcycle",
+        "confidence": 0.5491382479667664,
+        "normX": 0.007243156433105469,
+        "normY": 0.009599238634109497,
+        "normW": 0.9699182510375977,
+        "normH": 0.970106452703476
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_4.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:02 GMT",
+        "label": "cake",
+        "confidence": 0.5503323674201965,
+        "normX": 0.0021072328090667725,
+        "normY": 0.15091904997825623,
+        "normW": 0.9677715599536896,
+        "normH": 0.8334541618824005
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_5.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:02 GMT",
+        "label": "vase",
+        "confidence": 0.6442229747772217,
+        "normX": -0.004007577896118164,
+        "normY": 0.004830837249755859,
+        "normW": 1.0030951499938965,
+        "normH": 0.821618914604187
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-immersed-in-glossy-fluids_8.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:02 GMT",
+        "label": "frisbee",
+        "confidence": 0.6396276950836182,
+        "normX": 0.010176330804824829,
+        "normY": 0.28069061040878296,
+        "normW": 0.3546385169029236,
+        "normH": 0.7115585803985596
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "robotic-organism-coming-out-of-a-skin-colored-plant-that-gives-birth-on-black-studio-set_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:03 GMT",
+        "label": "elephant",
+        "confidence": 0.8154662251472473,
+        "normX": 0.03404712677001953,
+        "normY": 0.15617603063583374,
+        "normW": 0.9595352411270142,
+        "normH": 0.8391674757003784
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "rotting-organism-made-of-textiles-in-the-desert_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:04 GMT",
+        "label": "umbrella",
+        "confidence": 0.8347806334495544,
+        "normX": 0.005890369415283203,
+        "normY": 0.2825685143470764,
+        "normW": 0.9923371076583862,
+        "normH": 0.5608662366867065
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "rotting-organism-made-of-textiles-in-the-desert_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "banana",
+        "confidence": 0.5673179626464844,
+        "normX": 0.0842389166355133,
+        "normY": 0.24425509572029114,
+        "normW": 0.9073948562145233,
+        "normH": 0.6206153333187103
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "rotting-organism-made-of-waves-and-jelly_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "pizza",
+        "confidence": 0.7282444834709167,
+        "normX": 0.003994554281234741,
+        "normY": 0.002969413995742798,
+        "normW": 0.9924451410770416,
+        "normH": 0.9760987460613251
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "slug-creature-made-of-flesh-digesting-a-mainframe-unit_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "sports ball",
+        "confidence": 0.7633426189422607,
+        "normX": 0.022484391927719116,
+        "normY": 0.02196665108203888,
+        "normW": 0.5059897005558014,
+        "normH": 0.4058755487203598
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "slug-creature-made-of-flesh-digesting-a-mainframe-unit_2.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:05 GMT",
+        "label": "tennis racket",
+        "confidence": 0.5750357508659363,
+        "normX": 0.009716838598251343,
+        "normY": 0.005867332220077515,
+        "normW": 0.9818010628223419,
+        "normH": 0.9735865890979767
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "typeface-melting-with-an-alien-organism-in-the-style-of-3d-modeled-blender_1.jpeg",
+        "timestamp": "Thu, 09 Feb 2023 09:46:06 GMT",
+        "label": "bird",
+        "confidence": 0.9829972982406616,
+        "normX": 0.06523799896240234,
+        "normY": 0.03381967544555664,
+        "normW": 0.9248589277267456,
+        "normH": 0.7988250255584717
+    }
+]

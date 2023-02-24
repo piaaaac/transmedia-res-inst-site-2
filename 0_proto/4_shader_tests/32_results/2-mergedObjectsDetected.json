@@ -1,0 +1,2411 @@
+[
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "3d-abstract-shape-made-of-flesh-metal-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:40 GMT",
+        "label": "bird",
+        "confidence": 0.9457828998565674,
+        "normX": 0.12962383031845093,
+        "normY": 0.0854637622833252,
+        "normW": 0.8265177011489868,
+        "normH": 0.8225808143615723
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "3d-rendering-extraterrestrial-egg-cell-made-of-flesh-and-tendons.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:40 GMT",
+        "label": "bowl",
+        "confidence": 0.5733816623687744,
+        "normX": 0.0009823739528656006,
+        "normY": 0.014815181493759155,
+        "normW": 0.5646148025989532,
+        "normH": 0.9713403284549713
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-spherical-being-made-of-fleshy-limbs-tendons-and-metal-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:41 GMT",
+        "label": "cake",
+        "confidence": 0.8005499243736267,
+        "normX": 0.05998620390892029,
+        "normY": 0.09601423144340515,
+        "normW": 0.8586060106754303,
+        "normH": 0.8610110580921173
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-spherical-being-made-of-fleshy-parts-connected-with-tendons-and-metal-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:41 GMT",
+        "label": "umbrella",
+        "confidence": 0.9078971147537231,
+        "normX": 0.09625697135925293,
+        "normY": 0.1039276123046875,
+        "normW": 0.7581558227539062,
+        "normH": 0.8139042854309082
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-spherical-being-made-of-fleshy-parts-connsected-with-tendons-and-metal-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:42 GMT",
+        "label": "cake",
+        "confidence": 0.5489097237586975,
+        "normX": 0.006953924894332886,
+        "normY": 0.0007485449314117432,
+        "normW": 0.9861011803150177,
+        "normH": 0.9951702058315277
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-spherical-being-made-of-fleshy-parts-connsected-with-tendons-and-metal-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:42 GMT",
+        "label": "donut",
+        "confidence": 0.6832221150398254,
+        "normX": 0.32305067777633667,
+        "normY": 0.2714681029319763,
+        "normW": 0.3322986960411072,
+        "normH": 0.4223465919494629
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "a-spherical-being-made-of-fleshy-parts-connsected-with-tendons-and-metal-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:42 GMT",
+        "label": "cake",
+        "confidence": 0.8295443058013916,
+        "normX": 0.09467339515686035,
+        "normY": 0.06329357624053955,
+        "normW": 0.8174240589141846,
+        "normH": 0.8594115972518921
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "extraterrestrial-cell-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:43 GMT",
+        "label": "bird",
+        "confidence": 0.5203227400779724,
+        "normX": 0.13380780816078186,
+        "normY": 0.1353912651538849,
+        "normW": 0.5791666209697723,
+        "normH": 0.843301385641098
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "extraterrestrial-cell-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:43 GMT",
+        "label": "carrot",
+        "confidence": 0.7229848504066467,
+        "normX": 0.2350500226020813,
+        "normY": 0.16702067852020264,
+        "normW": 0.6260144710540771,
+        "normH": 0.6311284303665161
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:44 GMT",
+        "label": "scissors",
+        "confidence": 0.5381051301956177,
+        "normX": 0.005870640277862549,
+        "normY": 0.005927950143814087,
+        "normW": 0.9888176918029785,
+        "normH": 0.9855320155620575
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:45 GMT",
+        "label": "bird",
+        "confidence": 0.5405688881874084,
+        "normX": 0.050853222608566284,
+        "normY": 0.017393797636032104,
+        "normW": 0.940210610628128,
+        "normH": 0.9784065783023834
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:45 GMT",
+        "label": "scissors",
+        "confidence": 0.8849326968193054,
+        "normX": 0.009088695049285889,
+        "normY": 0.005730748176574707,
+        "normW": 0.9798919558525085,
+        "normH": 0.9573361873626709
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:46 GMT",
+        "label": "bench",
+        "confidence": 0.5000250935554504,
+        "normX": 0.014776051044464111,
+        "normY": 0.011109501123428345,
+        "normW": 0.9700946807861328,
+        "normH": 0.9438996016979218
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-16.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:47 GMT",
+        "label": "suitcase",
+        "confidence": 0.7243566513061523,
+        "normX": 0.007061988115310669,
+        "normY": 0.009212732315063477,
+        "normW": 0.985491007566452,
+        "normH": 0.9809117317199707
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-17.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:47 GMT",
+        "label": "bird",
+        "confidence": 0.9440267086029053,
+        "normX": 0.004071563482284546,
+        "normY": 0.002701491117477417,
+        "normW": 0.8235551416873932,
+        "normH": 0.99256232380867
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-19.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:48 GMT",
+        "label": "person",
+        "confidence": 0.5571706295013428,
+        "normX": 0.12730178236961365,
+        "normY": 0.004326820373535156,
+        "normW": 0.8596712648868561,
+        "normH": 0.9867087006568909
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-21.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:48 GMT",
+        "label": "person",
+        "confidence": 0.529743492603302,
+        "normX": 0.023112565279006958,
+        "normY": 0.013318300247192383,
+        "normW": 0.964213103055954,
+        "normH": 0.9787869453430176
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:49 GMT",
+        "label": "scissors",
+        "confidence": 0.8482714295387268,
+        "normX": 0.17020422220230103,
+        "normY": 0.1272638738155365,
+        "normW": 0.8161348104476929,
+        "normH": 0.8609359562397003
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-7.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:49 GMT",
+        "label": "bird",
+        "confidence": 0.6689093112945557,
+        "normX": 0.00042569637298583984,
+        "normY": 0.14537546038627625,
+        "normW": 1.0019021034240723,
+        "normH": 0.8458062708377838
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-8.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:50 GMT",
+        "label": "bird",
+        "confidence": 0.8118050694465637,
+        "normX": 0.017280519008636475,
+        "normY": 0.0020824968814849854,
+        "normW": 0.8527170419692993,
+        "normH": 0.9881148040294647
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-9.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:50 GMT",
+        "label": "bird",
+        "confidence": 0.9482336640357971,
+        "normX": 0.06997871398925781,
+        "normY": 0.021311521530151367,
+        "normW": 0.9039359092712402,
+        "normH": 0.9640994071960449
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:50 GMT",
+        "label": "giraffe",
+        "confidence": 0.7717851996421814,
+        "normX": 0.013950258493423462,
+        "normY": 0.00325930118560791,
+        "normW": 0.9883932769298553,
+        "normH": 0.9927394986152649
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:50 GMT",
+        "label": "person",
+        "confidence": 0.618929922580719,
+        "normX": 0.1011897623538971,
+        "normY": 0.0008060634136199951,
+        "normW": 0.8814050853252411,
+        "normH": 0.8592517673969269
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:50 GMT",
+        "label": "bird",
+        "confidence": 0.7973631620407104,
+        "normX": 0.005769938230514526,
+        "normY": 0.0035048723220825195,
+        "normW": 0.9885512888431549,
+        "normH": 0.9917302131652832
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:50 GMT",
+        "label": "banana",
+        "confidence": 0.5518903732299805,
+        "normX": 0.12461698055267334,
+        "normY": 0.5321200489997864,
+        "normW": 0.8683788776397705,
+        "normH": 0.44096851348876953
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:51 GMT",
+        "label": "banana",
+        "confidence": 0.5773447155952454,
+        "normX": 0.012143731117248535,
+        "normY": 0.021120280027389526,
+        "normW": 0.9780318737030029,
+        "normH": 0.9286536276340485
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:51 GMT",
+        "label": "person",
+        "confidence": 0.7082172632217407,
+        "normX": 0.12027668952941895,
+        "normY": 0.029844731092453003,
+        "normW": 0.8180596828460693,
+        "normH": 0.9390455782413483
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-transmedia-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:51 GMT",
+        "label": "person",
+        "confidence": 0.8203698396682739,
+        "normX": 0.0030505359172821045,
+        "normY": -0.0006149709224700928,
+        "normW": 0.9953587353229523,
+        "normH": 0.9966314733028412
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:51 GMT",
+        "label": "person",
+        "confidence": 0.7200736999511719,
+        "normX": 0.03182753920555115,
+        "normY": 0.0006842315196990967,
+        "normW": 0.955289751291275,
+        "normH": 0.9833010733127594
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glyph-covered-in-fleshy-curved-tendons-and-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:51 GMT",
+        "label": "banana",
+        "confidence": 0.6769809722900391,
+        "normX": 0.14339807629585266,
+        "normY": 0.18113973736763,
+        "normW": 0.7566722333431244,
+        "normH": 0.7866099774837494
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "glyph-covered-in-fleshy-curved-tendons-and-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:24:52 GMT",
+        "label": "scissors",
+        "confidence": 0.6759940385818481,
+        "normX": 0.1415872573852539,
+        "normY": -0.008863955736160278,
+        "normW": 0.813123345375061,
+        "normH": 0.9803092777729034
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-abstract-shape-made-of-flash-metal-tentacles-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:58 GMT",
+        "label": "scissors",
+        "confidence": 0.4287525415420532,
+        "normX": 0.09268495669731727,
+        "normY": 0.07622194290161133,
+        "normW": 0.9073150433026828,
+        "normH": 0.9237780570983887
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-abstract-shape-made-of-flash-metal-tentacles-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:58 GMT",
+        "label": "scissors",
+        "confidence": 0.42335203289985657,
+        "normX": 0.02537199854850769,
+        "normY": 0.2478614770449125,
+        "normW": 0.9449809078986828,
+        "normH": 0.7521385229550875
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-abstract-shape-made-of-flash-metal-tentacles-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:58 GMT",
+        "label": "person",
+        "confidence": 0.5679893493652344,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-abstract-shape-made-of-flash-metal-tentacles-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:58 GMT",
+        "label": "person",
+        "confidence": 0.5444508194923401,
+        "normX": 0.008142709732055664,
+        "normY": 0,
+        "normW": 0.9918572902679443,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-abstract-shape-made-of-flash-metal-tentacles-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:58 GMT",
+        "label": "person",
+        "confidence": 0.4166037142276764,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9419491107647235,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "3d-abstract-shape-made-of-flash-metal-tentacles-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:58 GMT",
+        "label": "person",
+        "confidence": 0.4092952013015747,
+        "normX": 0,
+        "normY": 0.07906990784865159,
+        "normW": 1,
+        "normH": 0.9209300921513484
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-spherical-being-made-of-fleshy-limbs-tendons-and-metal-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:59 GMT",
+        "label": "person",
+        "confidence": 0.43540385365486145,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9798338229839618,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "a-spherical-being-made-of-fleshy-limbs-tendons-and-metal-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:21:59 GMT",
+        "label": "person",
+        "confidence": 0.4020555019378662,
+        "normX": 0.03632920980453491,
+        "normY": 0,
+        "normW": 0.9316378969412583,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "alien-flora-penetrating-metallic-flesh-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:01 GMT",
+        "label": "cup",
+        "confidence": 0.463779479265213,
+        "normX": 0,
+        "normY": 0.06499147415161133,
+        "normW": 1,
+        "normH": 0.9350085258483887
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-cell-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:02 GMT",
+        "label": "person",
+        "confidence": 0.5083661675453186,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.904392095712515,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-cell-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:02 GMT",
+        "label": "cat",
+        "confidence": 0.4315471351146698,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9400017811701848,
+        "normH": 0.8662030880267804
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-cell-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:02 GMT",
+        "label": "cat",
+        "confidence": 0.6204431056976318,
+        "normX": 0.09976699719062218,
+        "normY": 0.039028942584991455,
+        "normW": 0.79992531813108,
+        "normH": 0.9141243742062495
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-cell-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:02 GMT",
+        "label": "cat",
+        "confidence": 0.40864551067352295,
+        "normX": 0.11366838675278884,
+        "normY": 0,
+        "normW": 0.8863316132472112,
+        "normH": 0.8739284368661734
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6904911994934082,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8659067153930664
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5262936353683472,
+        "normX": 0,
+        "normY": 0.06432300806045532,
+        "normW": 0.8866876455453726,
+        "normH": 0.9356769919395447
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.4606614410877228,
+        "normX": 0,
+        "normY": 0.06307142972946167,
+        "normW": 1,
+        "normH": 0.9369285702705383
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.4463556706905365,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9935060647817758,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-1.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.42111703753471375,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8559652475210336
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.7306085228919983,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9065915621243991,
+        "normH": 0.9862334911639874
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6258923411369324,
+        "normX": 0,
+        "normY": 0.02156960964202881,
+        "normW": 0.9658204592191256,
+        "normH": 0.9784303903579712
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5689950585365295,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9615961221548227,
+        "normH": 0.8955273995032678
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5616389513015747,
+        "normX": 0,
+        "normY": 0.2244561635530912,
+        "normW": 1,
+        "normH": 0.7755438364469088
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5390382409095764,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5298940539360046,
+        "normX": 0,
+        "normY": 0.20371609467726487,
+        "normW": 0.89740357032189,
+        "normH": 0.7962839053227351
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5286067128181458,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9701663530789889
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5263645648956299,
+        "normX": 0,
+        "normY": 0.0062555670738220215,
+        "normW": 1,
+        "normH": 0.993744432926178
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5094173550605774,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9119166594285232
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6146267652511597,
+        "normX": 0.03828305006027222,
+        "normY": 0,
+        "normW": 0.9617169499397278,
+        "normH": 0.956513918363131
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5245729684829712,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.989832878112793,
+        "normH": 0.8657286717341497
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.49088889360427856,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9687461853027344
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.47836005687713623,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.96862059373122,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.4535765051841736,
+        "normX": 0.06462889909744263,
+        "normY": 0.26395326394301194,
+        "normW": 0.9353711009025574,
+        "normH": 0.736046736056988
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6660834550857544,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9908993060772235
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6383072137832642,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9487093411959134
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6021571755409241,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8845944037804236
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5656797885894775,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5336778163909912,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8858812038715069
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.5123433470726013,
+        "normX": 0.12314051848191482,
+        "normY": 0.0320359468460083,
+        "normW": 0.8768594815180852,
+        "normH": 0.9212555793615488
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.4136766493320465,
+        "normX": 0,
+        "normY": 0.03283029794692993,
+        "normW": 0.9623434360210712,
+        "normH": 0.9671697020530701
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.6436872482299805,
+        "normX": 0,
+        "normY": 0.041247427463531494,
+        "normW": 1,
+        "normH": 0.9587525725364685
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "extraterrestrial-spore-made-of-flesh-metal-and-tendons-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:03 GMT",
+        "label": "cat",
+        "confidence": 0.44189533591270447,
+        "normX": 0,
+        "normY": 0.20191451219411996,
+        "normW": 1,
+        "normH": 0.7980854878058801
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "person",
+        "confidence": 0.6607071161270142,
+        "normX": 0,
+        "normY": 0.039171814918518066,
+        "normW": 1,
+        "normH": 0.9608281850814819
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "person",
+        "confidence": 0.6290339827537537,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9904662645780123,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "person",
+        "confidence": 0.6028820872306824,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8517270454993615,
+        "normH": 0.9772098981417142
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "person",
+        "confidence": 0.5478224158287048,
+        "normX": 0,
+        "normY": 0.21996611815232497,
+        "normW": 1,
+        "normH": 0.7800338818476751
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "person",
+        "confidence": 0.5356895923614502,
+        "normX": 0,
+        "normY": 0.014430999755859375,
+        "normW": 0.8398397885836087,
+        "normH": 0.9855690002441406
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "flesh-and-tendons-fuse-into-metal.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "person",
+        "confidence": 0.4487077295780182,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.5685716408949631,
+        "normH": 0.924101682809683
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:04 GMT",
+        "label": "scissors",
+        "confidence": 0.4231380224227905,
+        "normX": 0,
+        "normY": 0.07754394641289344,
+        "normW": 0.9672831755418044,
+        "normH": 0.9224560535871066
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "oven",
+        "confidence": 0.5312286615371704,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8253806921151968
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh-4.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "car",
+        "confidence": 0.4178197979927063,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9991828478299655
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.7922415733337402,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.6428591012954712,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.5565162301063538,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.5221542716026306,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8918980084932767
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.46427828073501587,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9497472322904147
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.4519351124763489,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9952586980966421,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-cave-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "cat",
+        "confidence": 0.4408412277698517,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8963840924776517
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-axons-connecting-an-alien-limb-to-metallic-flesh-neon.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "cell phone",
+        "confidence": 0.40214067697525024,
+        "normX": 0,
+        "normY": 0.05974835157394409,
+        "normW": 0.9745281659639798,
+        "normH": 0.9402516484260559
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-10.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "person",
+        "confidence": 0.43025344610214233,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7538829950185922,
+        "normH": 0.9323078302236704
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-11.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:05 GMT",
+        "label": "laptop",
+        "confidence": 0.44809627532958984,
+        "normX": 0.09544208416571984,
+        "normY": 0.11705160140991211,
+        "normW": 0.9045579158342801,
+        "normH": 0.8829483985900879
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-14.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:06 GMT",
+        "label": "zebra",
+        "confidence": 0.48622778058052063,
+        "normX": 0,
+        "normY": 0.015756428241729736,
+        "normW": 0.8965424024141752,
+        "normH": 0.9842435717582703
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-16.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.5330035090446472,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-16.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.5148547291755676,
+        "normX": 0,
+        "normY": 0.022127807140350342,
+        "normW": 0.9671215644249549,
+        "normH": 0.9778721928596497
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-16.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.44420427083969116,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9157434610220102,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-16.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.43981605768203735,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.5422356128692627,
+        "normX": 0.041038453578948975,
+        "normY": 0,
+        "normW": 0.958961546421051,
+        "normH": 0.6598923022930439
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.5184309482574463,
+        "normX": 0.259551818554218,
+        "normY": 0,
+        "normW": 0.740448181445782,
+        "normH": 0.6108712049630972
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "cat",
+        "confidence": 0.4755525588989258,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8175841844998873,
+        "normH": 0.7715522325955905
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4619690179824829,
+        "normX": 0,
+        "normY": 0.010616391897201538,
+        "normW": 1,
+        "normH": 0.9540921564285572
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "cat",
+        "confidence": 0.4526999592781067,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.801793098449707
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4436982572078705,
+        "normX": 0.21186161041259766,
+        "normY": 0.011999130249023438,
+        "normW": 0.7881383895874023,
+        "normH": 0.9620601213895358
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4347972273826599,
+        "normX": 0,
+        "normY": 0.1355359829389132,
+        "normW": 0.9096453740046575,
+        "normH": 0.8644640170610868
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4347570836544037,
+        "normX": 0.00901728868484497,
+        "normY": 0,
+        "normW": 0.990982711315155,
+        "normH": 0.981832871070275
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-18.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "sofa",
+        "confidence": 0.40094706416130066,
+        "normX": 0,
+        "normY": 0.24448336087740385,
+        "normW": 1,
+        "normH": 0.7555166391225961
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-19.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4214799106121063,
+        "normX": 0.14436557659736046,
+        "normY": 0.19305869249197152,
+        "normW": 0.5605499836114737,
+        "normH": 0.8069413075080285
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-19.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4179611802101135,
+        "normX": 0.09122145175933838,
+        "normY": 0.07600855827331543,
+        "normW": 0.6689821298305805,
+        "normH": 0.9239914417266846
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-20.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "dog",
+        "confidence": 0.47054317593574524,
+        "normX": 0.011545151472091675,
+        "normY": 0,
+        "normW": 0.4173003274660844,
+        "normH": 0.38210142575777495
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-20.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "person",
+        "confidence": 0.4319689869880676,
+        "normX": 0.010800987482070923,
+        "normY": 0.12430134186377892,
+        "normW": 0.9657260064895337,
+        "normH": 0.875698658136221
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-20.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:07 GMT",
+        "label": "dog",
+        "confidence": 0.41211262345314026,
+        "normX": 0.005661576986312866,
+        "normY": 0,
+        "normW": 0.5253431086356823,
+        "normH": 0.42647464458759016
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-21.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.4023653268814087,
+        "normX": 0.10412773719200721,
+        "normY": 0.09084806075462928,
+        "normW": 0.6371501775888296,
+        "normH": 0.8203742504119873
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-22.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.6283565163612366,
+        "normX": 0.012620717287063599,
+        "normY": 0,
+        "normW": 0.9718063680025247,
+        "normH": 0.8310083242563101
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-22.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.6111551523208618,
+        "normX": 0.09496241349440354,
+        "normY": 0,
+        "normW": 0.9050375865055964,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-22.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.5840064287185669,
+        "normX": 0.13545709389906663,
+        "normY": 0,
+        "normW": 0.8645429061009333,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-22.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.404527872800827,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8793640870314378,
+        "normH": 0.7953842603243314
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-24.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.4188981056213379,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-24.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.41616931557655334,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-24.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "person",
+        "confidence": 0.4152820110321045,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.8349662193885217
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-3.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:08 GMT",
+        "label": "scissors",
+        "confidence": 0.42223936319351196,
+        "normX": 0.01277083158493042,
+        "normY": 0,
+        "normW": 0.8202677919314458,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-8.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "person",
+        "confidence": 0.4327532649040222,
+        "normX": 0.09962513813605675,
+        "normY": 0,
+        "normW": 0.9003748618639432,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-8.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "person",
+        "confidence": 0.41262924671173096,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-9.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "person",
+        "confidence": 0.5477020144462585,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.916901001563439,
+        "normH": 0.8258452782264123
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-9.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "person",
+        "confidence": 0.5130816102027893,
+        "normX": 0.04117774963378906,
+        "normY": 0,
+        "normW": 0.9588222503662109,
+        "normH": 0.9905262727003831
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-9.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "sofa",
+        "confidence": 0.4845375716686249,
+        "normX": 0,
+        "normY": 0.2088788105891301,
+        "normW": 0.9367768947894757,
+        "normH": 0.7911211894108698
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-9.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "person",
+        "confidence": 0.4251022934913635,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9214718158428485
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh-9.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:09 GMT",
+        "label": "person",
+        "confidence": 0.41189512610435486,
+        "normX": 0,
+        "normY": 0.007173717021942139,
+        "normW": 0.8458257821890024,
+        "normH": 0.9695311738894536
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-connecting-an-alien-limb-to-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.4583284258842468,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.945493037884052,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.7395853996276855,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.6124882698059082,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9601644369272085
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.499521404504776,
+        "normX": 0.04565387964248657,
+        "normY": 0,
+        "normW": 0.9543461203575134,
+        "normH": 0.9583564171424279
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.45154693722724915,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.449710875749588,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.4170342683792114,
+        "normX": 0.13514346342820388,
+        "normY": 0,
+        "normW": 0.8648565365717962,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-2.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.40079253911972046,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.5942811369895935,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.5229207873344421,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.44185391068458557,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9534487357506385
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-5.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:10 GMT",
+        "label": "person",
+        "confidence": 0.43035879731178284,
+        "normX": 0,
+        "normY": 0,
+        "normW": 1,
+        "normH": 0.9903543912447416
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "cat",
+        "confidence": 0.6330549716949463,
+        "normX": 0.17853392087496245,
+        "normY": 0.2713539967170128,
+        "normW": 0.6522056873028095,
+        "normH": 0.7286460032829871
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.590954601764679,
+        "normX": 0.06942960849175087,
+        "normY": 0,
+        "normW": 0.7120700341004592,
+        "normH": 0.8969833667461689
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.5337972640991211,
+        "normX": 0.01120758056640625,
+        "normY": 0,
+        "normW": 0.6685599547166091,
+        "normH": 0.8762281858004056
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.49171653389930725,
+        "normX": 0.09130963912376991,
+        "normY": 0,
+        "normW": 0.8212558122781607,
+        "normH": 0.7678039990938627
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.4879850745201111,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.4464974036583534,
+        "normH": 0.9289806806124173
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.48137980699539185,
+        "normX": 0.02006930112838745,
+        "normY": 0,
+        "normW": 0.806356838116279,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.47671782970428467,
+        "normX": 0.11986917715806228,
+        "normY": 0,
+        "normW": 0.7623349519876333,
+        "normH": 0.9142240377572867
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.4591221511363983,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7309340697068435,
+        "normH": 0.7923261935894306
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "fleshy-curved-tendons-forming-a-letter-within-an-alien-limb-of-metallic-flesh-6.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.43247655034065247,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.70374818948599,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "glyph-covered-in-fleshy-curved-tendons-and-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "zebra",
+        "confidence": 0.4901241660118103,
+        "normX": 0.0014905333518981934,
+        "normY": 0,
+        "normW": 0.9985094666481018,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "glyph-covered-in-fleshy-curved-tendons-and-metallic-flesh.jpg",
+        "timestamp": "Fri, 10 Feb 2023 08:22:11 GMT",
+        "label": "person",
+        "confidence": 0.43222320079803467,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.9286733774038461,
+        "normH": 1
+    }
+]
