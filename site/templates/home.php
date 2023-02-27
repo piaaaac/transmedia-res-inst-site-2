@@ -308,14 +308,18 @@ window.addEventListener('keydown', (e) => {
 // Inspector
 // ----------------------------------------
 
-function toggleInspector () {
-  console.log("before", document.body.dataset.inspectorOpen);
-  if (!document.body.dataset.inspectorOpen || document.body.dataset.inspectorOpen == "false") {
+function toggleInspector (bool) {
+  var doOpen = !document.body.dataset.inspectorOpen || document.body.dataset.inspectorOpen == "false";
+  if (bool === true || bool === false) doOpen = bool;
+  if (doOpen) {
     document.body.dataset.inspectorOpen = "true";
+
+    // focus console input
+    var input = document.getElementById("console-input")
+    input.focus()  
   } else {
     document.body.dataset.inspectorOpen = "false";
   }
-  console.log("after", document.body.dataset.inspectorOpen);
 }
 
 // ----------------------------------------

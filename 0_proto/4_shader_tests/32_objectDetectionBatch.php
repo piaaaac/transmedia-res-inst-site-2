@@ -3,7 +3,11 @@ $path  = 'images/cats-test';
 $path  = 'images/stable-d-dav-shape';
 $path  = 'images/stable-d-ap-shape';
 $path  = 'images/language';
-$images = glob("$path/*.{jpeg,jpg,gif,png}", GLOB_BRACE);
+
+$path  = '32_detection_files/1_xr-for-non-humans';
+$path  = '32_detection_files/2_biofabricated-soft-robots-and-inflatables';
+
+$images = glob("$path/*.{jpeg,jpg,gif,png,webp}", GLOB_BRACE);
 ?>
 
 <!doctype html>
@@ -40,6 +44,7 @@ let modelReady = false;
 let imgReadyForDrawing = false;
 let modelName, modelOptions;
 let currentFilename, currentResults;
+let imagesAnalized = 0;
 // ------------------------
 let autoAdvance = true;
 let autoAdvanceDelay = 100;
@@ -59,8 +64,9 @@ function advance () {
   // if images finished
   if (imgUrls.length <= 0) {
     console.log("------------------------------");
-    console.log("DONE");
+    console.log("DONE (images: "+ imagesAnalized +", model: "+ modelName +")");
     console.log(log);
+    console.log(JSON.stringify(log));
     console.log("------------------------------");
     noLoop();
     return;
@@ -101,6 +107,7 @@ function advance () {
       }
     });
   });
+  imagesAnalized++;
 }
 
 function addDetection (modelName, modelOptions, imageFilename, timestamp, label, confidence, normX, normY, normW, normH) {

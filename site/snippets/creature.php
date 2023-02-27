@@ -96,29 +96,15 @@
     objLoader.load(url, (object) => {
       var geometry = object.children[0].geometry;
       geometry.center();
-
-      // v2 - wireframe
-      // let material = new THREE.MeshBasicMaterial({ color: 0xF4FF00, wireframe: true })
-      // let mesh = new THREE.Mesh(geometry, material)
-
-      // v3 - Points
-      // let material = new THREE.PointsMaterial({ color: 0xF4FF00, size: 0.008 })
-      // let mesh = new THREE.Points(geometry, material)
-
-      // v4 - Materials
-      // const material = new THREE.MeshNormalMaterial();                   // b
-      // const material = new THREE.MeshDepthMaterial();                    // c
-      // const material = new THREE.MeshLambertMaterial({color: 0xFF0000}); // a
-      // let mesh = new THREE.Mesh(geometry, material)
-
-      // v5
-      var material = new THREE.MeshPhongMaterial( {
-          color: 0xff0000,
+      var baseMaterial = new THREE.MeshPhongMaterial( {
+          // color: 0xFF0100,;;;;;;;;;;;;
+          color: 0x666666,
+          color: 0x00ffff,
           polygonOffset: true,
           polygonOffsetFactor: 1, // positive value pushes polygon further away
           polygonOffsetUnits: 1
       } );
-      var mesh = new THREE.Mesh( geometry, material );
+      var mesh = new THREE.Mesh( geometry, baseMaterial );
       var geo = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
       var mat = new THREE.LineBasicMaterial( { color: 0xffffff } );
       var mat = new THREE.LineBasicMaterial( { color: 0xF4FF00 } );
@@ -129,7 +115,6 @@
       meshes.push(mesh)
       index++;
       loadNextFile();
-
     },
     xhr => { // loading progress
       console.log(url +" - "+ (xhr.loaded / xhr.total * 100) + '% loaded');
@@ -140,6 +125,19 @@
   }
   loadNextFile();
 
+  // -----------------------------------------
+  // Lights
+  // -----------------------------------------
+
+  var light = new THREE.PointLight(0xFFFFFF, 0.3, 500);
+  light.position.set(10, 0, 25);
+  scene.add(light);
+
+  const ambientLight = new THREE.AmbientLight( 0xcccccc, 0.8 );
+  scene.add( ambientLight );
+  // const pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+  // camera.add( pointLight );
+  // scene.add( camera );
 
   // -----------------------------------------
   // Render
@@ -175,6 +173,9 @@
     state.currMesh = meshes[newI];
 
     state.transition = true;
+    if (cssInterval) {
+      clearInterval(cssInterval);
+    }
     cssInterval = setInterval(glitchBg, 16);
     setTimeout(endTransition, 200);
   }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 *:not(i), *:not(i)::before, *:not(i)::after {
   margin: 0;
   padding: 0;
@@ -129,9 +130,6 @@ input:invalid, textarea:invalid {
 @font-face {
   font-family: "cubnet";
   src: url("../fonts/cubenet-200513-2.otf") format("opentype"), url("../fonts/cubenet-200513-2.woff") format("woff"), url("../fonts/cubenet-200513-2.woff2") format("woff2"); }
-@font-face {
-  font-family: "SuisseIntlMono";
-  src: url("../fonts/SuisseIntlMono-Regular.otf") format("opentype"), url("../fonts/SuisseIntlMono-Regular.woff") format("woff"), url("../fonts/SuisseIntlMono-Regular.woff2") format("woff2"); }
 .font-sans-xl {
   font-family: "NewEdge6666-Rounded", sans-serif;
   font-size: 52px;
@@ -217,7 +215,7 @@ input:invalid, textarea:invalid {
       font-size: 11px; } }
 
 .font-asem-xl {
-  font-family: "cubnet", mono;
+  font-family: "cubnet", monospace;
   font-size: 40px;
   letter-spacing: 0;
   line-height: 1.2em;
@@ -238,7 +236,7 @@ input:invalid, textarea:invalid {
       font-size: 40px; } }
 
 .font-asem-l {
-  font-family: "cubnet", mono;
+  font-family: "cubnet", monospace;
   font-size: 19px;
   letter-spacing: 0;
   line-height: 1.2em;
@@ -259,7 +257,7 @@ input:invalid, textarea:invalid {
       font-size: 19px; } }
 
 .font-asem-m {
-  font-family: "cubnet", mono;
+  font-family: "cubnet", monospace;
   font-size: 11px;
   letter-spacing: 0;
   line-height: 1.2em;
@@ -280,7 +278,7 @@ input:invalid, textarea:invalid {
       font-size: 11px; } }
 
 .font-asem-s {
-  font-family: "cubnet", mono;
+  font-family: "cubnet", monospace;
   font-size: 8px;
   letter-spacing: 0.03em;
   line-height: 1.3em;
@@ -301,11 +299,11 @@ input:invalid, textarea:invalid {
       font-size: 8px; } }
 
 .font-mono-xl {
-  font-family: "SuisseIntlMono", mono;
+  font-family: "Roboto Mono", monospace;
   font-size: 52px;
   letter-spacing: 0;
   line-height: 1.2em;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
   @media (min-width: 576px) {
@@ -322,11 +320,11 @@ input:invalid, textarea:invalid {
       font-size: 52px; } }
 
 .font-mono-l {
-  font-family: "SuisseIntlMono", mono;
+  font-family: "Roboto Mono", monospace;
   font-size: 25px;
   letter-spacing: 0;
   line-height: 1.2em;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
   @media (min-width: 576px) {
@@ -343,11 +341,11 @@ input:invalid, textarea:invalid {
       font-size: 25px; } }
 
 .font-mono-m {
-  font-family: "SuisseIntlMono", mono;
+  font-family: "Roboto Mono", monospace;
   font-size: 15px;
   letter-spacing: 0;
   line-height: 1.2em;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
   @media (min-width: 576px) {
@@ -364,11 +362,11 @@ input:invalid, textarea:invalid {
       font-size: 15px; } }
 
 .font-mono-s {
-  font-family: "SuisseIntlMono", mono;
+  font-family: "Roboto Mono", monospace;
   font-size: 11px;
   letter-spacing: 0.03em;
   line-height: 1.3em;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
   @media (min-width: 576px) {
@@ -573,7 +571,7 @@ p {
   left: 0;
   pointer-events: none; }
   #trash-columns .trash-column {
-    font-family: "SuisseIntlMono", mono;
+    font-family: "Roboto Mono", monospace;
     font-size: 9px;
     color: rgba(255, 255, 255, 0.5);
     line-break: anywhere; }
@@ -662,7 +660,7 @@ p {
           top: 100%;
           left: 0;
           font-size: 8px;
-          font-family: "cubnet", mono;
+          font-family: "cubnet", monospace;
           color: #f4ff00; }
         #body-content #tiles .tile .highlight.active {
           opacity: 1;
@@ -748,7 +746,7 @@ body[data-page-uid='language'] #language-bg {
       height: auto;
       max-height: none;
       min-height: none;
-      width: 33.33333vw;
+      width: 42vw;
       border-left: 1px solid #cacdd1; } }
   #inspector .header {
     background-color: #f1f3f4;
@@ -756,7 +754,7 @@ body[data-page-uid='language'] #language-bg {
     min-height: 27px;
     max-height: 27px;
     font-family: system-ui, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #cacdd1; }
@@ -765,10 +763,20 @@ body[data-page-uid='language'] #language-bg {
       align-items: center;
       justify-content: center;
       height: 100%;
-      text-decoration: none; }
-      #inspector .header a.tab:hover, #inspector .header a.tab.active {
-        background-color: rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      border-bottom: 1.5px solid transparent;
+      cursor: default; }
+      #inspector .header a.tab:hover {
+        background-color: #DEE1E6;
         color: black; }
+      #inspector .header a.tab.active {
+        border-bottom: 1.5px solid #1A73E8;
+        color: black;
+        height: calc(100% + 2px);
+        top: -1px;
+        position: relative;
+        padding-bottom: 0;
+        margin-bottom: -2px; }
       #inspector .header a.tab.icon {
         width: 26px;
         text-align: center; }
@@ -780,22 +788,95 @@ body[data-page-uid='language'] #language-bg {
       width: 0px;
       height: 15px;
       border-left: 1px solid #cacdd1; }
+  #inspector[data-tab="elements"] [id^="inspector-content-"] {
+    display: none; }
+  #inspector[data-tab="elements"] #inspector-content-elements {
+    display: flex; }
+  #inspector[data-tab="elements"] .header a.tab[data-name="elements"] {
+    border-bottom: 1.5px solid #1A73E8;
+    color: black;
+    height: calc(100% + 2px);
+    top: -1px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: -2px; }
+  #inspector[data-tab="console"] [id^="inspector-content-"] {
+    display: none; }
+  #inspector[data-tab="console"] #inspector-content-console {
+    display: flex; }
+  #inspector[data-tab="console"] .header a.tab[data-name="console"] {
+    border-bottom: 1.5px solid #1A73E8;
+    color: black;
+    height: calc(100% + 2px);
+    top: -1px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: -2px; }
+  #inspector[data-tab="sources"] [id^="inspector-content-"] {
+    display: none; }
+  #inspector[data-tab="sources"] #inspector-content-sources {
+    display: flex; }
+  #inspector[data-tab="sources"] .header a.tab[data-name="sources"] {
+    border-bottom: 1.5px solid #1A73E8;
+    color: black;
+    height: calc(100% + 2px);
+    top: -1px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: -2px; }
+  #inspector[data-tab="network"] [id^="inspector-content-"] {
+    display: none; }
+  #inspector[data-tab="network"] #inspector-content-network {
+    display: flex; }
+  #inspector[data-tab="network"] .header a.tab[data-name="network"] {
+    border-bottom: 1.5px solid #1A73E8;
+    color: black;
+    height: calc(100% + 2px);
+    top: -1px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: -2px; }
   #inspector .content {
     justify-self: stretch;
     overflow-x: hidden;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; }
     #inspector .content .item {
       min-height: 27px;
       position: relative;
       padding: 5px;
+      margin-top: -1px;
       padding-left: 26px;
-      font-family: "SuisseIntlMono", mono;
+      font-family: "Roboto Mono", monospace;
       font-size: 11px;
       letter-spacing: 0.03em;
       line-height: 1.3em;
-      font-weight: 300;
+      font-weight: 400;
       font-style: normal;
       font-stretch: normal; }
+      #inspector .content .item pre, #inspector .content .item code {
+        font-family: "Roboto Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.03em;
+        line-height: 1.3em;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal; }
+        @media (min-width: 576px) {
+          #inspector .content .item pre, #inspector .content .item code {
+            font-size: 11px; } }
+        @media (min-width: 768px) {
+          #inspector .content .item pre, #inspector .content .item code {
+            font-size: 11px; } }
+        @media (min-width: 992px) {
+          #inspector .content .item pre, #inspector .content .item code {
+            font-size: 11px; } }
+        @media (min-width: 1200px) {
+          #inspector .content .item pre, #inspector .content .item code {
+            font-size: 11px; } }
       @media (min-width: 576px) {
         #inspector .content .item {
           font-size: 11px; } }
@@ -808,30 +889,58 @@ body[data-page-uid='language'] #language-bg {
       @media (min-width: 1200px) {
         #inspector .content .item {
           font-size: 11px; } }
+      #inspector .content .item .src-file {
+        color: #303942;
+        text-decoration: underline;
+        cursor: pointer;
+        float: right;
+        text-align: right;
+        max-width: 50%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        direction: rtl; }
       #inspector .content .item.c-alert {
+        z-index: 3;
         color: #5c3c00;
         background-color: #FFFBE5;
+        border-top: 1px solid #FFF5C2;
         border-bottom: 1px solid #FFF5C2; }
         #inspector .content .item.c-alert::before {
           position: absolute;
           content: url("../images/icon-console-alert.svg");
           left: 7px; }
       #inspector .content .item.c-error {
+        z-index: 4;
         color: #FF0100;
         background-color: #FFF0F0;
+        border-top: 1px solid #FFD6D6;
         border-bottom: 1px solid #FFD6D6; }
         #inspector .content .item.c-error::before {
           position: absolute;
           content: url("../images/icon-console-error.svg");
           left: 7px; }
       #inspector .content .item.c-log {
+        z-index: 2;
         color: #303942;
         background-color: white;
+        border-top: 1px solid #F0F0F0;
         border-bottom: 1px solid #F0F0F0; }
+      #inspector .content .item.c-log-user-input {
+        z-index: 2;
+        color: #303942;
+        background-color: white;
+        border-top: 1px solid #F0F0F0;
+        border-bottom: 1px solid #F0F0F0; }
+        #inspector .content .item.c-log-user-input::before {
+          position: absolute;
+          content: url("../images/icon-console-reportinput.svg");
+          left: 7px; }
       #inspector .content .item.c-content {
-        color: #FF0100;
+        z-index: 2;
+        color: #EB3940;
         background-color: white;
         padding-left: 7px;
+        border-top: 1px solid #F0F0F0;
         border-bottom: 1px solid #F0F0F0; }
         #inspector .content .item.c-content.l {
           font-family: "NewEdge6666-Rounded", sans-serif;
@@ -873,10 +982,46 @@ body[data-page-uid='language'] #language-bg {
           @media (min-width: 1200px) {
             #inspector .content .item.c-content.m {
               font-size: 25px; } }
+    #inspector .content #input-area {
+      min-height: 70px;
+      position: relative;
+      flex-grow: 1; }
+      #inspector .content #input-area::before {
+        position: absolute;
+        content: url("../images/icon-console-textinput.svg");
+        left: 7px;
+        top: 5px; }
+      #inspector .content #input-area input#console-input {
+        all: unset;
+        background-color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.03em;
+        line-height: 1.3em;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        position: relative;
+        left: 27px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        width: calc(100% - 27px); }
+        @media (min-width: 576px) {
+          #inspector .content #input-area input#console-input {
+            font-size: 11px; } }
+        @media (min-width: 768px) {
+          #inspector .content #input-area input#console-input {
+            font-size: 11px; } }
+        @media (min-width: 992px) {
+          #inspector .content #input-area input#console-input {
+            font-size: 11px; } }
+        @media (min-width: 1200px) {
+          #inspector .content #input-area input#console-input {
+            font-size: 11px; } }
 
 @media (min-width: 992px) {
   body[data-inspector-open="true"] #body-content {
-    width: 66.66667vw; } }
+    width: 58vw; } }
 @media (min-width: 992px) {
   body[data-inspector-open="true"] #body-content #tiles .tile {
     width: 50%;

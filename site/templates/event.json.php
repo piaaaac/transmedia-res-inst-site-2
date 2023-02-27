@@ -9,10 +9,14 @@ foreach ($page->files() as $file) {
   $images[] = $file->url();
 }
 
+$computerVision = Json::decode($page->computerVisionJson()->value());
+// kill($computerVision);
+
 $json['title']            = (string)$page->title();
 $json['names']            = (string)$page->names();
 $json['dateText']         = (string)$page->dateText();
 $json['htmlFullDescription']  = kt($page->fullDescription());
 $json['images']           = $images;
+$json['imagesHighlights'] = $computerVision;
 
 echo json_encode($json);
