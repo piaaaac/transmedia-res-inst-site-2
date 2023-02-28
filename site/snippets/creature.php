@@ -97,7 +97,7 @@
       var geometry = object.children[0].geometry;
       geometry.center();
       var baseMaterial = new THREE.MeshPhongMaterial( {
-          // color: 0xFF0100,;;;;;;;;;;;;
+          color: 0xFF0100,;;;;;;;;;;;;
           color: 0x666666,
           color: 0x00ffff,
           polygonOffset: true,
