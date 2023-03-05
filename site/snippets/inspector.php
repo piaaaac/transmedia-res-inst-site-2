@@ -21,7 +21,16 @@ $events = page("summer-school-2023")->children()->listed();
   </div>
   
   <!-- network -->
-  <div class="content" id="inspector-content-network"></div>
+  <div class="content" id="inspector-content-network">
+    <?php foreach ($events as $event): ?>
+      <div class="item c-content">
+        <?php snippet("inspector-event-preview", ["event" => $event]) ?>
+      </div>
+    <?php endforeach ?>
+    <div class="item c-log">
+      <?php snippet("inspector-code-network-trash") ?>
+    </div>
+  </div>
   
   <!-- sources -->
   <div class="content" id="inspector-content-sources">
@@ -33,6 +42,7 @@ $events = page("summer-school-2023")->children()->listed();
   
   <!-- console -->
   <div class="content" id="inspector-content-console">
+    <div id="console-sensi-bg" onclick="focusInput();"></div>
     <div id="input-area" onclick="focusInput();">
       <input type="text" id="console-input"  />
     </div>
@@ -47,6 +57,7 @@ $events = page("summer-school-2023")->children()->listed();
   // -----------------------------
 
   var bodyContent = document.getElementById("body-content") 
+  var consoleContentDiv = document.querySelector("#inspector #inspector-content-console")
   var cc = new CreatureConciousness();
   
   // -----------------------------
@@ -85,7 +96,6 @@ $events = page("summer-school-2023")->children()->listed();
         setTimeout(() => { 
           bodyContent.textContent = ""
           handleReceivedData(jsonData)
-          handleReceivedData(jsonData)
         }, 1600);
       }).catch(err => {
         console.log("Error fetching page:", err);
@@ -117,12 +127,12 @@ $events = page("summer-school-2023")->children()->listed();
 
   function log (data, logOptions) {
     var defaults = {
-      type: "log", // normal|alert|error
+      type: "log", // log|alert|error|userinput|content
       content: "textNode", // textNode|html
       srcFile: "auto", // string "filename:line"
       mode: "append", // append|replaceLast
     };
-    Object.keys(logOptions).forEach(key => logOptions[key] === undefined && delete logOptions[key]) // remove undefined (via https://stackoverflow.com/a/38340374/2501713)
+    logOptions && Object.keys(logOptions).forEach(key => logOptions[key] === undefined && delete logOptions[key]) // remove undefined (via https://stackoverflow.com/a/38340374/2501713)
     var options = Object.assign({}, defaults, logOptions);
     if (options.srcFile == "auto") {
       var d = new Date();
@@ -132,7 +142,7 @@ $events = page("summer-school-2023")->children()->listed();
       options.srcFile = fakeVM;
     }
 
-    console.log("check", data, logOptions, options)
+    // console.log("check", data, logOptions, options)
     
     var typeMap = {
       content: "c-content",
@@ -164,15 +174,14 @@ $events = page("summer-school-2023")->children()->listed();
     }
     item.appendChild(child)
 
-    var contentDiv = document.querySelector("#inspector #inspector-content-console")
     var inputArea = document.querySelector("#input-area")
     if (options.mode == "append") {
-      contentDiv.insertBefore(item, inputArea)
+      consoleContentDiv.insertBefore(item, inputArea)
     } else if (options.mode == "replaceLast") {
-      contentDiv.replaceChild(item, inputArea.previousSibling)
+      consoleContentDiv.replaceChild(item, inputArea.previousSibling)
     }
 
-    contentDiv.scrollTo(0, 1000000)
+    consoleContentDiv.scrollTo(0, 1000000)
     focusInput()
   }
 
@@ -189,6 +198,13 @@ $events = page("summer-school-2023")->children()->listed();
     if (name === "console") {
       focusInput()
     }
+  }
+
+  function clearConsole () {
+    var items = consoleContentDiv.querySelectorAll(".item");
+    items.forEach(item => {
+      consoleContentDiv.removeChild(item);
+    });
   }
 
   function handleSrcFileClick () {
@@ -260,8 +276,18 @@ $events = page("summer-school-2023")->children()->listed();
       this.say(this.sentences[key](data))
     }
 
+    this.randomLog = () => {
+      var types = ["log", "alert", "alert", "error"];
+      var modes = ["append", "append", "replaceLast"];
+      var type = types[Math.floor(Math.random() * types.length)];
+      var mode = modes[Math.floor(Math.random() * modes.length)];
+      var data = trashLines[Math.floor(Math.random() * trashLines.length)];
+      log(data, {"type": type, "mode": mode});
+    }
+
     // Actions (structured)
     // =======
+    var self = this;
 
     this.actions = {
 
@@ -269,8 +295,21 @@ $events = page("summer-school-2023")->children()->listed();
         toggleInspector(true);
         toTab("console");
         setTimeout(() => {
-          this.loading("loading language", 2000)
+          self.actions.loading("loading language", 2000)
         }, 1000)
+        var times = 130;
+        var i = 0;
+        var interval;
+        setTimeout(() => { 
+          interval = setInterval(() => {
+            if (i >= times) { clearInterval(interval) }
+            if (Math.random() < 0.06) { clearConsole() }
+            if (Math.random() < 0.6) { self.randomLog() }
+            i++;
+          }, 10);
+        }, 3200)
+
+        // function 
       },
 
       "loading": function (text, totalTime) {
@@ -282,7 +321,7 @@ $events = page("summer-school-2023")->children()->listed();
         var messages = [];
 
         while (adv < 1) {
-          time += 100 + Math.random() * 300;
+          time += 50 + Math.random() * 150;
           adv = time / tt;
           perc = Math.floor(adv * 100);
           perc = Math.min(perc, 99); // if it went over 100
@@ -292,7 +331,7 @@ $events = page("summer-school-2023")->children()->listed();
             "time": time,
           });
           logMode = "replaceLast";
-          console.log(messages)
+          // console.log(messages)
         }
         messages.push({
           "text": `${text} [DONE]`,
@@ -302,7 +341,7 @@ $events = page("summer-school-2023")->children()->listed();
 
         messages.forEach(message => {
           setTimeout(function () {
-            console.log(message)
+            // console.log(message)
             log(message.text, {mode: message.mode})
           }, message.time);
         })
@@ -318,7 +357,50 @@ $events = page("summer-school-2023")->children()->listed();
     }
   }
 
+  var trashLines = [
+    "create mode 100644 assets/lib/highlight/es/languages/abnf.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/accesslog.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/actionscript.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/ada.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/angelscript.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/apache.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/applescript.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/arcade.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/arduino.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/armasm.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/asciidoc.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/aspectj.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/autohotkey.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/autoit.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/avrasm.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/awk.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/axapta.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/bash.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/basic.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/bnf.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/brainfuck.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/c.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/cal.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/capnproto.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/ceylon.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/clean.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/clojure-repl.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/clojure.min.js",
+    "create mode 100644 assets/lib/highlight/es/languages/cmake.min.js",
 
+    "modified:   README.md",
+    "modified:   assets/css/index.css",
+    "deleted:    assets/css/index.css.map",
+    "modified:   assets/css/index.scss",
+    "modified:   content/2_summer-school-2023/events.txt",
+    "modified:   site/snippets/creature.php",
+    "modified:   site/snippets/inspector.php",
+    "modified:   site/snippets/load-scripts.php",
+    "modified:   site/templates/home.php",
+    "assets/css/prepros.config",
+    "assets/lib/es-module-shims.js",
+
+  ];
 
 </script>
 

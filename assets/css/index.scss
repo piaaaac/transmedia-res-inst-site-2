@@ -379,28 +379,28 @@ $cc-text-red: #FF0100;
 
   &[data-tab="elements"] {
     [id^="inspector-content-"] { display: none; }
-    #inspector-content-elements { display: flex; }
+    #inspector-content-elements { display: block; }
     .header a.tab[data-name="elements"] {
       @include active-tab;
     }
   }
   &[data-tab="console"] {
     [id^="inspector-content-"] { display: none; }
-    #inspector-content-console { display: flex; }
+    #inspector-content-console { display: block; }
     .header a.tab[data-name="console"] {
       @include active-tab;
     }
   }
   &[data-tab="sources"] {
     [id^="inspector-content-"] { display: none; }
-    #inspector-content-sources { display: flex; }
+    #inspector-content-sources { display: block; }
     .header a.tab[data-name="sources"] {
       @include active-tab;
     }
   }
   &[data-tab="network"] {
     [id^="inspector-content-"] { display: none; }
-    #inspector-content-network { display: flex; }
+    #inspector-content-network { display: block; }
     .header a.tab[data-name="network"] {
       @include active-tab;
     }
@@ -414,7 +414,7 @@ $cc-text-red: #FF0100;
 
     height: 100%;
 // background: green;
-    display: flex;
+    display: block;
     flex-flow: column nowrap;
     justify-content: flex-start;
 
@@ -505,6 +505,11 @@ $cc-text-red: #FF0100;
         }
 
       }
+    }
+    #console-sensi-bg {
+      position: absolute;
+      // background-color: yellow;
+      top: 28px; right: 2px; bottom: 2px; left: 2px;
     }
     #input-area {
       min-height: 70px;

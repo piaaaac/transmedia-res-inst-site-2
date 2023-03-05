@@ -1,4 +1,12 @@
 
+# REFACTOR
+
+- make tile highlight probability controllable independently from scroll
+- make inspector & creature into objects to control from home.php
+- scale 3d correctly when inspector is open
+
+
+
 
 # TODO
 

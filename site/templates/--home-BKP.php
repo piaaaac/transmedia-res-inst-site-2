@@ -31,6 +31,28 @@ foreach ($trashImagesTestFiles as $img) {
 <!-- Tiles -->
 <!-- --------------------------------------- -->
 
+<?php 
+/* 
+<!-- V1 random -->
+<div id="tiles">
+  <?php foreach ($images0Shape as $file): 
+    $hw = 0.2 + rand(0, 1000)/1000 * 0.7;
+    $hh = 0.2 + rand(0, 1000)/1000 * 0.7;
+    $hx = rand(0, 1000)/1000 * (1 - $hw);
+    $hy = rand(0, 1000)/1000 * (1 - $hh);
+    ? >
+    <div class="tile">
+      <div class="img" style="background-image: url('<?= $file->url() ? >');"></div>
+      <div class="highlight"
+        data-highlight-x="<?= $hx ? >"
+        data-highlight-y="<?= $hy ? >"
+        data-highlight-w="<?= $hw ? >"
+        data-highlight-h="<?= $hh ? >"
+      ></div>
+    </div>
+  <?php endforeach ? >
+</div>
+*/ ?>
 
 <!-- V2 from json -->
 
@@ -38,14 +60,21 @@ foreach ($trashImagesTestFiles as $img) {
   <div id="tiles">
     <?php 
     $index = -1;
+    // foreach ($images0Shape as $file): 
+    
     $fff = new Files();
-    $fff->add($images0Shape->slice(0, 80));
+    $fff->add($images0Shape->slice(0, 60));
     $fff->add($images1Language);
     foreach ($fff as $file): 
+
       $index++;
-      $probHighlight = map($index, 0, $fff->count(), 0.5, 1);
+      
+      // Normalize $probHighlight and apply power^2
+      $probHighlight = map($index, 0, $fff->count(), 0, 1);
       $probHighlight = pow($probHighlight, 2);
+
       $amtHighlightTexts = rand(0, 1000)/1000;
+
       $thisImageFilename = $file->filename();
       $objects = A::filter($allDetectedObjects, function ($val, $key) use ($thisImageFilename) {
         return $val["imageFilename"] === $thisImageFilename;
@@ -69,16 +98,144 @@ foreach ($trashImagesTestFiles as $img) {
             style="left: -10%; top: -10%; width: 110%; height: 110%;"
           >
             <!-- asemic labels -->
-            <!--<p>
+            <!--
+            <p>
              <?= $o["label"] ." ". $o["confidence"] ?>
              <?= (rand(0, 100) < $amt * 50) ? randomString(rand(0, $amt * 500), "<br />", 0.03) : "" ?>
-            </p>-->
+            </p>
+            -->
           </div>
         <?php endforeach ?>
       </div>
     <?php endforeach ?>
   </div>
 </div>
+
+<!-- Spacing -->
+<!-- <div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div> -->
+<!-- <div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div> -->
+
+<!-- --------------------------------------- -->
+<!-- Type test -->
+<!-- --------------------------------------- -->
+<!-- 
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4">
+      <p class="font-sans-s">Lorem ipsum 123000 ATGC</p>
+      <p class="font-sans-m">Lorem ipsum 123000 ATGC</p>
+      <p class="font-sans-l">Lorem ipsum 123000 ATGC</p>
+      <p class="font-sans-xl">Lorem ipsum 123000 ATGC</p>
+    </div>
+    <div class="col-4">
+      <p class="font-asem-s">Lorem ipsum 123000 ATGC</p>
+      <p class="font-asem-m">Lorem ipsum 123000 ATGC</p>
+      <p class="font-asem-l">Lorem ipsum 123000 ATGC</p>
+      <p class="font-asem-xl">Lorem ipsum 123000 ATGC</p>
+    </div>
+    <div class="col-4">
+      <p class="font-mono-s">Lorem ipsum 123000 ATGC</p>
+      <p class="font-mono-m">Lorem ipsum 123000 ATGC</p>
+      <p class="font-mono-l">Lorem ipsum 123000 ATGC</p>
+      <p class="font-mono-xl">Lorem ipsum 123000 ATGC</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <p>
+        <span class="font-sans-s">Lorem ipsum 123000 ATGC</span>
+        <span class="font-asem-s">Lorem ipsum 123000 ATGC</span>
+        <span class="font-mono-s">Lorem ipsum 123000 ATGC</span>
+      <p>
+      </p>
+        <span class="font-sans-m">Lorem ipsum 123000 ATGC</span>
+        <span class="font-asem-m">Lorem ipsum 123000 ATGC</span>
+        <span class="font-mono-m">Lorem ipsum 123000 ATGC</span>
+      <p>
+      </p>
+        <span class="font-asem-l">Lorem ipsum 123000 ATGC</span>
+        <span class="font-sans-l">Lorem ipsum 123000 ATGC</span>
+        <span class="font-mono-l">Lorem ipsum 123000 ATGC</span>
+      <p>
+      </p>
+        <span class="font-mono-xl">Lorem ipsum 123000 ATGC</span>
+        <span class="font-sans-xl">Lorem ipsum 123000 ATGC</span>
+        <span class="font-asem-xl">Lorem ipsum 123000 ATGC</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+--------------------------------------- -->
+
+
+
+
+
+
+<!-- --------------------------------------- -->
+<!-- Program text -->
+<!-- --------------------------------------- -->
+<?php /*
+
+<?php 
+$events = page("summer-school-2023")->children()->listed();
+? >
+
+<div id="program">
+  <div class="program-asemic">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <?php 
+          $index = -1;
+          foreach ($events as $event) { 
+            $index++;
+            $asemicProb = pow(map($index, 0, $events->count(), 1, 0.75), 2);
+            snippet("programItem", ["event" => $event, "asemicProb" => $asemicProb]); 
+          }
+          foreach ($events as $event) { 
+            $index++;
+            $asemicProb = pow(map($index, 0, $events->count(), 0.75, 0.5), 2);
+            snippet("programItem", ["event" => $event, "asemicProb" => $asemicProb]); 
+          }
+          foreach ($events as $event) { 
+            $index++;
+            $asemicProb = pow(map($index, 0, $events->count(), 0.5, 0.25), 2);
+            snippet("programItem", ["event" => $event, "asemicProb" => $asemicProb]); 
+          }
+          foreach ($events as $event) { 
+            $index++;
+            $asemicProb = pow(map($index, 0, $events->count(), 0.25, 0), 2);
+            snippet("programItem", ["event" => $event, "asemicProb" => $asemicProb]); 
+          }
+          ? >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="program">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <?php foreach ($events as $event) { snippet("programItem", ["event" => $event]); } ? >
+          <?php foreach ($events as $event) { snippet("programItem", ["event" => $event]); } ? >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Spacing -->
+<div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div>
+<div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div><div class="my-5 py-5"></div>
+
+*/ ?>
+
 
 <!-- --------------------------------------- -->
 <!-- Trash columns -->
@@ -134,7 +291,7 @@ var trashImagesTestUrls = <?= json_encode($trashImagesTestUrls) ?>;
 // ----------------------------------------
 
 window.addEventListener('keydown', (e) => {
-  // console.log(`Key "${e.key}" pressed`);
+  console.log(`Key "${e.key}" pressed`);
   if (e.key == "Enter") {
     // highlightRandomTile();
     injectTrash();
@@ -244,7 +401,7 @@ var highlights = document.querySelectorAll("#tiles .tile .highlight")
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      // console.log(entry)
+      console.log(entry)
       if (Math.random() < entry.target.dataset.highlightProbability) { // eg 0.3
         setTimeout(() => { 
           highlightOn(entry.target)
@@ -278,12 +435,16 @@ function highlightOn (highlightEl) {
   h.style.top = h.dataset.highlightY * 100 +"%";
   h.style.width = h.dataset.highlightW * 100 +"%";
   h.style.height = h.dataset.highlightH * 100 +"%";
-  // console.log(highlightEl);
+  console.log(highlightEl);
 }
 
 function highlightOff (highlightEl) {
   let h = highlightEl
   h.classList.remove("active");
+  // h.style.left = (h.dataset.highlightX + h.dataset.highlightW/2) * 100 +"%";
+  // h.style.top = (h.dataset.highlightY + h.dataset.highlightH/2) * 100 +"%";
+  // h.style.width = "0%";
+  // h.style.height = "0%";
   h.style.left = h.dataset.leftOri;
   h.style.top = h.dataset.topOri;
   h.style.width = h.dataset.widthOri;
@@ -296,17 +457,6 @@ function highlightRandomTile () {
   var randomEl = tiles[index];
   tileHighlightsOn(randomEl);
 }
-
-// -------------------------
-// Storyboard
-// -------------------------
-
-window.addEventListener('keydown', (e) => {
-  if (e.key == "a") { log("pressed a")}
-  if (e.key == "s") { cc.actions.start()}
-  if (e.key == "a") { log("pressed a")}
-});
-
 
 </script>
 

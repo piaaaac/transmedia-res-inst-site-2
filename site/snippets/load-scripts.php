@@ -12,4 +12,4 @@
 <link rel="stylesheet" href="<?= $kirby->url('assets') ?>/lib/highlight/styles/base16/github.min.css">
 
 <!-- lodash (used for scroll debounce) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script> -->

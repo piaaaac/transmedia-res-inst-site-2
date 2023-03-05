@@ -1,7 +1,8 @@
 
 <div id="creature"></div>
 
-<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+<!-- <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script> -->
+<script async src="<?= $kirby->url("assets") ?>/lib/es-module-shims.js"></script>
 <script>
   var creatureRefresh;
 </script>
@@ -97,7 +98,7 @@
       var geometry = object.children[0].geometry;
       geometry.center();
       var baseMaterial = new THREE.MeshPhongMaterial( {
-          color: 0xFF0100,;;;;;;;;;;;;
+          // color: 0xFF0100,;;;;;;;;;;;;
           color: 0x666666,
           color: 0x00ffff,
           polygonOffset: true,
@@ -203,7 +204,7 @@
   });
 
   window.addEventListener('keydown', (e) => {
-    console.log(`Key "${e.key}" pressed`);
+    // console.log(`Key "${e.key}" pressed`);
     if (e.key == "Enter") {
       switchRandomMesh();
     }
