@@ -277,7 +277,7 @@ $events = page("summer-school-2023")->children()->listed();
     }
 
     this.randomLog = () => {
-      var types = ["log", "alert", "alert", "error"];
+      var types = ["log", "alert", "log", "alert", "alert", "error"];
       var modes = ["append", "append", "replaceLast"];
       var type = types[Math.floor(Math.random() * types.length)];
       var mode = modes[Math.floor(Math.random() * modes.length)];
@@ -297,14 +297,19 @@ $events = page("summer-school-2023")->children()->listed();
         setTimeout(() => {
           self.actions.loading("loading language", 2000)
         }, 1000)
-        var times = 130;
+        var times = 160;
         var i = 0;
         var interval;
         setTimeout(() => { 
           interval = setInterval(() => {
-            if (i >= times) { clearInterval(interval) }
             if (Math.random() < 0.06) { clearConsole() }
-            if (Math.random() < 0.6) { self.randomLog() }
+            if (Math.random() < 0.4) { self.randomLog() }
+            if (i >= times) { 
+              clearInterval(interval);
+              setTimeout(() => {
+                clearConsole();
+              }, 500)
+            }
             i++;
           }, 10);
         }, 3200)

@@ -62,14 +62,14 @@
   var index = 0;
   var modelsFolder = "<?= $kirby->url("assets") ?>/models/"
   var modelFiles = [
-  // modelsFolder +"1.obj",
-  // modelsFolder +"3.obj",
-  // modelsFolder +"5.obj",
-  // modelsFolder +"7.obj",
-  // modelsFolder +"8.obj",
-  // modelsFolder +"9.obj",
-  // modelsFolder +"11.obj",
-  // modelsFolder +"12.obj",
+    modelsFolder +"1.obj",
+    modelsFolder +"3.obj",
+    modelsFolder +"5.obj",
+    modelsFolder +"7.obj",
+    modelsFolder +"8.obj",
+    modelsFolder +"9.obj",
+    modelsFolder +"11.obj",
+    modelsFolder +"12.obj",
     modelsFolder +"2.obj",
     modelsFolder +"4.obj", 
     modelsFolder +"6.obj", 
@@ -158,6 +158,13 @@
     if (state.transition) {
       state.currMesh.visible = (Math.random() < 0.5);
       state.prevMesh.visible = !state.currMesh.visible;
+
+      // var color = Math.floor(Math.random() * 0xffffff);
+      // state.currMesh.material.color.setHex(color); 
+      var colorR = Math.floor(Math.random() * 255);
+      var colorG = Math.floor(Math.random() * 255);
+      var color = new THREE.Color(`rgb(${colorR}, ${colorG}, 255)`);
+      state.currMesh.material.color.setHex(color); 
     }
     camera.lookAt( scene.position );
     renderer.render( scene, camera );
@@ -188,9 +195,16 @@
   function endTransition () {
     state.prevMesh.visible = false;
     state.currMesh.visible = true;
+    state.prevMesh.material.color.setHex(0xf4ff00);
+    state.currMesh.material.color.setHex(0xf4ff00);
     state.transition = false;
     clearInterval(cssInterval);
     document.body.style.backgroundColor = "#666";
+  }
+
+  // https://stackoverflow.com/a/5624139
+  function rgbToHex(r, g, b) {
+    return "#" + (1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1);
   }
 
   // -----------------------------------------
