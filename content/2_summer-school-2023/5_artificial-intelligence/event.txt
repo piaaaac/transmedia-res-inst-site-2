@@ -1,0 +1,112 @@
+Title: _Artificial Intelligence
+
+----
+
+Names: Lorem Lorem
+
+----
+
+Datetext:
+
+3, 4, 5, 6, 7 July, 2023 workshop
+8, 9 July, 2023 final exhibition
+
+----
+
+Shortdescription: 
+
+----
+
+Fulldescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed turpis sed ipsum vehicula bibendum imperdiet in orci. In vel vestibulum nisi. Donec sagittis nunc id erat aliquam blandit. Ut in sapien magna. Mauris lacus ex, pretium nec odio sit amet, gravida faucibus nisi. Fusce vel nisi scelerisque, gravida purus at, hendrerit purus. Nulla efficitur lorem sit amet scelerisque sagittis. Vestibulum sit amet pellentesque nibh. Nulla id mollis est. In non vestibulum dui, at malesuada quam. Phasellus fermentum tempor purus ac tincidunt.
+
+----
+
+Computervisionjson:
+
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "car",
+        "confidence": 0.5835533738136292,
+        "normX": 0.639827141394982,
+        "normY": 0.804168701171875,
+        "normW": 0.34652159764216495,
+        "normH": 0.17513700631948617
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "car",
+        "confidence": 0.5554743409156799,
+        "normX": 0.6792557056133564,
+        "normY": 0.8232608941885141,
+        "normW": 0.2817241962139423,
+        "normH": 0.1442422866821289
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "car",
+        "confidence": 0.5165728330612183,
+        "normX": 0.7441560305081881,
+        "normY": 0.8020926989041842,
+        "normW": 0.23889600313626802,
+        "normH": 0.15460322453425482
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "person",
+        "confidence": 0.43208181858062744,
+        "normX": 0.013570659435712375,
+        "normY": 0.8143000969519982,
+        "normW": 0.08579435486059922,
+        "normH": 0.16614209688626802
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:39:32 GMT",
+        "label": "car",
+        "confidence": 0.6085864901542664,
+        "normX": 0.6696848273277283,
+        "normY": 0.7514580488204956,
+        "normW": 0.3301049470901489,
+        "normH": 0.24528682231903076
+    }
+]
+
+----
+
+Uuid: GECkanAL8mYUv10Y

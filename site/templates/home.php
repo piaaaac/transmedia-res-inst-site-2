@@ -1,3 +1,22 @@
+<script>
+/*
+// https://stackoverflow.com/a/57795495/2501713
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  // dark mode
+}
+
+// move threejs canvas
+var c = document.querySelector("canvas")
+c.style.transform = "translateX(-500px)"
+'translateX(-500px)'
+
+*/
+</script>
+
+
+
+
+
 <?php
 /**
  * @param $trash_fragments from controller
@@ -34,16 +53,32 @@ foreach ($trashImagesTestFiles as $img) {
 
 <!-- V2 from json -->
 
+<?php
+$stepMarkers = [
+  ["advancement" => 0.2, "id" => "appear"],
+  ["advancement" => 0.3, "id" => "flick"],
+  ["advancement" => 0.4, "id" => "flick"],
+  ["advancement" => 0.5, "id" => "console"],
+];
+
+function marker ($id) {
+  return "<div class='marker' data-id='$id'></div>";
+}
+?>
+
+
 <div id="body-content">
   <div id="tiles">
     <?php 
     $index = -1;
+    $nextAdvancementIndex = 0;
     $fff = new Files();
     $fff->add($images0Shape->slice(0, 80));
     $fff->add($images1Language);
     foreach ($fff as $file): 
       $index++;
-      $probHighlight = map($index, 0, $fff->count(), 0.5, 1);
+      $normAdvancement = map($index, 0, $fff->count(), 0, 1);
+      $probHighlight = map($normAdvancement, 0, 1, 0.5, 1);
       $probHighlight = pow($probHighlight, 2);
       $amtHighlightTexts = rand(0, 1000)/1000;
       $thisImageFilename = $file->filename();
@@ -76,6 +111,15 @@ foreach ($trashImagesTestFiles as $img) {
           </div>
         <?php endforeach ?>
       </div>
+      <?php 
+      if (isset($stepMarkers[$nextAdvancementIndex])) {
+        $nextMarker = $stepMarkers[$nextAdvancementIndex];
+        if ($normAdvancement > $nextMarker["advancement"]) {
+          echo marker($nextMarker["id"]);
+          $nextAdvancementIndex++;
+        }
+      }
+      ?>
     <?php endforeach ?>
   </div>
 </div>
@@ -111,8 +155,13 @@ foreach ($trashImagesTestFiles as $img) {
 
 
 <!-- --------------------------------------- -->
-<!-- Inspector -->
+<!-- Create js variables -->
+<!-- Inspector, Creature -->
 <!-- --------------------------------------- -->
+
+<script>
+var c3, cc, cmain;
+</script>
 
 <?php snippet("inspector") ?>
 <?php snippet("creature") ?>
@@ -234,13 +283,88 @@ function injectImage () {
 // highlights.forEach(h => { observer.observe(h); });
 
 
+// ----------------------------------------
+// OBJECT
+// ----------------------------------------
+
+cmain = new CreatureMain();
+
+console.log("cmain created")
+
+function CreatureMain () {
+
+  this.conciousness = cc;
+  this.creature3d = c3;
+  this.self = this;
+
+  this.actions = {
+
+    /**
+     * 
+     * Map to php's $stepMarkers.
+     * eg:
+     *    "appear"
+     *    "console"
+     * 
+     * */
+
+    "appear": function (self) {
+      self.creature3d.flicker();
+    },
+
+    "flick": function (self) {
+      self.creature3d.flicker();
+    },
+
+    "console": function (self) {
+      self.conciousness.actions.start();
+      self.creature3d.resize("small");
+    },
+
+  };
+}
+
+
+// ----------------------------------------
+// MARKERS
+// ----------------------------------------
+
+// var php json_encode($stepMarkers)
+
+var markers = document.querySelectorAll("#tiles .marker")
+const observerMarkers = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // console.log("step marker intersected", entry)
+      // console.log(entry.target.dataset)
+      observerMarkers.unobserve(entry.target);
+      var d = entry.target.dataset;
+      var id = (d.hasOwnProperty("id")) ? d.id : null;
+      if (id && cmain.actions.hasOwnProperty(id)) {
+        cmain.actions[id](cmain);
+      } else {
+        console.log(`marker "${id}" not found in cmain actions`);
+      }
+    }
+  })
+}, { 
+  rootMargin: "-45% 0px", // make window smaller vertically, observing only a central strip of the window
+})
+markers.forEach(h => { observerMarkers.observe(h); });
+
+
+
+
+
+
 
 
 // ----------------------------------------
 // HIGHLIGHTS
 // ----------------------------------------
 
-var highlights = document.querySelectorAll("#tiles .tile .highlight")
+// var highlights = document.querySelectorAll("#tiles .tile .highlight")
+var highlights = document.querySelectorAll(".highlight")
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {

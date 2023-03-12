@@ -9,7 +9,7 @@
 <!-- Highlight - https://highlightjs.org/download/ -->
 <script src="<?= $kirby->url('assets') ?>/lib/highlight/highlight.min.js"></script>
 <!-- <link rel="stylesheet" href="<?= $kirby->url('assets') ?>/lib/highlight/styles/default.min.css"> -->
-<link rel="stylesheet" href="<?= $kirby->url('assets') ?>/lib/highlight/styles/base16/github.min.css">
+<link rel="stylesheet" href="<?= $kirby->url('assets') ?>/lib/highlight/styles/atom-one-dark.min.css">
 
 <!-- lodash (used for scroll debounce) -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script> -->

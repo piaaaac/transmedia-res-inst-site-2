@@ -5,9 +5,6 @@
 - make inspector & creature into objects to control from home.php
 - scale 3d correctly when inspector is open
 
-
-
-
 # TODO
 
 - make a snippet generating an image with highlights 
@@ -24,6 +21,17 @@
 - foglietto (su storyboard)
 
 
+
+# HIGHLIGHT JS DARK THEMES
+
+atom-one-dark
+base16/solarized-dark
+base16/railscasts
+monokai-sublime
+base16/zenburn
+agate
+androidstudio
+base16/dracula
 
 
 # CREDITS

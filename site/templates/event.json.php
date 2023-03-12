@@ -15,7 +15,9 @@ $computerVision = Json::decode($page->computerVisionJson()->value());
 $json['title']            = (string)$page->title();
 $json['names']            = (string)$page->names();
 $json['dateText']         = (string)$page->dateText();
-$json['htmlFullDescription']  = kt($page->fullDescription());
+// $json['htmlFullDescription']  = kt($page->fullDescription());
+$json['htmlDescription']  = snippet("inspector-event-desc", ["event" => $page], true);
+$json['htmlPreview']      = snippet("inspector-event-preview", ["event" => $page], true);
 $json['images']           = $images;
 $json['imagesHighlights'] = $computerVision;
 
