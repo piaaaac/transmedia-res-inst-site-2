@@ -198,59 +198,77 @@ $tileSize-inspector-l: 33.33333333%;
         filter: grayscale(1);
         transition: filter 400ms;
       }
-      .highlight {
-        z-index: 25;
-        position: absolute;
-        border: 1px solid $uicolor;
-        transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 500ms 300ms;
-        width: 0; height: 0;
-        opacity: 0;
-        // overflow: hidden;
-
-        // text
-        p {
-          padding-top: 5px;
-          position: absolute;
-          width: 15vw;
-          width: 100%;
-          height: 100%; 
-          top: 100%;
-          left: 0;
-          // text-align: right;
-          font-size: 8px;
-          font-family: $font-asem;
-          color: $uicolor;
-        }
-
-        &.active { 
-          opacity: 1;
-          transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 200ms;
-        }
-      }
     }
   }
+}
+
+.full-width-content {
+  position: relative;
+  padding-top: 66%;  
+  .img {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.computer-vision {
+
+  // this element should have non-static position, a height and a width
+
+  .highlight {
+    z-index: 25;
+    position: absolute;
+    border: 1px solid $uicolor;
+    transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 500ms 300ms;
+    width: 0; height: 0;
+    opacity: 0;
+    // overflow: hidden;
+
+    // text
+    p {
+      padding-top: 5px;
+      position: absolute;
+      width: 15vw;
+      width: 100%;
+      height: 100%; 
+      top: 100%;
+      left: 0;
+      // text-align: right;
+      font-size: 8px;
+      font-family: $font-asem;
+      color: $uicolor;
+    }
+
+    &.active { 
+      opacity: 1;
+      transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 200ms;
+    }
+  }  
 }
 
 // ------------------------------------------------------------------------
 // Section :: Language
 // ------------------------------------------------------------------------
 
-body[data-page-uid='language'] {
-  #language-bg {
-    position: fixed;
-    top: 0; right: 0; bottom: 0; left: 0;
-    overflow: hidden;
-    background-color: black;
-    .layer {
-      position: absolute;
-      top: -200px; right: -200px; bottom: -200px; left: -200px;
-      filter: blur(5vmax);
-      background-size: cover;
-      background-position: center center;
-      opacity: 0.4;
-    }
-  }
-}
+// body[data-page-uid='language'] {
+//   #language-bg {
+//     position: fixed;
+//     top: 0; right: 0; bottom: 0; left: 0;
+//     overflow: hidden;
+//     background-color: black;
+//     .layer {
+//       position: absolute;
+//       top: -200px; right: -200px; bottom: -200px; left: -200px;
+//       filter: blur(5vmax);
+//       background-size: cover;
+//       background-position: center center;
+//       opacity: 0.4;
+//     }
+//   }
+// }
 
 
 // ------------------------------------------------------------------------

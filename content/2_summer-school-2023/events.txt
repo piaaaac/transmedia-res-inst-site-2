@@ -4,7 +4,7 @@ Title: Summer School 2023
 
 Text:
 
-DDDThe Transmedia Research Institute is a hybrid environment halfway in between a school, a research lab and a residency program for artists where art meets science, technology and ecology.
+The Transmedia Research Institute is a hybrid environment halfway in between a school, a research lab and a residency program for artists where art meets science, technology and ecology.
 ~
 Part online but mostly offline, the Summer School of Bits and Atoms is the place where a transdisciplinary group of artists, scholars, technologists, hackers meet and explore the impact of new technologies and new forms of intelligence on society and culture, focusing in particular on artistic intervention.
 ~

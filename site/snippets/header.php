@@ -21,5 +21,3 @@
   data-template="<?= $page->template() ?>"
 >
   <main>
-
-  <?php snippet("menu") ?>

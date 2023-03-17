@@ -31,20 +31,11 @@ $allDetectedObjects = json_decode($filedata, true);
 // Later
 // $imagesPerRow = 10;
 // make wrappers each row to minimize the n of observed elements
-?>
 
-<?php
 // kill($trash);
 ?>
 
 <?php snippet("header") ?>
-
-<!-- --------------------------------------- -->
-<!-- Tiles -->
-<!-- --------------------------------------- -->
-
-
-<!-- V2 from json -->
 
 <?php
 $stepMarkers = [
@@ -53,14 +44,17 @@ $stepMarkers = [
   ["advancement" => 0.4, "id" => "flick"],
   ["advancement" => 0.5, "id" => "console"],
 ];
-
 function marker ($id) {
   return "<div class='marker' data-id='$id'></div>";
 }
 ?>
 
-
 <div id="body-content">
+
+  <!-- --------------------------------------- -->
+  <!-- Tiles -->
+  <!-- --------------------------------------- -->
+
   <div id="tiles">
     <?php 
     $index = -1;
@@ -79,31 +73,45 @@ function marker ($id) {
         return $val["imageFilename"] === $thisImageFilename;
       });
       ?>
-      <div class="tile" data-detect-count="<?= count($objects) ?>">
-        <div class="img" style="background-image: url('<?= $file->url() ?>');"></div>
+
+      <?php /* V2 */ ?>
+      <?php snippet("computer-vision-image", [
+        "className" => "tile",
+        "imageUrl" => $file->url(),
+        "probHighlight" => $probHighlight,
+        "amtHighlightTexts" => $amtHighlightTexts,
+        "objects" => $objects,
+      ]) ?>
+
+<?php /* V1 */
+      /*
+      <div class="tile computer-vision" data-detect-count="<?= count($objects) ? >">
+        <div class="img" style="background-image: url('<?= $file->url() ? >');"></div>
         <?php foreach ($objects as $o):
           $amt = $amtHighlightTexts;
           $startX = $o["normX"] + $o["normW"]/2;
           $startY = $o["normY"] + $o["normH"]/2;
             // animate from center // style="left: <?= $startX * 100 ? >%; top: <?= $startY * 100 ? >%;"
             // animate from large // style="left: 0; top: 0; width: 100%; height: 100%;"
-          ?>
+          ? >
           <div class="highlight"
-            data-highlight-x="<?= $o["normX"] ?>"
-            data-highlight-y="<?= $o["normY"] ?>"
-            data-highlight-w="<?= $o["normW"] ?>"
-            data-highlight-h="<?= $o["normH"] ?>"
-            data-highlight-probability="<?= $probHighlight ?>"
+            data-highlight-x="<?= $o["normX"] ? >"
+            data-highlight-y="<?= $o["normY"] ? >"
+            data-highlight-w="<?= $o["normW"] ? >"
+            data-highlight-h="<?= $o["normH"] ? >"
+            data-highlight-probability="<?= $probHighlight ? >"
             style="left: -10%; top: -10%; width: 110%; height: 110%;"
           >
             <!-- asemic labels -->
             <!--<p>
-             <?= $o["label"] ." ". $o["confidence"] ?>
-             <?= (rand(0, 100) < $amt * 50) ? randomString(rand(0, $amt * 500), "<br />", 0.03) : "" ?>
+             <?= $o["label"] ." ". $o["confidence"] ? >
+             <?= (rand(0, 100) < $amt * 50) ? randomString(rand(0, $amt * 500), "<br />", 0.03) : "" ? >
             </p>-->
           </div>
-        <?php endforeach ?>
+        <?php endforeach ? >
       </div>
+*/ ?>
+
       <?php 
       if (isset($stepMarkers[$nextAdvancementIndex])) {
         $nextMarker = $stepMarkers[$nextAdvancementIndex];
@@ -130,18 +138,23 @@ console.log(trash)
 
 <?php snippet("inspector") ?>
 
-<!-- --------------------------------------- -->
-<!-- Titles -->
-<!-- --------------------------------------- -->
-
-<div onclick="toggleInspector();" id="title-logo"><img src="<?= $kirby->url("assets")?>/images/title-logo.svg" /></div>
-<div onclick="creatureRefresh();" id="title-summerschool"><img src="<?= $kirby->url("assets")?>/images/title-summerschool.svg" /></div>
-
 <script>
 
 // ----------------------------------------
 // EVENTS
 // ----------------------------------------
+
+// window.addEventListener('DOMContentLoaded', (event) => {
+//   setTimeout(() => { 
+//     window.scrollTo(0, 0); 
+//     console.log("scrolled");
+//   }, 100);
+// });
+
+window.onbeforeunload = function () {
+  document.querySelector('html').style.scrollBehavior = '';
+  window.scrollTo(0, 0);
+}
 
 window.addEventListener('keydown', (e) => {
   // console.log(`Key "${e.key}" pressed`);
@@ -256,7 +269,7 @@ markers.forEach(h => { observerMarkers.observe(h); });
 
 // var highlights = document.querySelectorAll("#tiles .tile .highlight")
 var highlights = document.querySelectorAll(".highlight")
-const observer = new IntersectionObserver(entries => {
+const highlightsObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       // console.log(entry)
@@ -275,7 +288,7 @@ const observer = new IntersectionObserver(entries => {
   // threshold: [ 0.3 ], // relative to element
   rootMargin: "100px 0px", // relative to window (or other container)
 })
-highlights.forEach(h => { observer.observe(h); });
+highlights.forEach(h => { highlightsObserver.observe(h); });
 
 function tileHighlightsOn (el) {
   var highlights = el.querySelectorAll(".highlight");
@@ -306,7 +319,7 @@ function highlightOff (highlightEl) {
 }
 
 function highlightRandomTile () {
-  var tiles = document.querySelectorAll("#tiles .tile:not([data-detect-count='0'])");
+  var tiles = document.querySelectorAll(".computer-vision:not([data-detect-count='0'])");
   var index = Math.floor(tiles.length * Math.random());
   var randomEl = tiles[index];
   tileHighlightsOn(randomEl);
@@ -325,5 +338,11 @@ window.addEventListener('keydown', (e) => {
 
 </script>
 
+<!-- --------------------------------------- -->
+<!-- Titles -->
+<!-- --------------------------------------- -->
+
+<div onclick="cmain.userActions.reset();" class="pointer" id="title-logo"><img src="<?= $kirby->url("assets")?>/images/title-logo.svg" /></div>
+<div onclick="loadAbout();" class="pointer" id="title-summerschool"><img src="<?= $kirby->url("assets")?>/images/title-summerschool.svg" /></div>
 
 <?php snippet("footer") ?>

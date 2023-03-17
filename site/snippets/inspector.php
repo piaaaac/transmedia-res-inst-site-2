@@ -95,6 +95,7 @@ $events = page("summer-school-2023")->children()->listed();
   }
 
   function loadAbout () {
+    toggleInspector(true);
     var url = "<?= $site->url() ?>/summer-school-2023.json";
     fetch(url).then(response => {
         return response.json();
@@ -126,7 +127,7 @@ $events = page("summer-school-2023")->children()->listed();
       }).then(jsonData => {
         bodyContent.classList.add("blur")
         setTimeout(() => { 
-          // bodyContent.textContent = ""
+          bodyContent.textContent = ""
           handleReceivedEventData(jsonData)
         }, 600);
       }).catch(err => {
@@ -191,17 +192,10 @@ $events = page("summer-school-2023")->children()->listed();
       bodyContent.classList.remove("blur")
       window.scrollTo(0, 0);
 
-      // jsonData.images.forEach((imgUrl, i) => {
-      //   var img = document.createElement("img")
-      //   img.src = imgUrl
-      //   img.classList.add("event-image")
-      //   if (i == 0) {
-      //     // img.scrollIntoView(true)
-      //     window.scrollTo(0, 0);
-      //     bodyContent.classList.remove("blur")
-      //   }
-      //   bodyContent.appendChild(img)
-      // })
+      // connect intersectionObserver
+      highlightsObserver.disconnect();
+      highlights = document.querySelectorAll(".highlight")
+      highlights.forEach(h => { highlightsObserver.observe(h); });
     });
   }
 
