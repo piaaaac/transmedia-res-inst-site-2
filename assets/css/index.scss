@@ -100,27 +100,6 @@ p {
 // -----------------------------------------------------------------------------
 
 // ------------------------------------------------------------------------
-// Part :: Trash columns
-// ------------------------------------------------------------------------
-
-#trash-columns {
-  position: fixed;
-  z-index: 10;
-  top: 0; right: 0; bottom: 0; left: 0;
-  pointer-events: none;
-  .trash-column {
-    // border: 1px solid green;
-    font-family: $font-mono;
-    font-size: 9px;
-    color: rgba(255,255,255,0.5);
-    line-break: anywhere;
-    p {
-      margin: 0;
-    }
-  }
-}
-
-// ------------------------------------------------------------------------
 // Section :: Titles
 // ------------------------------------------------------------------------
 
@@ -161,10 +140,15 @@ $tileSize-inspector-l: 33.33333333%;
   z-index: 20;
   position: relative;
   width: 100%;
-  transition: width 200ms, filter 600ms;
+  transition: width 400ms, filter 400ms, transform 400ms;
 
   &.blur {
     filter: blur(50px);
+    transform: scaleX(1.3);
+  }
+  &.blur-x2 {
+    filter: blur(250px);
+    transform: scaleX(1.3);
   }
   
 
@@ -330,7 +314,7 @@ $cc-text-alert: #AAAA00;
   align-items: stretch;
   justify-content: flex-start;
 
-  transition: bottom 200ms, right 200ms;
+  transition: bottom 400ms, right 400ms;
   // opacity: 0;
   
   // --- Translucid BG
@@ -481,7 +465,7 @@ $cc-text-alert: #AAAA00;
         border-bottom: 1px solid #FFF5C2;
         &::before {
           position: absolute;
-          content: url('../images/icon-console-alert.svg');
+          content: url('../images/icon-theme_dark-console-alert.svg');
           left: 7px;
         }
       }
@@ -493,7 +477,7 @@ $cc-text-alert: #AAAA00;
         border-bottom: 1px solid #FFD6D6;
         &::before {
           position: absolute;
-          content: url('../images/icon-console-error.svg');
+          content: url('../images/icon-theme_dark-console-error.svg');
           left: 7px;
         }
       }
@@ -503,6 +487,18 @@ $cc-text-alert: #AAAA00;
         // background-color: white;
         border-top: 1px solid #F0F0F0;
         border-bottom: 1px solid #F0F0F0;
+      }
+      &.c-conciousness {
+        z-index: 12;
+        color: $uicolor;
+        // background-color: white;
+        border-top: 1px solid #F0F0F0;
+        border-bottom: 1px solid #F0F0F0;
+        &::before {
+          position: absolute;
+          content: url('../images/icon-theme_dark-console-conciousness.svg');
+          left: 7px;
+        }
       }
       &.c-log-user-input {
         z-index: 12;
@@ -581,6 +577,7 @@ $cc-text-alert: #AAAA00;
     &[data-tab="sources"] .header a.tab[data-name="sources"],
     &[data-tab="network"] .header a.tab[data-name="network"] {
       color: rgba(255, 255, 255, 0.7) !important;
+      background-color: black;
     }
     .header {
       background-color: #202124;
@@ -604,18 +601,25 @@ $cc-text-alert: #AAAA00;
         border-top: 1px solid rgba(255, 255, 255, 0.03);
         border-bottom: 1px solid rgba(255, 255, 255, 0.03);
       }
-      &.c-content { color: rgba(255, 255, 255, 0.7); }
-      &.c-alert {
-        // color: rgba(255,255,255, 0.2);
-        background-color: rgba(yellow, 0.1);
+      &.c-conciousness {
         border-top: 1px solid rgba(255, 255, 255, 0.03);
         border-bottom: 1px solid rgba(255, 255, 255, 0.03);
       }
+      &.c-content { color: rgba(255, 255, 255, 0.7); }
+      &.c-alert {
+        color: #CF962C;
+        background-color: rgba(#CF962C, 0.2);
+        border-top: 1px solid #554C35;
+        border-bottom: 1px solid #554C35;
+      }
       &.c-error {
-        // color: rgba(255,255,255, 0.2);
+        color: #BC0908;
         background-color: rgba(red, 0.1);
-        border-top: 1px solid rgba(255, 255, 255, 0.03);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        border-top: 1px solid #4A2F33;
+        border-bottom: 1px solid #4A2F33;
+      }
+      &.c-log-user-input {
+        color: rgba(255, 255, 255, 0.7);
       }
     }
     #input-area input#console-input { color: rgba(255, 255, 255, 0.7); }
@@ -626,6 +630,9 @@ $cc-text-alert: #AAAA00;
 
 body[data-inspector-open="true"] {
   #body-content {
+    @include media-breakpoint-down(md) {
+      padding-bottom: 50vh;
+    }
     @include media-breakpoint-up(lg) {
       width: #{100vw - $inspector-w-lg};
     }

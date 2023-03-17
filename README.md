@@ -24,14 +24,14 @@
 
 # HIGHLIGHT JS DARK THEMES
 
-atom-one-dark
-base16/solarized-dark
-base16/railscasts
-monokai-sublime
-base16/zenburn
-agate
-androidstudio
-base16/dracula
+    atom-one-dark
+x   base16/solarized-dark
+    base16/railscasts
+    monokai-sublime
+    base16/zenburn
+    agate
+    androidstudio
+    base16/dracula
 
 
 # CREDITS

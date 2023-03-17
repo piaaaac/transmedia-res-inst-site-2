@@ -24,7 +24,7 @@ $events = page("summer-school-2023")->children()->listed();
   <div class="content" id="inspector-content-network">
     <?php foreach ($events as $event): ?>
       <div class="item c-content">
-        <?php snippet("inspector-event-preview", ["event" => $event]) ?>
+        <?php snippet("inspector-content-event-preview", ["event" => $event]) ?>
       </div>
     <?php endforeach ?>
     <div class="item c-log">
@@ -42,6 +42,14 @@ $events = page("summer-school-2023")->children()->listed();
   
   <!-- console -->
   <div class="content" id="inspector-content-console">
+
+    <!--  
+    <div class="item c-conciousness">
+      <span class="src-file">VM12835:1</span>
+      <div>create mode 129842 assets/lib/threejs/three.module.js</div>
+    </div>
+    -->
+
     <div id="input-area" onclick="focusInput();">
       <input type="text" id="console-input"  />
     </div>
@@ -58,7 +66,7 @@ $events = page("summer-school-2023")->children()->listed();
 
   var bodyContent = document.getElementById("body-content") 
   var consoleContentDiv = document.querySelector("#inspector #inspector-content-console")
-  cc = new CreatureConciousness();
+  cc = new CreatureConciousness(trash); // parsed from php in home template, comes from site/controllers/home.php
   
   // -----------------------------
   // Setup stuff
@@ -86,13 +94,26 @@ $events = page("summer-school-2023")->children()->listed();
     input.focus()
   }
 
+  function loadAbout () {
+    var url = "<?= $site->url() ?>/summer-school-2023.json";
+    fetch(url).then(response => {
+        return response.json();
+      }).then(jsonData => {
+        // console.log(jsonData)
+        handleReceivedAboutData(jsonData.htmlText);
+        bodyContent.classList.add("blur")
+      }).catch(err => {
+        console.log("Error fetching page:", err);
+      });
+  }
+
   function loadEvents () {
     var url = "<?= $site->url() ?>/summer-school-2023.json";
     fetch(url).then(response => {
         return response.json();
       }).then(jsonData => {
-        console.log(jsonData)
-        handleReceivedEventsData(jsonData);
+        // console.log(jsonData)
+        handleReceivedEventsData(jsonData.events);
       }).catch(err => {
         console.log("Error fetching page:", err);
       });
@@ -105,39 +126,51 @@ $events = page("summer-school-2023")->children()->listed();
       }).then(jsonData => {
         bodyContent.classList.add("blur")
         setTimeout(() => { 
-          bodyContent.textContent = ""
+          // bodyContent.textContent = ""
           handleReceivedEventData(jsonData)
-        }, 1600);
+        }, 600);
       }).catch(err => {
         console.log("Error fetching page:", err);
       });
   }
 
-  function handleReceivedEventsData (jsonData) {
-    // jsonData = [{ names, title, dateText, htmlPreview }, {}, …]
+  function handleReceivedAboutData (aboutHtml) {
+    setTimeout(() => { cc.randomLogs(4); }, 50);
+    setTimeout(() => {
+      log(aboutHtml, { type: "content", srcFile: false, content: "html" })
+    }, 150);
+    setTimeout(() => { cc.randomLogs(4); }, 250);
+  }
+
+  function handleReceivedEventsData (events) {
+    // events = [{ names, title, dateText, htmlPreview }, {}, …]
     
-    function logNextEventPreview (jsonData) {
+    function logNextEventPreview (events) {
       if (Math.random() < 0.2) {
-        var event = jsonData.splice(jsonData.length-1, 1)[0]
-        console.log(event)
+        var event = events.splice(events.length-1, 1)[0]
+        // console.log(event)
         log(event.htmlPreview, { type: "content", srcFile: false, content: "html" })
       } else {
         cc.randomLog();
       }
-      if (jsonData.length > 0) {
+      if (events.length > 0) {
         // var time = 100 + Math.random() * 100;
         setTimeout(() => {
-          logNextEventPreview(jsonData)
+          logNextEventPreview(events)
         }, 100);
       } else {
         cc.randomLogs(8)
       }
     }
-    logNextEventPreview(jsonData);
+    logNextEventPreview(events);
   }
 
   function handleReceivedEventData (jsonData) {
+    console.log("--------------------");
     console.log(jsonData);
+    console.log("--------------------");
+
+    // htmlImages
 
     cc.messyCleanConsole(() => {
 
@@ -153,23 +186,28 @@ $events = page("summer-school-2023")->children()->listed();
         }, 100*i);
       })
 
-      jsonData.images.forEach((imgUrl, i) => {
-        var img = document.createElement("img")
-        img.src = imgUrl
-        img.classList.add("event-image")
-        if (i == 0) {
-          // img.scrollIntoView(true)
-          window.scrollTo(0, 0);
-          bodyContent.classList.remove("blur")
-        }
-        bodyContent.appendChild(img)
-      })
+      bodyContent.querySelectorAll("img.event-image").forEach(imgEl => { imgEl.remove(); });
+      bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
+      bodyContent.classList.remove("blur")
+      window.scrollTo(0, 0);
+
+      // jsonData.images.forEach((imgUrl, i) => {
+      //   var img = document.createElement("img")
+      //   img.src = imgUrl
+      //   img.classList.add("event-image")
+      //   if (i == 0) {
+      //     // img.scrollIntoView(true)
+      //     window.scrollTo(0, 0);
+      //     bodyContent.classList.remove("blur")
+      //   }
+      //   bodyContent.appendChild(img)
+      // })
     });
   }
 
   function log (data, logOptions) {
     var defaults = {
-      type: "log",          // log|alert|error|userinput|content
+      type: "log",          // log|alert|error|userinput|content|conciousness
       textClass: "",        // string
       content: "textNode",  // textNode|html
       srcFile: "auto",      // string "filename:line"
@@ -178,6 +216,7 @@ $events = page("summer-school-2023")->children()->listed();
     // remove undefined (via https://stackoverflow.com/a/38340374/2501713)
     logOptions && Object.keys(logOptions).forEach(key => logOptions[key] === undefined && delete logOptions[key]) 
     var options = Object.assign({}, defaults, logOptions);
+
     if (options.srcFile == "auto") {
       var d = new Date();
       var fakeVM = "VM"+ d.getDate();
@@ -190,6 +229,7 @@ $events = page("summer-school-2023")->children()->listed();
     
     var typeMap = {
       content: "c-content",
+      conciousness: "c-conciousness",
       log: "c-log",
       alert: "c-alert",
       error: "c-error",
@@ -240,14 +280,6 @@ $events = page("summer-school-2023")->children()->listed();
     focusInput()
   }
 
-  function handleConsoleInput (command) {
-    if (command.trim() == "") {
-      return;
-    }
-    log(command, {type: "userinput", srcFile: ""})
-    cc.saySentence("dont_understand", command);
-  }
-
   function toTab (name) {
     document.getElementById("inspector").dataset.tab = name;
     if (name === "console") {
@@ -285,7 +317,7 @@ $events = page("summer-school-2023")->children()->listed();
   // via https://stackoverflow.com/a/18750001
   function escapeHtml (html) {
     var escaped = html.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
-    console.log(escaped)
+    // console.log(escaped)
     return escaped;
   }
 
@@ -297,7 +329,7 @@ $events = page("summer-school-2023")->children()->listed();
     if (e.key === 'Enter' || e.keyCode === 13) {
       var input = document.getElementById("console-input")
       var command = input.value
-      handleConsoleInput(command);
+      cc.handleConsoleInput(command);
       input.value = ""
     }
   });
@@ -307,22 +339,27 @@ $events = page("summer-school-2023")->children()->listed();
   // Data structures
   // -----------------------------
 
-  function CreatureConciousness () {
+  function CreatureConciousness (trash) {
 
+    this.trash = trash;
+    var self = this;
+
+    // ========================================================================================
     // Contents
-    // ========
+    // ========================================================================================
 
     this.sentences = {
       "dont_understand": (command) => {
-        return `I don't understand ${command}. <a class="pointer" onclick="cc.actions.vocabulary();">Here</a> is what I know so far.`;
+        return `I don't understand ${command}. <a class="pointer" onclick="cc.actions.vocabulary();">Here</a> are the commands I know so far.`;
       },
     }
 
-    // Actions (basic)
-    // =======
+    // ========================================================================================
+    // Base Actions
+    // ========================================================================================
 
     this.say = (string) => {
-      log(string, {type: "alert", content: "html", srcFile: "creature.js:"+ Math.floor(Math.random()*1000)})
+      log(string, {type: "conciousness", content: "html", srcFile: "conciousness.js:"+ Math.floor(Math.random()*1000)})
     }
 
     this.saySentence = (key, data) => {
@@ -332,41 +369,120 @@ $events = page("summer-school-2023")->children()->listed();
       this.say(this.sentences[key](data))
     }
 
-    this.logEventText = (text, size) => {
-      var textClass = "";
-      if (size === "l") {
-        textClass = "font-sans-l";
-      } else if (size === "m") {
-        textClass = "font-sans-m";
+
+    this.handleConsoleInput = function (command) {
+      var cmd = command.trim();
+      if (cmd == "") {
+        return;
       }
-      log(text, { type: "content", textClass: textClass, srcFile: false })
-    }
-
-    this.logEventHtml = (html, size) => {
-      var textClass = "";
-      if (size === "l") {
-        textClass = "font-sans-l";
-      } else if (size === "m") {
-        textClass = "font-sans-m";
+      log(cmd, {type: "userinput", srcFile: ""})
+      
+      // check if command exists
+      var existingCmd = null;
+      if (Object.keys(self.userActions).includes(cmd)) {
+        existingCmd = cmd;
+      } else if(Object.keys(self.userActionAliases).includes(cmd)) {
+        existingCmd = self.userActionAliases[cmd];
       }
-      log(html, { type: "content", textClass: textClass, srcFile: false, content: "html" })
+
+      // react
+      if (existingCmd !== null) {
+        // self.actions.loading("~", 100, function () {
+        //   self.userActions[existingCmd]();
+        // });
+        
+
+        // self.userActions[existingCmd]();
+
+
+        log("");
+        self.randomLogs(Math.random()*5 + 5, {forceLogMode: "replaceLast"}, function () {
+          // log(cmd, {type: "userinput", srcFile: "", mode: "replaceLast"})
+          self.userActions[existingCmd]();
+        });
+
+
+      } else {
+        self.saySentence("dont_understand", cmd);
+      }
     }
 
-    this.randomLog = () => {
-      var types = ["log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "alert", "alert", "alert", "error"];
-      var modes = ["append", "append", "replaceLast"];
-      var textClasses = ["font-asem-s", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-      var type = types[Math.floor(Math.random() * types.length)];
-      var mode = modes[Math.floor(Math.random() * modes.length)];
-      var textClass = textClasses[Math.floor(Math.random() * textClasses.length)];
-      var data = trashLines[Math.floor(Math.random() * trashLines.length)];
-      log(data, {"type": type, "mode": mode, "textClass": textClass});
+    this.commandLinkHtml = function (command) {
+      return `<a class="pointer" onclick="cc.userActions['${command}']();">${command}</a>`;
     }
 
-    this.randomLogs = function (times = 1) {
+    /**
+     *
+     * -----------------------
+     * @param randomLogOptions = {
+     *    trashType
+     *        site_contents
+     *        geoplugin_raw
+     *        geoplugin_parsed
+     *        wikipedia_api
+     *        hardcoded_git_create
+     *        hardcoded_git_edits
+     *        hardcoded_server
+     *        hardcoded_all
+     *        apache_request_headers
+     *    forceLogMode
+     *        false         - random
+     *        "append"      - according to log options
+     *        "replaceLast" - according to log options
+     * 
+     * }
+     * 
+     * */
+    this.randomLog = (randomLogOptions) => {
+      var defaults = {
+        trashType: "hardcoded_server",
+        trashType: "all",
+        forceLogMode: false,
+      };
+      // remove undefined (via https://stackoverflow.com/a/38340374/2501713)
+      randomLogOptions && Object.keys(randomLogOptions).forEach(key => randomLogOptions[key] === undefined && delete randomLogOptions[key]) 
+      var options = Object.assign({}, defaults, randomLogOptions);
+
+      var trashArray = self.trash.by_source[options.trashType];
+      if (options.trashType === "all") {
+        trashArray = [];
+        Object.keys(self.trash.by_source).forEach((key) => {
+          trashArray = trashArray.concat(self.trash.by_source[key]);
+        });
+      }
+
+      var logTypes = ["log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "alert", "alert", "alert", "error"];
+      var logModes = ["append", "append", "replaceLast"];
+      var logTextClasses = ["font-asem-s", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+      var logType = logTypes[Math.floor(Math.random() * logTypes.length)];
+      var logMode = logModes[Math.floor(Math.random() * logModes.length)];
+      if (options.forceLogMode !== false) { logMode = options.forceLogMode; }
+      var logTextClass = logTextClasses[Math.floor(Math.random() * logTextClasses.length)];
+      
+      var index = Math.floor(Math.random() * trashArray.length);
+      var data = trashArray[index];
+      if (data && data.length > 150) {
+        console.log("data.length", data.length)
+        console.log("data", data)
+        console.log("index", index)
+        console.log("trashArray", trashArray)
+        data = data.substring(0, 150) +" […"+ (data.length-150) +"chr]";
+      } else {
+        console.log("data", data)
+
+      }
+      log(data, {"type": logType, "mode": logMode, "textClass": logTextClass});
+    }
+
+    this.randomLogs = function (times = 1, randomLogOptions = {}, callback) {
       var self = this;
       for (var i = 0; i < times; i++) {
-        setTimeout(self.randomLog, 100*i);
+        setTimeout(function () {
+          self.randomLog(randomLogOptions); 
+        }, 10*i);
+      }
+      if (callback && typeof callback === "function") {
+        setTimeout(callback, times * 100 + 10);
       }
     }
 
@@ -388,9 +504,30 @@ $events = page("summer-school-2023")->children()->listed();
       }, time)
     }
 
+    // this.logEventText = (text, size) => {
+    //   var textClass = "";
+    //   if (size === "l") {
+    //     textClass = "font-sans-l";
+    //   } else if (size === "m") {
+    //     textClass = "font-sans-m";
+    //   }
+    //   log(text, { type: "content", textClass: textClass, srcFile: false })
+    // }
+
+    // this.logEventHtml = (html, size) => {
+    //   var textClass = "";
+    //   if (size === "l") {
+    //     textClass = "font-sans-l";
+    //   } else if (size === "m") {
+    //     textClass = "font-sans-m";
+    //   }
+    //   log(html, { type: "content", textClass: textClass, srcFile: false, content: "html" })
+    // }
+
+
+    // ========================================================================================
     // Actions (structured)
-    // =======
-    var self = this;
+    // ========================================================================================
 
     this.actions = {
 
@@ -423,7 +560,7 @@ $events = page("summer-school-2023")->children()->listed();
         // function 
       },
 
-      "loading": function (text, totalTime) {
+      "loading": function (text, totalTime, callback) {
 
         var time = 0;
         var adv = 0;
@@ -442,124 +579,66 @@ $events = page("summer-school-2023")->children()->listed();
             "time": time,
           });
           logMode = "replaceLast";
-          // console.log(messages)
         }
+
+        var finalTime = time + Math.random() * 400;
         messages.push({
           "text": `${text} [DONE]`,
           "mode": logMode,
-          "time": time + Math.random() * 1000,
+          "time": finalTime,
         })
 
         messages.forEach(message => {
           setTimeout(function () {
-            // console.log(message)
             log(message.text, {mode: message.mode})
           }, message.time);
         })
+
+        if (callback && typeof callback === "function") {
+          setTimeout(function () {
+            callback();
+          }, finalTime);
+        }
+
+
       },
 
       "vocabulary": () => {
-        
-        log("genesis()")
-        log("research()")
-        log("language()")
+        // var html = Object.keys(self.userActions).join("<br />")
+        // log(html);
+
+        // Object.keys(self.userActions).forEach(key => {
+        //   self.say(key)
+        // });
+
+        Object.keys(self.userActions).forEach(key => {
+          self.say(self.commandLinkHtml(key))
+        });
       },
 
     }
+
+    // ========================================================================================
+    // User Actions (console user input)
+    // ========================================================================================
+    // 
+    // Only oneliners! 
+    // for more complex actions define one in this.actions
+    // 
+
+    this.userActions = {
+      "help":     function () { self.actions.vocabulary(); },
+      "about":    function () { loadAbout(); },
+      "program":  function () { loadEvents(); },
+      "hello":    function () { self.say("hello"); },
+      "reset":    function () { window.location.reload(); },
+    }
+    this.userActionAliases = {
+      "hi":     "hello",
+      "ciao":   "hello",
+      "hey":    "hello",
+    }
   }
-
-  var trashLines = [
-    "create mode 100644 assets/lib/highlight/es/languages/abnf.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/accesslog.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/actionscript.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/ada.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/angelscript.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/apache.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/applescript.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/arcade.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/arduino.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/armasm.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/asciidoc.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/aspectj.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/autohotkey.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/autoit.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/avrasm.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/awk.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/axapta.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/bash.min.js",
-    "create mode 129842 assets/css/index.scss",
-    "create mode 129842 assets/css/_typography.scss",
-    "create mode 129842 assets/css/_reset.scss",
-    "create mode 129842 assets/css/hamburger-settings.css.map",
-    "create mode 129842 assets/css/bootstrap-custom.css.map",
-    "create mode 129842 assets/css/index.css",
-    "create mode 129842 assets/css/index.css.map",
-    "create mode 129842 assets/css/prepros.config",
-    "create mode 129842 assets/css/bootstrap-custom.css",
-    "create mode 129842 assets/css/hamburger-settings.css",
-    "create mode 129842 assets/css/_mixins.scss",
-    "create mode 129842 assets/css/bootstrap-custom.scss",
-    "create mode 129842 assets/models/13.obj",
-    "create mode 129842 assets/models/12.obj",
-    "create mode 129842 assets/models/10.obj",
-    "create mode 129842 assets/models/11.obj",
-    "create mode 129842 assets/models/9.obj",
-    "create mode 129842 assets/models/8.obj",
-    "create mode 129842 assets/models/3.obj",
-    "create mode 129842 assets/models/2.obj",
-    "create mode 129842 assets/models/1.obj",
-    "create mode 129842 assets/models/5.obj",
-    "create mode 129842 assets/models/4.obj",
-    "create mode 129842 assets/models/6.obj",
-    "create mode 129842 assets/models/7.obj",
-    "create mode 129842 assets/lib/jquery-3.6.0.min.js",
-    "create mode 129842 assets/lib/es-module-shims.js",
-    "create mode 129842 assets/lib/threejs",
-    "create mode 129842 assets/lib/threejs/three.module.js",
-    "create mode 129842 assets/data",
-    "create mode 129842 assets/data/1-mergedObjectsDetected.json",
-    "create mode 129842 assets/data/5-merge1-2-4-objectsDetected.json",
-    "create mode 129842 assets/data/3-merge1-2-objectsDetected.json",
-
-    "modified:   README.md",
-    "modified:   assets/css/index.css",
-    "deleted:    assets/css/index.css.map",
-    "modified:   assets/css/index.scss",
-    "modified:   content/2_summer-school-2023/events.txt",
-    "modified:   site/snippets/creature.php",
-    "modified:   site/snippets/inspector.php",
-    "modified:   site/snippets/load-scripts.php",
-    "modified:   site/templates/home.php",
-    "assets/css/prepros.config",
-    "assets/lib/es-module-shims.js",
-
-    "[REMOTE_ADDR] => 93.35.168.247",
-    "[HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9",
-    "[HTTP_ACCEPT_ENCODING] => gzip, deflate, br",
-    "[HTTP_SEC_FETCH_DEST] => document",
-    "[HTTP_SEC_FETCH_USER] => ?1",
-    "[HTTP_SEC_FETCH_MODE] => navigate",
-    "[HTTP_SEC_FETCH_SITE] => none",
-    "[HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,* /*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "[HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
-    "[HTTP_DNT] => 1",
-    "[HTTP_SEC_CH_UA_PLATFORM] => 'macOS'",
-    "[HTTP_SEC_CH_UA_MOBILE] => ?0",
-    "[HTTP_SEC_CH_UA] => 'Not A(Brand';v='24', 'Chromium';v='110'",
-    "[HTTP_CACHE_CONTROL] => max-age=0",
-    "[HTTP_CONNECTION] => close",
-    "[HTTP_X_FORWARDED_PROTO] => https",
-    "[HTTP_X_FORWARDED_PORT] => 443",
-    "[HTTP_X_REAL_IP] => 93.35.168.247",
-    "[HTTP_HOST] => www.transmediaresearch.institute",
-    "[proxy-nokeepalive] => 1",
-    "[HTTPS] => on",
-    "[FCGI_ROLE] => RESPONDER",
-    "[PHP_SELF] => /ktest/index.php",
-    "[REQUEST_TIME_FLOAT] => 1676452827.7297",
-    "[REQUEST_TIME] => 1676452827",
-
-  ];
 
 </script>
 

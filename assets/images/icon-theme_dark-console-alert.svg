@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-theme_dark-console-alert</title>
+    <g id="icon-theme_dark-console-alert" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-16" transform="translate(0.500000, 0.551192)">
+            <path d="M6.37621591,1.59311983 L10.1849447,8.51808125 C10.4511011,9.00200193 10.2745682,9.61005953 9.79064753,9.87621591 C9.64300255,9.95742065 9.47723175,10 9.30872878,10 L1.69127122,10 C1.13898647,10 0.691271221,9.55228475 0.691271221,9 C0.691271221,8.83149703 0.733850572,8.66572623 0.815055312,8.51808125 L4.62378409,1.59311983 C4.88994047,1.10919915 5.49799807,0.932666299 5.98191875,1.19882268 C6.14807847,1.29021052 6.28482807,1.42696012 6.37621591,1.59311983 Z" id="Rectangle" fill="#CF962C"></path>
+            <polygon id="Rectangle" stroke="#CF962C" stroke-width="0.5" fill="#3B3D25" points="4.32026318 2.71593849 6.67973682 2.71593849 6.44378946 6.71593849 4.55621054 6.71593849"></polygon>
+            <ellipse id="Oval" stroke="#CF962C" stroke-width="0.5" fill="#3B3D25" cx="5.5" cy="8.38683946" rx="1.3083398" ry="1"></ellipse>
+        </g>
+    </g>
+</svg>

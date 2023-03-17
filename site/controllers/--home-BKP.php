@@ -8,7 +8,7 @@ return function ($page, $site, $kirby) {
    * ----------------------------------------------
    * 1. PREPARE TRASH PIECES
    * 
-   *    Trash pieces are stored in the $trash_by_source[] array
+   *    Trash pieces are stored in the $trash_from_sources[] array
    *    and are produced using these sources:
    * 
    *    1A. site contents
@@ -19,29 +19,18 @@ return function ($page, $site, $kirby) {
    * ----------------------------------------------
    */
 
-  // keep this list updated!
-  $trash_by_source = [];
-  $trash_by_source["site_contents"] = [];
-  // $trash_by_source["geoplugin_raw"] = null;
-  $trash_by_source["geoplugin_parsed"] = null;
-  $trash_by_source["wikipedia_api"] = null;
-  $trash_by_source["hardcoded_git_create"] = null;
-  $trash_by_source["hardcoded_git_edits"] = null;
-  $trash_by_source["hardcoded_server"] = null;
-  $trash_by_source["hardcoded_all"] = null;
-  $trash_by_source["apache_request_headers"] = null;
+  $trash_from_sources = [];
 
   // ------------------------------
   // 1A. Site contents
   // ------------------------------
   foreach (page("summer-school-2023")->children()->listed() as $event) {
-    $eventData = [
+    $trash_from_sources[] = [
       "names"             => (string)$event->names(),
       "dateText"          => (string)$event->dateText(),
       "shortDescription"  => (string)$event->shortDescription(),
       "fullDescription"   => (string)$event->fullDescription(),
     ];
-    $trash_by_source["site_contents"][] = json_encode($eventData);
   }
 
 
@@ -99,18 +88,14 @@ return function ($page, $site, $kirby) {
   $geo = [];
   try {
     $geoRaw = file_get_contents('http://www.geoplugin.net/php.gp?ip='. $ipAddress);
-    // $trash_by_source["geoplugin_raw"] = [$geoRaw];
+    $trash_from_sources[] = $geoRaw;
     $geo = unserialize($geoRaw);
   } catch (Exception $e) {
     $geo["geoplugin_status"] = 666;
     $geo["exception"] = 'Error getting location: '. $e->getMessage();
   }
 
-// return [ "trash" => $geo ]; // return debug data from controller
-
   if (isset($geo["geoplugin_status"]) && $geo["geoplugin_status"] === 200) { // if successfully got location info
-
-    $trash_by_source["geoplugin_parsed"] = $geo; // save in $trash variable
 
     // ------------------------------------------------------
     // Wikipedia.org API - https://en.wikipedia.org/w/api.php
@@ -120,7 +105,6 @@ return function ($page, $site, $kirby) {
     $wiki = json_decode(file_get_contents("https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=hawaii&explaintext&format=json"), true);
     */
 
-
     // City, region, country or continent
     $geoplugin_key = null;
     if (isset($geo["geoplugin_city"]) && strlen($geo["geoplugin_city"]) > 0) { $geoplugin_key = "geoplugin_city"; }
@@ -129,7 +113,7 @@ return function ($page, $site, $kirby) {
     elseif (isset($geo["geoplugin_continentName"]) && strlen($geo["geoplugin_continentName"]) > 0) { $geoplugin_key = "geoplugin_continentName"; }
     $wikiRequestName = urlencode($geo[$geoplugin_key]);
     $wikiJson = file_get_contents("https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=". $wikiRequestName ."&explaintext&format=json");
-    // $trash_by_source[] = $wikiJson;
+    $trash_from_sources[] = $wikiJson;
     $wiki = json_decode($wikiJson, true);
 
     $wikiText = null;
@@ -137,7 +121,6 @@ return function ($page, $site, $kirby) {
       foreach ($wiki["query"]["pages"] as $key => $p) {
         if (isset($p["extract"]) && $wikiText === null) {
           $wikiText = $p["extract"]; // save text of first of returned pages
-          $trash_by_source["wikipedia_api"] = [$wikiText];
         }
       }
     }
@@ -147,128 +130,33 @@ return function ($page, $site, $kirby) {
   // 1C. manually added nerdy strings (eg from git)
   // ------------------------------------------------------------
 
-  $trash_by_source["hardcoded_git_create"] = [
-    "create mode 100644 assets/lib/highlight/es/languages/abnf.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/accesslog.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/actionscript.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/ada.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/angelscript.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/apache.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/applescript.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/arcade.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/arduino.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/armasm.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/asciidoc.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/aspectj.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/autohotkey.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/autoit.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/avrasm.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/awk.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/axapta.min.js",
-    "create mode 100644 assets/lib/highlight/es/languages/bash.min.js",
-    "create mode 129842 assets/css/index.scss",
-    "create mode 129842 assets/css/_typography.scss",
-    "create mode 129842 assets/css/_reset.scss",
-    "create mode 129842 assets/css/hamburger-settings.css.map",
-    "create mode 129842 assets/css/bootstrap-custom.css.map",
-    "create mode 129842 assets/css/index.css",
-    "create mode 129842 assets/css/index.css.map",
-    "create mode 129842 assets/css/prepros.config",
-    "create mode 129842 assets/css/bootstrap-custom.css",
-    "create mode 129842 assets/css/hamburger-settings.css",
-    "create mode 129842 assets/css/_mixins.scss",
-    "create mode 129842 assets/css/bootstrap-custom.scss",
-    "create mode 129842 assets/models/13.obj",
-    "create mode 129842 assets/models/12.obj",
-    "create mode 129842 assets/models/10.obj",
-    "create mode 129842 assets/models/11.obj",
-    "create mode 129842 assets/models/9.obj",
-    "create mode 129842 assets/models/8.obj",
-    "create mode 129842 assets/models/3.obj",
-    "create mode 129842 assets/models/2.obj",
-    "create mode 129842 assets/models/1.obj",
-    "create mode 129842 assets/models/5.obj",
-    "create mode 129842 assets/models/4.obj",
-    "create mode 129842 assets/models/6.obj",
-    "create mode 129842 assets/models/7.obj",
-    "create mode 129842 assets/lib/jquery-3.6.0.min.js",
-    "create mode 129842 assets/lib/es-module-shims.js",
-    "create mode 129842 assets/lib/threejs",
-    "create mode 129842 assets/lib/threejs/three.module.js",
-    "create mode 129842 assets/data",
-    "create mode 129842 assets/data/1-mergedObjectsDetected.json",
-    "create mode 129842 assets/data/5-merge1-2-4-objectsDetected.json",
-    "create mode 129842 assets/data/3-merge1-2-objectsDetected.json",
-  ];
-  $trash_by_source["hardcoded_git_edits"] = [
-    "modified:   README.md",
-    "modified:   assets/css/index.css",
-    "deleted:    assets/css/index.css.map",
-    "modified:   assets/css/index.scss",
-    "modified:   content/2_summer-school-2023/events.txt",
-    "modified:   site/snippets/creature.php",
-    "modified:   site/snippets/inspector.php",
-    "modified:   site/snippets/load-scripts.php",
-    "modified:   site/templates/home.php",
-    "assets/css/prepros.config",
-    "assets/lib/es-module-shims.js",
-  ];
-  $trash_by_source["hardcoded_server"] = [
-    "[REMOTE_ADDR] => 93.35.168.247",
-    "[HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9",
-    "[HTTP_ACCEPT_ENCODING] => gzip, deflate, br",
-    "[HTTP_SEC_FETCH_DEST] => document",
-    "[HTTP_SEC_FETCH_USER] => ?1",
-    "[HTTP_SEC_FETCH_MODE] => navigate",
-    "[HTTP_SEC_FETCH_SITE] => none",
-    "[HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,* /*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "[HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
-    "[HTTP_DNT] => 1",
-    "[HTTP_SEC_CH_UA_PLATFORM] => 'macOS'",
-    "[HTTP_SEC_CH_UA_MOBILE] => ?0",
-    "[HTTP_SEC_CH_UA] => 'Not A(Brand';v='24', 'Chromium';v='110'",
-    "[HTTP_CACHE_CONTROL] => max-age=0",
-    "[HTTP_CONNECTION] => close",
-    "[HTTP_X_FORWARDED_PROTO] => https",
-    "[HTTP_X_FORWARDED_PORT] => 443",
-    "[HTTP_X_REAL_IP] => 93.35.168.247",
-    "[HTTP_HOST] => www.transmediaresearch.institute",
-    "[proxy-nokeepalive] => 1",
-    "[HTTPS] => on",
-    "[FCGI_ROLE] => RESPONDER",
-    "[PHP_SELF] => /ktest/index.php",
-    "[REQUEST_TIME_FLOAT] => 1676452827.7297",
-    "[REQUEST_TIME] => 1676452827",
-  ];
-
-  $trash_by_source["hardcoded_all"] = array_merge(
-    $trash_by_source["hardcoded_git_create"],
-    $trash_by_source["hardcoded_git_edits"],
-    $trash_by_source["hardcoded_server"]
-  );
+  $trash_from_sources["hardcoded_1"] = "
+  assets/css/index.css          |  17 ++++--
+  assets/css/index.css.map      |   2 +-
+  assets/css/index.scss         |  14 ++++-
+  assets/js/digestion-logic.js  |  52 ++++++++---------
+  ";
 
   // ------------------------------
   // 1D. apache_request_headers()
   // ------------------------------
 
-  $trash_by_source["apache_request_headers"] = apache_request_headers();
-// return [ "trash" => $trash_by_source ]; // return debug data from controller
+  $trash_from_sources["apache_request_headers"] = apache_request_headers();
 
 
-  // kill($trash_by_source);
+  // kill($trash_from_sources);
 
 
 
 
   /**
-   * ========================================================================
-   * ------------------------------------------------------------------------
+   * ------------------------------
    * X. TESTS/BKP of other trash data: 
    *    - server
    *    - request
    *    - binary image data
-   * ------------------------------------------------------------------------
    * 
+   * ------------------------------
    * 
    * $_SERVER info we can use (shouldn't be dangerous to reveal)
    * 
@@ -316,10 +204,9 @@ return function ($page, $site, $kirby) {
   $test["kirby_raw_file"] = substr($file->base64(), 0, rand(100, 1500));
 
   // kill($test);
-  // ------------------------------------------------------------------------
+  // ------------------------------
   // End Test
-  // ------------------------------------------------------------------------
-  // ========================================================================
+  // ------------------------------
 
 
 
@@ -330,6 +217,7 @@ return function ($page, $site, $kirby) {
    * 
    *    2A. Merge  - Single string
    *    2B. Mix    - Array of fragments
+   *    2C. Tweak  - Add parts to keep intact
    * 
    * -------------------------------------------
    * 
@@ -338,10 +226,10 @@ return function ($page, $site, $kirby) {
   // 2A. Single string
   // dump (x1) the items array with all metadata
   // add (x4) to the string the text only
-  $trashInOneString = var_export($trash_by_source, true); 
+  $trashInOneString = var_export($trash_from_sources, true); 
 
   // this was for kirby items / to make them more visible
-  // foreach ($trash_by_source as $item) {
+  // foreach ($trash_from_sources as $item) {
   //   $trashInOneString .= str_repeat($item["text"], 4); 
   // }
 
@@ -349,8 +237,8 @@ return function ($page, $site, $kirby) {
   // compose an array of pieces
   $trash_fragments = [];
   $maxLen1 = 50;
-  $maxLen2 = 500;
-  for ($i = 0; $i < 110; $i++) {
+  $maxLen2 = 2500;
+  for ($i = 0; $i < 100; $i++) {
     $maxLen = rand(0, 1000)/1000 < 0.05 ? $maxLen2 : $maxLen1;
     $from = rand(0, strlen($trashInOneString)-$maxLen);
     $length = rand(5, $maxLen);
@@ -358,18 +246,83 @@ return function ($page, $site, $kirby) {
     $trash_fragments[] = $piece ."\n\n\n";
   }
 
+  // 2C. Here add parts you want to keep intact
+  $additions = [];
+  $additions[] = $trash_from_sources["hardcoded_1"];
+  $trash_fragments = array_merge($trash_fragments, $additions);
+
+
   return [
-    "trash" => [
-      "by_source" => $trash_by_source,
-      "fragments" => $trash_fragments,
-    ],
+    "trash_fragments" => $trash_fragments,
   ];
 
   // --- End of controller
 
 }
+?>
+
+
+
+<?php
+
+
+
+/**
+ * --------------------------------------------------
+
+// --- BKP!!! NOT USED ------------------------------
+// --- BKP!!! NOT USED ------------------------------
+// --- BKP!!! NOT USED ------------------------------
+// --- BKP!!! NOT USED ------------------------------
+
+ * 3. Put all in a single string
+ * 
+ *    adding random spaces in between 
+ *    to create a landscape
+ * 
+ * --------------------------------------------------
+ * */
+
+$minLength = 600000;
+$spaces = 0;
+
+$density = c::get('trash_style');
+$density = rand(1, 3);
+
+if ($density === 1) $spaces = 1000;
+if ($density === 2) $spaces = 500;
+if ($density === 3) $spaces = 150;
+$trashString = "";
+while (strlen($trashString) < $minLength) {
+  $trashString .= shakeTrash($trash_fragments, $spaces);
+}
+
+// -------------------------
+// functions
+// -------------------------
+
+function shakeTrash ($pieces, $spacesMaxNum) {
+  $out = "";
+  foreach ($pieces as $piece) {
+    $spaces = str_repeat("&nbsp;", rand(0, $spacesMaxNum));
+    $out .= $spaces . $piece;
+  }
+  $out = str_replace(" ", "&nbsp;", $out);
+  
+  $index = rand(0, strlen($out));
+  $out = substr_replace($out, "&nbsp;", $index);
+  // $out = str_replace("&nbsp;", "<span class='trash-separator'></span>", $out);
+  // $out = "<span>". str_replace("&nbsp;", "</span><span>", $out) ."</span>";
+
+  return $out;
+}
 
 ?>
+
+<div id="trash" style="word-break: break-all;" aria-hidden="true"><?= strlen($trashString) ." --- $trashString" ?></div>
+
+
+
 
 
 

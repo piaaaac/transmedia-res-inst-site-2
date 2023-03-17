@@ -9,7 +9,7 @@ $padding = (rand(0, 9) < 5) ? "padding-left: " : "padding-right: ";
 $padding .= (rand(0, 25)) ."%;";
 ?>
 
-<div class="inspector-event-preview">
+<div>
   <h2 class="font-sans-l mt-1">
     <a class="pointer no-u" onclick="loadEvent('<?= $event->uid() ?>');">
       <span class="d-block text-uppercase"><?= $event->title()->kti() ?></span>

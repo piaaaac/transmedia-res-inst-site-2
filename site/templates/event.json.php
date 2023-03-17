@@ -16,9 +16,10 @@ $json['title']            = (string)$page->title();
 $json['names']            = (string)$page->names();
 $json['dateText']         = (string)$page->dateText();
 // $json['htmlFullDescription']  = kt($page->fullDescription());
-$json['htmlDescription']  = snippet("inspector-event-desc", ["event" => $page], true);
-$json['htmlPreview']      = snippet("inspector-event-preview", ["event" => $page], true);
+$json['htmlDescription']  = snippet("inspector-content-event-desc", ["event" => $page], true);
+$json['htmlPreview']      = snippet("inspector-content-event-preview", ["event" => $page], true);
 $json['images']           = $images;
 $json['imagesHighlights'] = $computerVision;
+$json['htmlImages']       = snippet("body-content-event-preview", ["event" => $page, "computerVision" => $computerVision], true);
 
 echo json_encode($json);

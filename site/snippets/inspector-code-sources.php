@@ -1,202 +1,199 @@
 <?php
 
 $creatureJavascript = <<<EOT
-// -----------------------------------------
-// threejs imports
-// -----------------------------------------
+function CreatureConciousness (trash) {
 
-import * as THREE from 'three';
-import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import Stats from 'three/addons/libs/stats.module.js';
+  this.trash = trash;
+  var self = this;
 
-// -----------------------------------------
-// Global vars
-// -----------------------------------------
+  // ========================================================================================
+  // Contents
+  // ========================================================================================
 
-var meshes = [];
-var state = {
-  transition: false,
-  prevMesh: null,
-  currMesh: null,
-}
+  this.sentences = {
+    "dont_understand": (command) => {
+      return `I don't understand {command}. <a class="pointer" onclick="cc.actions.vocabulary();">Here</a> are the commands I know so far.`;
+    },
+  }
 
-// -----------------------------------------
-// Setup: scene, camera, renderer
-// -----------------------------------------
+  // ========================================================================================
+  // Base Actions
+  // ========================================================================================
 
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 35, window.innerWidth / window.innerHeight, 1, 2000 );
-camera.position.z = 5;
-const renderer = new THREE.WebGLRenderer({antialias: true, alpha: true});
-renderer.setSize( window.innerWidth, window.innerHeight );
-// renderer.setClearColor("#630");
-renderer.setPixelRatio( window.devicePixelRatio );
-document.getElementById("creature").appendChild(renderer.domElement);
+  this.say = (string) => {
+    log(string, {type: "conciousness", content: "html", srcFile: "conciousness.js:"+ Math.floor(Math.random()*1000)})
+  }
 
-const controls = new OrbitControls( camera, renderer.domElement );
-controls.addEventListener( 'change', render ); // use if there is no animation loop
-controls.enablePan = false;
-controls.enableZoom = false;
+  this.saySentence = (key, data) => {
+    if (!this.sentences[key]) {
+      console.error("Not found:"+ key);
+    }
+    this.say(this.sentences[key](data))
+  }
 
-// -----------------------------------------
-// Add model
-// -----------------------------------------
 
-const objLoader = new OBJLoader();
-var index = 0;
-var modelsFolder = "assets/models/"
-var modelFiles = [
-// modelsFolder +"1.obj",
-// modelsFolder +"3.obj",
-// modelsFolder +"5.obj",
-// modelsFolder +"7.obj",
-// modelsFolder +"8.obj",
-// modelsFolder +"9.obj",
-// modelsFolder +"11.obj",
-// modelsFolder +"12.obj",
-  modelsFolder +"2.obj",
-  modelsFolder +"4.obj", 
-  modelsFolder +"6.obj", 
-  modelsFolder +"10.obj", 
-  modelsFolder +"13.obj", 
-];
-
-function loadNextFile() {
-
-  if (index > modelFiles.length - 1) {
+  this.handleConsoleInput = function (command) {
+    var cmd = command.trim();
+    if (cmd == "") {
+      return;
+    }
+    log(cmd, {type: "userinput", srcFile: ""})
     
-    meshes.forEach(mesh => {
-      mesh.visible = false
-    })
-    state.prevMesh = meshes[meshes.length - 2];
-    state.currMesh = meshes[meshes.length - 1];
-    state.currMesh.visible = true;
-    scene.scale.set(0.6, 0.6, 0.6);
+    // check if command exists
+    var existingCmd = null;
+    if (Object.keys(self.userActions).includes(cmd)) {
+      existingCmd = cmd;
+    } else if(Object.keys(self.userActionAliases).includes(cmd)) {
+      existingCmd = self.userActionAliases[cmd];
+    }
+
+    // react
+    if (existingCmd !== null) {
+      self.userActions[existingCmd]();
+    } else {
+      self.saySentence("dont_understand", cmd);
+    }
+  }
+
+  this.randomLog = (randomLogOptions) => {
+    var defaults = {
+      trashType: "hardcoded_server",
+    };
+    // remove undefined (via https://stackoverflow.com/a/38340374/2501713)
+    randomLogOptions && Object.keys(randomLogOptions).forEach(key => randomLogOptions[key] === undefined && delete randomLogOptions[key]) 
+    var options = Object.assign({}, defaults, randomLogOptions);
+
+    var trashArray = self.trash.by_source[options.trashType];
+
+    var logTypes = ["log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "alert", "alert", "alert", "error"];
+    var logModes = ["append", "append", "replaceLast"];
+    var logTextClasses = ["font-asem-s", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var logType = logTypes[Math.floor(Math.random() * logTypes.length)];
+    var logMode = logModes[Math.floor(Math.random() * logModes.length)];
+    var logTextClass = logTextClasses[Math.floor(Math.random() * logTextClasses.length)];
     
-    animate();
-    return;
+    var data = trashArray[Math.floor(Math.random() * trashArray.length)];
+    log(data, {"type": logType, "mode": logMode, "textClass": logTextClass});
   }
 
-  var url = modelFiles[index];
-  objLoader.load(url, (object) => {
-    var geometry = object.children[0].geometry;
-    geometry.center();
-    var baseMaterial = new THREE.MeshPhongMaterial( {
-        color: 0xFF0100,
-        color: 0x666666,
-        color: 0x00ffff,
-        polygonOffset: true,
-        polygonOffsetFactor: 1, // positive value pushes polygon further away
-        polygonOffsetUnits: 1
-    } );
-    var mesh = new THREE.Mesh( geometry, baseMaterial );
-    var geo = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
-    var mat = new THREE.LineBasicMaterial( { color: 0xffffff } );
-    var mat = new THREE.LineBasicMaterial( { color: 0xF4FF00 } );
-    var wireframe = new THREE.LineSegments( geo, mat );
-    mesh.add( wireframe );
-
-    scene.add(mesh)
-    meshes.push(mesh)
-    index++;
-    loadNextFile();
-  },
-  xhr => { // loading progress
-    console.log(url +" - "+ (xhr.loaded / xhr.total * 100) + '% loaded');
-  },
-  error => { // loading errors
-    console.log('An error occurred while loading model: '+ url, error );
-  });
-}
-loadNextFile();
-
-// -----------------------------------------
-// Lights
-// -----------------------------------------
-
-var light = new THREE.PointLight(0xFFFFFF, 0.3, 500);
-light.position.set(10, 0, 25);
-scene.add(light);
-
-const ambientLight = new THREE.AmbientLight( 0xcccccc, 0.8 );
-scene.add( ambientLight );
-// const pointLight = new THREE.PointLight( 0xffffff, 0.8 );
-// camera.add( pointLight );
-// scene.add( camera );
-
-// -----------------------------------------
-// Render
-// -----------------------------------------
-
-const stats = Stats()
-document.body.appendChild(stats.dom)
-stats.dom.style.top = "200px"
-
-function animate() {
-  requestAnimationFrame( animate );
-  render();
-  stats.update()
-}
-function render() {
-  scene.rotation.y += 0.005;
-  if (state.transition) {
-    state.currMesh.visible = (Math.random() <; 0.5);
-    state.prevMesh.visible = !state.currMesh.visible;
+  this.randomLogs = function (times = 1) {
+    var self = this;
+    for (var i = 0; i < times; i++) {
+      setTimeout(self.randomLog, 100*i);
+    }
   }
-  camera.lookAt( scene.position );
-  renderer.render( scene, camera );
-}
 
-// -----------------------------------------
-// Interactivity
-// -----------------------------------------
-
-var cssInterval;
-function switchRandomMesh () {
-  var newI = Math.floor(Math.random() * meshes.length)
-  state.prevMesh = state.currMesh;
-  state.currMesh = meshes[newI];
-
-  state.transition = true;
-  if (cssInterval) {
-    clearInterval(cssInterval);
+  this.messyCleanConsole = function (callback, time = 800, finalClean = false) {
+    var messInterval = setInterval(() => {
+      if (Math.random() < 0.06) { clearConsole() }
+      if (Math.random() < 0.4) { self.randomLog() }
+    }, 10);
+    setTimeout(() => { 
+      clearInterval(messInterval);
+      setTimeout(() => { 
+        if (finalClean) {
+          clearConsole();
+        }
+        if (callback && typeof callback === "function") {
+          callback();
+        }
+      }, 300)
+    }, time)
   }
-  cssInterval = setInterval(glitchBg, 16);
-  setTimeout(endTransition, 200);
-}
 
-function glitchBg () {
-  var color = '#'+Math.floor(Math.random()*0xffffff).toString(16);
-  document.body.style.backgroundColor = color;
-}
-function endTransition () {
-  state.prevMesh.visible = false;
-  state.currMesh.visible = true;
-  state.transition = false;
-  clearInterval(cssInterval);
-  document.body.style.backgroundColor = "#666";
-}
+  // ========================================================================================
+  // Actions (structured)
+  // ========================================================================================
 
-// -----------------------------------------
-// Window resize handling
-// -----------------------------------------
+  this.actions = {
 
-window.addEventListener("resize", () => {
-  renderer.setSize( window.innerWidth, window.innerHeight );
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-});
+    "start": function () {
+      toggleInspector(true);
+      toTab("console");
+      setTimeout(() => {
+        self.actions.loading("loading language", 600)
+      }, 1000)
+      var times = 160;
+      var i = 0;
+      var interval;
+      setTimeout(() => { 
+        interval = setInterval(() => {
+          if (Math.random() < 0.06) { clearConsole() }
+          if (Math.random() < 0.4) { self.randomLog() }
+          if (i >= times) { 
+            clearInterval(interval);
+            setTimeout(() => {
+              clearConsole();
+            }, 500)
+            setTimeout(() => {
+              loadEvents();
+            }, 600)
+          }
+          i++;
+        }, 10);
+      }, 3200)
 
-window.addEventListener('keydown', (e) => {
-  if (e.key == "Enter") {
-    switchRandomMesh();
+      // function 
+    },
+
+    "loading": function (text, totalTime) {
+
+      var time = 0;
+      var adv = 0;
+      var tt = totalTime + (Math.random() - 0.5) * 1000 // +/- 500ms
+      var logMode = "append"
+      var messages = [];
+
+      while (adv < 1) {
+        time += 50 + Math.random() * 150;
+        adv = time / tt;
+        perc = Math.floor(adv * 100);
+        perc = Math.min(perc, 99); // if it went over 100
+        messages.push({
+          "text": `{text} {perc}%`,
+          "mode": logMode,
+          "time": time,
+        });
+        logMode = "replaceLast";
+        // console.log(messages)
+      }
+      messages.push({
+        "text": `{text} [DONE]`,
+        "mode": logMode,
+        "time": time + Math.random() * 1000,
+      })
+
+      messages.forEach(message => {
+        setTimeout(function () {
+          // console.log(message)
+          log(message.text, {mode: message.mode})
+        }, message.time);
+      })
+    },
+
+    "vocabulary": () => {
+      var html = Object.keys(self.userActions).join("<br />")
+      self.say(html);
+    },
+
   }
-  // if (e.key == "Shift") {}
-  // if (e.key == "Escape") {}
-});
 
-creatureRefresh = switchRandomMesh;
+  // ========================================================================================
+  // User Actions (console user input)
+  // ========================================================================================
+
+  this.userActions = {
+    "reset":    function () { window.location.reload(); },
+    "hello":    function () { self.say("hello"); },
+    "program":  function () { loadEvents(); },
+  }
+  this.userActionAliases = {
+    "hi":     "hello",
+    "ciao":   "hello",
+    "hey":    "hello",
+    
+  }
+}
 EOT;
 $sourcesTabContent = Html::encode($creatureJavascript);
 

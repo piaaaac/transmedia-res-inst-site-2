@@ -19,7 +19,7 @@ c.style.transform = "translateX(-500px)"
 
 <?php
 /**
- * @param $trash_fragments from controller
+ * @param $trash from controller
  * 
  * */
 
@@ -31,17 +31,10 @@ $allDetectedObjects = json_decode($filedata, true);
 // Later
 // $imagesPerRow = 10;
 // make wrappers each row to minimize the n of observed elements
-
-
-$trashImagesTestFiles = page("summer-school-2023")->children()->listed()->shuffle()->first()->files();
-$trashImagesTestUrls = [];
-foreach ($trashImagesTestFiles as $img) {
-  $trashImagesTestUrls[] = $img->url();
-}
 ?>
 
 <?php
-// kill($trash_fragments);
+// kill($trash);
 ?>
 
 <?php snippet("header") ?>
@@ -125,46 +118,17 @@ function marker ($id) {
 </div>
 
 <!-- --------------------------------------- -->
-<!-- Trash columns -->
-<!-- --------------------------------------- -->
-
-<div id="trash-columns">
-  <div class="container-fluid h-100">
-    <div class="row h-100">
-      <div class="col-2 h-100">
-        <div class="trash-column h-100"><?= $trash_fragments[array_rand($trash_fragments)] ?></div>
-      </div>
-      <div class="col-2 h-100">
-        <div class="trash-column h-100"><?= $trash_fragments[array_rand($trash_fragments)] ?></div>
-      </div>
-      <div class="col-2 h-100">
-        <div class="trash-column h-100"><?= $trash_fragments[array_rand($trash_fragments)] ?></div>
-      </div>
-      <div class="col-2 h-100">
-        <div class="trash-column h-100"><?= $trash_fragments[array_rand($trash_fragments)] ?></div>
-      </div>
-      <div class="col-2 h-100">
-        <div class="trash-column h-100"><?= $trash_fragments[array_rand($trash_fragments)] ?></div>
-      </div>
-      <div class="col-2 h-100">
-        <div class="trash-column h-100"><?= $trash_fragments[array_rand($trash_fragments)] ?></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- --------------------------------------- -->
 <!-- Create js variables -->
 <!-- Inspector, Creature -->
 <!-- --------------------------------------- -->
 
 <script>
-var c3, cc, cmain;
+var cc, cmain;
+var trash = <?= json_encode($trash) ?>;
+console.log(trash)
 </script>
 
 <?php snippet("inspector") ?>
-<?php snippet("creature") ?>
 
 <!-- --------------------------------------- -->
 <!-- Titles -->
@@ -175,9 +139,6 @@ var c3, cc, cmain;
 
 <script>
 
-var trashFragments = <?= json_encode($trash_fragments) ?>;
-var trashImagesTestUrls = <?= json_encode($trashImagesTestUrls) ?>;
-
 // ----------------------------------------
 // EVENTS
 // ----------------------------------------
@@ -186,10 +147,10 @@ window.addEventListener('keydown', (e) => {
   // console.log(`Key "${e.key}" pressed`);
   if (e.key == "Enter") {
     // highlightRandomTile();
-    injectTrash();
+    // injectTrash();
   }
   if (e.key == "Shift") {
-    injectImage();
+    // injectImage();
   }
   if (e.key == "Escape") {
     toggleInspector();
@@ -215,75 +176,6 @@ function toggleInspector (bool) {
 }
 
 // ----------------------------------------
-// TRASH COLUMNS
-// ----------------------------------------
-
-function injectTrash () {
-  var trashCols = document.querySelectorAll(".trash-column")
-  trashCols.forEach(col => {
-    if (Math.random() < 0.7) {
-      var fragment = "";
-      if (Math.random() < 0.3) {
-        fragment = trashFragments[Math.floor(Math.random() * trashFragments.length - 1)]
-      } else {
-        fragment = "\u00A0".repeat(Math.floor(Math.random() * 300))
-      }
-
-      var div = document.createElement("p");
-      div.append(fragment);
-      
-      var probAsemicFont = 0.5;
-      var cl = (Math.random() < probAsemicFont) ? "font-asem-s" : "font-mono-s";
-      div.classList.add(cl);
-
-      col.prepend(div);
-      var duration = Math.random() * 1000 + 200;
-      $(div).hide().slideDown(duration, "linear", function () {
-        while (col.childNodes.length > 40) {
-          col.removeChild(col.lastChild);
-        }
-      });
-    }
-  });
-}
-
-function injectImage () {
-  var trashCols = document.querySelectorAll(".trash-column")
-  var col = trashCols[Math.floor(Math.random() * trashCols.length)];
-  var img = document.createElement("img");
-  img.src = trashImagesTestUrls[Math.floor(Math.random() * trashImagesTestUrls.length)];
-  img.classList.add("img-fluid");
-  col.prepend(img);
-  var duration = 300;
-  $(img).hide().slideDown(duration, "linear", function () {
-    while (col.childNodes.length > 40) {
-      col.removeChild(col.lastChild);
-    }
-  });
-}
-
-
-// ----------------------------------------
-// PROGRAM INFINITE SCROLL
-// ----------------------------------------
-
-// "program-copy-1"
-// "program-copy-2"
-// const observer = new IntersectionObserver(entries => {
-//   entries.forEach(entry => {
-//     if (entry.isIntersecting) {
-//       console.log(entry)
-//     }
-//   })
-// }, { 
-//   // options
-//   // threshold: [ 0.3 ], // relative to element
-//   rootMargin: "100px 0px", // relative to window (or other container)
-// })
-// highlights.forEach(h => { observer.observe(h); });
-
-
-// ----------------------------------------
 // OBJECT
 // ----------------------------------------
 
@@ -294,7 +186,6 @@ console.log("cmain created")
 function CreatureMain () {
 
   this.conciousness = cc;
-  this.creature3d = c3;
   this.self = this;
 
   this.actions = {
@@ -308,17 +199,17 @@ function CreatureMain () {
      * 
      * */
 
-    "appear": function (self) {
-      self.creature3d.flicker();
-    },
+    // "appear": function (self) {
+    //   self.creature3d.flicker();
+    // },
 
-    "flick": function (self) {
-      self.creature3d.flicker();
-    },
+    // "flick": function (self) {
+    //   self.creature3d.flicker();
+    // },
 
     "console": function (self) {
       self.conciousness.actions.start();
-      self.creature3d.resize("small");
+      // self.creature3d.resize("small");
     },
 
   };
@@ -426,9 +317,9 @@ function highlightRandomTile () {
 // -------------------------
 
 window.addEventListener('keydown', (e) => {
-  if (e.key == "a") { log("pressed a")}
-  if (e.key == "s") { cc.actions.start()}
-  if (e.key == "a") { log("pressed a")}
+  // if (e.key == "a") { log("pressed a")}
+  // if (e.key == "s") { cc.actions.start()}
+  // if (e.key == "a") { log("pressed a")}
 });
 
 

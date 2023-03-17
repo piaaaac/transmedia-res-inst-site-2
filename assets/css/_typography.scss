@@ -46,7 +46,8 @@ $font-mono: "Roboto Mono", monospace;
 // ----------------------------------------------------- xs --- sm --- md --- lg --- xl ---- lsp ---- lh ---- w --- style
 
 @mixin font-sans-xl {  @include font-style($font-sans,   52px,  52px,  52px,  52px,  52px,   0,       1.20em, 300,  normal); }
-@mixin font-sans-l {   @include font-style($font-sans,   25px,  25px,  38px,  50px,  50px,   0,       0.90em, 300,  normal); }
+// @mixin font-sans-l {   @include font-style($font-sans,   25px,  25px,  38px,  50px,  50px,   0,       0.90em, 300,  normal); }
+@mixin font-sans-l {   @include font-style($font-sans,   7vw,   7vw,   7vw,   50px,  50px,   0,       0.90em, 300,  normal); }
 @mixin font-sans-m {   @include font-style($font-sans,   17px,  17px,  21px,  25px,  25px,   0,       1.2em,  300,  normal); }
 @mixin font-sans-s {   @include font-style($font-sans,   11px,  11px,  11px,  11px,  11px,   0.03em,  1.3em,  300,  normal); }
 
