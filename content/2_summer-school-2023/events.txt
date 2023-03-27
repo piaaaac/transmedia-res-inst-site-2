@@ -14,4 +14,42 @@ Running from Monday, July 3rd to Sunday, July 9th, the format of the summer scho
 
 ----
 
+Program:
+
+- 
+  categorytext: |
+    Workshops
+    Five days, 3—7 July
+  categoryevents:
+    - page://9W6ktuNwJFUKv3x1
+    - page://ewdOw08cBcAKomWS
+    - page://GECkanAL8mYUv10Y
+    - page://O4MMZ7wCe1jBsZXt
+- 
+  categorytext: |
+    Workshops
+    Weekend 8—9 July
+  categoryevents:
+    - page://Ij6jXm7sZtVF4ouG
+    - page://egUQukH2WgvHrQlU
+- 
+  categorytext: |
+    Master classes
+    3, 4, 5, 6 and 7 July, 18:30—19:30
+  categoryevents:
+    - page://SrHcIrRFHvoWStRB
+- 
+  categorytext: |
+    Live performance
+    8 July, 21:00
+  categoryevents:
+    - page://YqOjw72lgrk2KoBW
+- 
+  categorytext: |
+    Exhibition
+    8—9 July
+  categoryevents: [ ]
+
+----
+
 Uuid: dR9SsWm9T5OwY8o7

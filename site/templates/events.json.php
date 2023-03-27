@@ -13,4 +13,11 @@ foreach ($page->children()->listed() as $event) {
   $json["events"][] = $eventMeta;
 }
 
+$json["program"] = [];
+foreach ($page->program()->toStructure() as $category) {
+  $categoryHtml = snippet("inspector-content-program-category", ["text" => $category->categoryText(), "events" => $category->categoryEvents()], true);
+  $json["htmlProgramCategories"][] = $categoryHtml;
+}
+
+
 echo json_encode($json);

@@ -1,25 +1,19 @@
 
-# REFACTOR
-
-- make tile highlight probability controllable independently from scroll
-- make inspector & creature into objects to control from home.php
-- scale 3d correctly when inspector is open
-
 # TODO
 
-- make a snippet generating an image with highlights 
-    (that just works throughout the site)
+Cose da rifinire:
+- cosa appare nell'area delle immagini quando vedo il programma e about
+  about: (1) gif sfocata
+         (2) video creatura
+- programma diviso per date e più piccolo
+- infinite scroll tiles
+- event url opens event automatically
+  - route to homepage with parameter
+  - load event contents instead of tiles, and open inspector right away
 
-- creature model flickering and randomly changing 
-    (flicker corresponds to console log?)
-
-- imagine larger amounts of content in the console
-    (eg artist bios – even an article?)
-
+Nice to have
+- make tile highlight probability controllable
 - BILINGUE (Solo eventi)
-
-- foglietto (su storyboard)
-
 
 
 # HIGHLIGHT JS DARK THEMES

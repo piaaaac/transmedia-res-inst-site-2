@@ -21,4 +21,139 @@ Fulldescription: In this 5 day workshop participants will be experimenting with 
 
 ----
 
+Computervisionjson:
+
+[
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "marisa-satsia.png",
+        "timestamp": "Sat, 25 Feb 2023 16:17:07 GMT",
+        "label": "person",
+        "confidence": 0.9272553324699402,
+        "normX": 0.19018661975860596,
+        "normY": -0.0009805858135223389,
+        "normW": 0.6082308292388916,
+        "normH": 0.9933551251888275
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "marisa1-1920x1280.jpg",
+        "timestamp": "Sat, 25 Feb 2023 16:17:07 GMT",
+        "label": "person",
+        "confidence": 0.8121748566627502,
+        "normX": 0.29352647066116333,
+        "normY": 0.1452130377292633,
+        "normW": 0.449374794960022,
+        "normH": 0.8462196290493011
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-satsia.png",
+        "timestamp": "Sat, 25 Feb 2023 16:17:40 GMT",
+        "label": "person",
+        "confidence": 0.5851647257804871,
+        "normX": 0.1895270714393029,
+        "normY": 0,
+        "normW": 0.6226650384756235,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-satsia.png",
+        "timestamp": "Sat, 25 Feb 2023 16:17:40 GMT",
+        "label": "person",
+        "confidence": 0.565152645111084,
+        "normX": 0.2289137473473182,
+        "normY": 0,
+        "normW": 0.6874736639169546,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-satsia.png",
+        "timestamp": "Sat, 25 Feb 2023 16:17:40 GMT",
+        "label": "person",
+        "confidence": 0.44395631551742554,
+        "normX": 0.11631128421196571,
+        "normY": 0.0127716064453125,
+        "normW": 0.6237709430547861,
+        "normH": 0.9686821424044095
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa1-1920x1280.jpg",
+        "timestamp": "Sat, 25 Feb 2023 16:17:41 GMT",
+        "label": "donut",
+        "confidence": 0.6087937951087952,
+        "normX": 0.6056720660283015,
+        "normY": 0.10059685890491192,
+        "normW": 0.2723818925710825,
+        "normH": 0.3443836890734159
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa1-1920x1280.jpg",
+        "timestamp": "Sat, 25 Feb 2023 16:17:41 GMT",
+        "label": "person",
+        "confidence": 0.524936854839325,
+        "normX": 0.5349476154033954,
+        "normY": 0.5245109704824594,
+        "normW": 0.22652640709510216,
+        "normH": 0.4200636056753305
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa1-1920x1280.jpg",
+        "timestamp": "Sat, 25 Feb 2023 16:17:41 GMT",
+        "label": "bottle",
+        "confidence": 0.4902181327342987,
+        "normX": 0.7021901790912335,
+        "normY": 0.6742328497079703,
+        "normW": 0.07777353433462289,
+        "normH": 0.2549229401808519
+    }
+]
+
+----
+
 Uuid: ewdOw08cBcAKomWS

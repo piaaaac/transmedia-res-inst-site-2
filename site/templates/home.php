@@ -74,43 +74,14 @@ function marker ($id) {
       });
       ?>
 
-      <?php /* V2 */ ?>
-      <?php snippet("computer-vision-image", [
-        "className" => "tile",
-        "imageUrl" => $file->url(),
-        "probHighlight" => $probHighlight,
-        "amtHighlightTexts" => $amtHighlightTexts,
-        "objects" => $objects,
-      ]) ?>
-
-<?php /* V1 */
-      /*
-      <div class="tile computer-vision" data-detect-count="<?= count($objects) ? >">
-        <div class="img" style="background-image: url('<?= $file->url() ? >');"></div>
-        <?php foreach ($objects as $o):
-          $amt = $amtHighlightTexts;
-          $startX = $o["normX"] + $o["normW"]/2;
-          $startY = $o["normY"] + $o["normH"]/2;
-            // animate from center // style="left: <?= $startX * 100 ? >%; top: <?= $startY * 100 ? >%;"
-            // animate from large // style="left: 0; top: 0; width: 100%; height: 100%;"
-          ? >
-          <div class="highlight"
-            data-highlight-x="<?= $o["normX"] ? >"
-            data-highlight-y="<?= $o["normY"] ? >"
-            data-highlight-w="<?= $o["normW"] ? >"
-            data-highlight-h="<?= $o["normH"] ? >"
-            data-highlight-probability="<?= $probHighlight ? >"
-            style="left: -10%; top: -10%; width: 110%; height: 110%;"
-          >
-            <!-- asemic labels -->
-            <!--<p>
-             <?= $o["label"] ." ". $o["confidence"] ? >
-             <?= (rand(0, 100) < $amt * 50) ? randomString(rand(0, $amt * 500), "<br />", 0.03) : "" ? >
-            </p>-->
-          </div>
-        <?php endforeach ? >
+      <div class="tile">
+        <div class="img" style="background-image: url('<?= $file->url() ?>');"></div>
+        <?php snippet("computer-vision-highlights", [
+          "probHighlight" => $probHighlight,
+          "amtHighlightTexts" => $amtHighlightTexts,
+          "objects" => $objects,
+        ]) ?>
       </div>
-*/ ?>
 
       <?php 
       if (isset($stepMarkers[$nextAdvancementIndex])) {
@@ -252,16 +223,10 @@ const observerMarkers = new IntersectionObserver(entries => {
     }
   })
 }, { 
-  rootMargin: "-45% 0px", // make window smaller vertically, observing only a central strip of the window
+  // rootMargin: "-45% 0px", // make window smaller vertically, observing only a central strip of the window
+  rootMargin: "0% 0px",   // observe the whole window height
 })
 markers.forEach(h => { observerMarkers.observe(h); });
-
-
-
-
-
-
-
 
 // ----------------------------------------
 // HIGHLIGHTS
@@ -342,7 +307,7 @@ window.addEventListener('keydown', (e) => {
 <!-- Titles -->
 <!-- --------------------------------------- -->
 
-<div onclick="cmain.userActions.reset();" class="pointer" id="title-logo"><img src="<?= $kirby->url("assets")?>/images/title-logo.svg" /></div>
-<div onclick="loadAbout();" class="pointer" id="title-summerschool"><img src="<?= $kirby->url("assets")?>/images/title-summerschool.svg" /></div>
+<div onclick="loadAbout();" class="pointer" id="title-logo"><img src="<?= $kirby->url("assets")?>/images/title-logo.svg" /></div>
+<div onclick="loadEvents();" class="pointer" id="title-summerschool"><img src="<?= $kirby->url("assets")?>/images/title-summerschool.svg" /></div>
 
 <?php snippet("footer") ?>

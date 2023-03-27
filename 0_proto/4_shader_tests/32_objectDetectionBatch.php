@@ -1,11 +1,12 @@
 <?php
-$path  = 'images/cats-test';
-$path  = 'images/stable-d-dav-shape';
-$path  = 'images/stable-d-ap-shape';
-$path  = 'images/language';
+// $path  = 'images/cats-test';
+// $path  = 'images/stable-d-dav-shape';
+// $path  = 'images/stable-d-ap-shape';
+// $path  = 'images/language';
 
+// Prod
 $path  = '32_detection_files/1_xr-for-non-humans';
-$path  = '32_detection_files/2_biofabricated-soft-robots-and-inflatables';
+// $path  = '32_detection_files/2_biofabricated-soft-robots-and-inflatables';
 
 $images = glob("$path/*.{jpeg,jpg,gif,png,webp}", GLOB_BRACE);
 ?>

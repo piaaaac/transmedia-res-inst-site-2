@@ -114,7 +114,8 @@ $events = page("summer-school-2023")->children()->listed();
         return response.json();
       }).then(jsonData => {
         // console.log(jsonData)
-        handleReceivedEventsData(jsonData.events);
+        handleReceivedProgramData(jsonData.htmlProgramCategories);
+        // handleReceivedEventsData(jsonData.events);
       }).catch(err => {
         console.log("Error fetching page:", err);
       });
@@ -127,7 +128,7 @@ $events = page("summer-school-2023")->children()->listed();
       }).then(jsonData => {
         bodyContent.classList.add("blur")
         setTimeout(() => { 
-          bodyContent.textContent = ""
+          // bodyContent.textContent = ""
           handleReceivedEventData(jsonData)
         }, 600);
       }).catch(err => {
@@ -138,11 +139,35 @@ $events = page("summer-school-2023")->children()->listed();
   function handleReceivedAboutData (aboutHtml) {
     setTimeout(() => { cc.randomLogs(4); }, 50);
     setTimeout(() => {
-      log(aboutHtml, { type: "content", srcFile: false, content: "html" })
+      var stickTo = log(aboutHtml, { type: "content", srcFile: false, content: "html" })
+      stickConsole(stickTo)
     }, 150);
-    setTimeout(() => { cc.randomLogs(4); }, 250);
+    setTimeout(() => { cc.randomLogs(6, {}, unstickConsole); }, 250);
   }
 
+  
+
+
+  function handleReceivedProgramData (htmlProgramCategories) {
+    // setTimeout(() => { 
+      cc.randomLogs(12, {}, () => {
+        var time = 0;
+        htmlProgramCategories.forEach((categoryHtml, i) => {
+          time += 150 * Math.random()
+          setTimeout(() => {
+            var logEl = log(categoryHtml, { type: "content", srcFile: false, content: "html" })
+            if (i === 0) { stickConsole(logEl) }
+          }, time);
+        })
+        setTimeout(() => { cc.randomLogs(16, {}, unstickConsole); }, time+100);
+      }); 
+    // }, 50);
+  }
+
+  
+
+
+  /* OLD */
   function handleReceivedEventsData (events) {
     // events = [{ names, title, dateText, htmlPreview }, {}, …]
     
@@ -175,19 +200,45 @@ $events = page("summer-school-2023")->children()->listed();
 
     cc.messyCleanConsole(() => {
 
+      // V2 – Content & codes
+      // var time = 0;
+      // jsonData.imagesHighlights.forEach((d, i) => {
+      //   if (i < 12) {
+      //     time += 150 * Math.random()
+      //     setTimeout(() => {
+      //       // log(JSON.stringify(d).substring(0, 50 + Math.random()*13));
+      //       log(JSON.stringify(d));
+      //     }, time);
+      //   }
+      // })
+      // time += 150 * Math.random()
+      // setTimeout(() => {
+      //   cc.stickEl = log(jsonData.htmlPreview, { type: "content", srcFile: false, content: "html" })
+      //   log(jsonData.htmlDescription, { type: "content", srcFile: false, content: "html" })
+      // }, time);    
+
+      // V1 – Content & codes
       setTimeout(() => {
-        log(jsonData.htmlPreview, { type: "content", srcFile: false, content: "html" })
+        var stickTo = log(jsonData.htmlPreview, { type: "content", srcFile: false, content: "html" })
+        stickConsole(stickTo);
         log(jsonData.htmlDescription, { type: "content", srcFile: false, content: "html" })
         // cc.logEventHtml(jsonData.htmlFullDescription, "m")
-      }, 500*Math.random());    
+      }, 500*Math.random());
 
+      var time = 0;
       jsonData.imagesHighlights.forEach((d, i) => {
+        time += 150 * Math.random()
         setTimeout(() => {
           log(JSON.stringify(d).substring(0, 50 + Math.random()*13));
-        }, 100*i);
+        }, time);
       })
+      unstickConsole(time + 100);
 
+      // add images
+      bodyContent.textContent = ""
       bodyContent.querySelectorAll("img.event-image").forEach(imgEl => { imgEl.remove(); });
+      bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
+      bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
       bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
       bodyContent.classList.remove("blur")
       window.scrollTo(0, 0);
@@ -197,6 +248,16 @@ $events = page("summer-school-2023")->children()->listed();
       highlights = document.querySelectorAll(".highlight")
       highlights.forEach(h => { highlightsObserver.observe(h); });
     });
+  }
+
+  function stickConsole (el, duration) {
+    cc.stickEl = el;
+    if (duration) {
+      unstickConsole(duration);
+    }
+  }
+  function unstickConsole (milliseconds = 0) {
+    setTimeout(() => { cc.stickEl = null }, milliseconds);
   }
 
   function log (data, logOptions) {
@@ -270,8 +331,13 @@ $events = page("summer-school-2023")->children()->listed();
       consoleContentDiv.insertBefore(item, inputArea)
     } 
 
-    consoleContentDiv.scrollTo(0, 1000000)
+    if (cc.stickEl) {
+      cc.stickEl.scrollIntoView(true);
+    } else {
+      consoleContentDiv.scrollTo(0, 1000000)
+    }
     focusInput()
+    return(item)
   }
 
   function toTab (name) {
@@ -336,6 +402,7 @@ $events = page("summer-school-2023")->children()->listed();
   function CreatureConciousness (trash) {
 
     this.trash = trash;
+    this.stickEl = null;
     var self = this;
 
     // ========================================================================================

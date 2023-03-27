@@ -1,0 +1,360 @@
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-latest-7.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:25 GMT",
+        "label": "tie",
+        "confidence": 0.6689481139183044,
+        "normX": 0.2653716527498685,
+        "normY": 0.18236851692199707,
+        "normW": 0.11860458667461689,
+        "normH": 0.7875821590423584
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-latest-7.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:25 GMT",
+        "label": "tie",
+        "confidence": 0.47432687878608704,
+        "normX": 0.23379171811617339,
+        "normY": 0.20560455322265625,
+        "normW": 0.09586220521193284,
+        "normH": 0.7447395324707031
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-nbew-1.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:25 GMT",
+        "label": "person",
+        "confidence": 0.48730576038360596,
+        "normX": 0.0649267159975492,
+        "normY": 0,
+        "normW": 0.5713834945972149,
+        "normH": 0.9009791887723483
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-nbew-1.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:25 GMT",
+        "label": "person",
+        "confidence": 0.4486832320690155,
+        "normX": 0.07554835081100464,
+        "normY": 0.05846524238586426,
+        "normW": 0.6928073855546805,
+        "normH": 0.9415347576141357
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "marisa-nbew-1.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:25 GMT",
+        "label": "person",
+        "confidence": 0.42541050910949707,
+        "normX": 0.14894408446091872,
+        "normY": 0,
+        "normW": 0.5505922390864446,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.63939368724823,
+        "normX": 0.04720836877822876,
+        "normY": 0,
+        "normW": 0.9016969891694876,
+        "normH": 0.9509158501258264
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.6377934217453003,
+        "normX": 0.03572341799736023,
+        "normY": 0,
+        "normW": 0.7745272310880514,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.615723729133606,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8805647629957932,
+        "normH": 0.9156640859750601
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.6147339940071106,
+        "normX": 0.07056334385505089,
+        "normY": 0.0708533525466919,
+        "normW": 0.7052881259184617,
+        "normH": 0.9291466474533081
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.5366942286491394,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7804500139676608,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.5313787460327148,
+        "normX": 0.09848973384270301,
+        "normY": 0,
+        "normW": 0.803875730587886,
+        "normH": 0.9899879602285532
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.4769979417324066,
+        "normX": 0.21771784929128793,
+        "normY": 0,
+        "normW": 0.7180351660801814,
+        "normH": 0.9670128455528846
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.431314617395401,
+        "normX": 0.1313406229019165,
+        "normY": 0.01952052116394043,
+        "normW": 0.7337501874336829,
+        "normH": 0.9804794788360596
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portrait.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.48475155234336853,
+        "normX": 0.026547789573669434,
+        "normY": 0,
+        "normW": 0.939248827787546,
+        "normH": 0.9690296466533954
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portrait.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.4480278789997101,
+        "normX": 0.031225144863128662,
+        "normY": 0,
+        "normW": 0.7844635018935571,
+        "normH": 0.9861149421105018
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portrait.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.44020625948905945,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.7517778690044696,
+        "normH": 1
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portrait.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:26 GMT",
+        "label": "person",
+        "confidence": 0.40206971764564514,
+        "normX": 0,
+        "normY": 0,
+        "normW": 0.8655561300424429,
+        "normH": 0.9183646715604342
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "soft-robotics.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:15:27 GMT",
+        "label": "tie",
+        "confidence": 0.416755348443985,
+        "normX": 0.5950419352604792,
+        "normY": 0.4724296789902907,
+        "normW": 0.28661903968224156,
+        "normH": 0.509313179896428
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "marisa-nbew-1.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:17:35 GMT",
+        "label": "person",
+        "confidence": 0.9893019795417786,
+        "normX": 0.5402528047561646,
+        "normY": 0.1474270522594452,
+        "normW": 0.4236774444580078,
+        "normH": 0.3876838982105255
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "marisa-nbew-1.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:17:35 GMT",
+        "label": "vase",
+        "confidence": 0.6254634261131287,
+        "normX": 0.20705793797969818,
+        "normY": 0.5487771034240723,
+        "normW": 0.45022518932819366,
+        "normH": 0.44462811946868896
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "me.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:17:36 GMT",
+        "label": "person",
+        "confidence": 0.5754084587097168,
+        "normX": 0.031171858310699463,
+        "normY": 0.005895733833312988,
+        "normW": 0.8522580862045288,
+        "normH": 0.9864740967750549
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "portrait.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:17:36 GMT",
+        "label": "person",
+        "confidence": 0.6536019444465637,
+        "normX": 0.04659348726272583,
+        "normY": 0.0022559165954589844,
+        "normW": 0.8916476964950562,
+        "normH": 0.9951248168945312
+    }
+]

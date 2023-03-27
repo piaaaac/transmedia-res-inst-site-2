@@ -503,8 +503,14 @@ h6 { @include font-sans-s; }
   .hamburger--slider.is-active .hamburger-inner::after {
     transform: translate3d(0, -14px, 0) rotate(-90deg); }
 
+.color-white-20 {
+  color: rgba(255, 255, 255, 0.2); }
+
 .color-white-50 {
   color: rgba(255, 255, 255, 0.5); }
+
+.color-uicolor {
+  color: #f4ff00; }
 
 .bg-white {
   background-color: white; }
@@ -525,6 +531,9 @@ h6 { @include font-sans-s; }
 
 .lower {
   text-transform: none; }
+
+.hover-red:hover {
+  color: red !important; }
 
 * {
   text-rendering: geometricPrecision; }
@@ -609,9 +618,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative; }
     #body-content #tiles .marker {
       z-index: 100;
-      width: 10px;
-      height: 10px;
-      background-color: red;
       position: absolute; }
     #body-content #tiles .tile {
       position: relative;
@@ -640,37 +646,39 @@ h1, h2, h3, h4, h5, h6 {
         transition: filter 400ms; }
 
 .full-width-content {
-  position: relative;
-  padding-top: 66%; }
-  .full-width-content .img {
-    position: absolute;
-    left: 0;
-    top: 0;
+  position: relative; }
+  .full-width-content img {
     width: 100%;
-    height: 100%; }
+    height: auto; }
 
-.computer-vision .highlight {
-  z-index: 25;
+.computer-vision-highlights {
   position: absolute;
-  border: 1px solid #f4ff00;
-  transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 500ms 300ms;
-  width: 0;
-  height: 0;
-  opacity: 0; }
-  .computer-vision .highlight p {
-    padding-top: 5px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; }
+  .computer-vision-highlights .highlight {
+    z-index: 25;
     position: absolute;
-    width: 15vw;
-    width: 100%;
-    height: 100%;
-    top: 100%;
-    left: 0;
-    font-size: 8px;
-    font-family: "cubnet", monospace;
-    color: #f4ff00; }
-  .computer-vision .highlight.active {
-    opacity: 1;
-    transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 200ms; }
+    border: 0.5px solid #f4ff00;
+    transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 500ms 300ms;
+    width: 0;
+    height: 0;
+    opacity: 0; }
+    .computer-vision-highlights .highlight p {
+      padding-top: 5px;
+      position: absolute;
+      width: 15vw;
+      width: 100%;
+      height: 100%;
+      top: 100%;
+      left: 0;
+      font-size: 8px;
+      font-family: "cubnet", monospace;
+      color: #f4ff00; }
+    .computer-vision-highlights .highlight.active {
+      opacity: 1;
+      transition: width 1200ms, height 1200ms, left 1200ms, top 1200ms, opacity 200ms; }
 
 #program {
   z-index: 15;
@@ -837,6 +845,7 @@ h1, h2, h3, h4, h5, h6 {
       padding: 5px;
       margin-top: -1px;
       padding-left: 26px;
+      padding-left: 30px;
       font-family: "Roboto Mono", monospace;
       font-size: 11px;
       letter-spacing: 0.03em;
@@ -898,7 +907,8 @@ h1, h2, h3, h4, h5, h6 {
         #inspector .content .item.c-alert::before {
           position: absolute;
           content: url("../images/icon-theme_dark-console-alert.svg");
-          left: 7px; }
+          left: 7px;
+          left: 10px; }
       #inspector .content .item.c-error {
         z-index: 14;
         color: #FF0100;
@@ -908,7 +918,8 @@ h1, h2, h3, h4, h5, h6 {
         #inspector .content .item.c-error::before {
           position: absolute;
           content: url("../images/icon-theme_dark-console-error.svg");
-          left: 7px; }
+          left: 7px;
+          left: 10px; }
       #inspector .content .item.c-log {
         z-index: 12;
         color: rgba(111, 111, 111, 0.6);
@@ -922,7 +933,8 @@ h1, h2, h3, h4, h5, h6 {
         #inspector .content .item.c-conciousness::before {
           position: absolute;
           content: url("../images/icon-theme_dark-console-conciousness.svg");
-          left: 7px; }
+          left: 7px;
+          left: 10px; }
       #inspector .content .item.c-log-user-input {
         z-index: 12;
         color: rgba(111, 111, 111, 0.6);
@@ -931,7 +943,8 @@ h1, h2, h3, h4, h5, h6 {
         #inspector .content .item.c-log-user-input::before {
           position: absolute;
           content: url("../images/icon-console-reportinput.svg");
-          left: 7px; }
+          left: 7px;
+          left: 10px; }
       #inspector .content .item.c-content {
         z-index: 12;
         color: #000;

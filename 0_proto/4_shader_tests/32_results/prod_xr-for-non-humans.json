@@ -1,0 +1,628 @@
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "0t1a8214.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:03 GMT",
+        "label": "bird",
+        "confidence": 0.46399831771850586,
+        "normX": 0.5776981573838454,
+        "normY": 0.8117711727435772,
+        "normW": 0.009532341590294471,
+        "normH": 0.01189268552339994
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "0t1a8214.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:03 GMT",
+        "label": "bird",
+        "confidence": 0.4462094306945801,
+        "normX": 0.6402394954974835,
+        "normY": 0.8074683409470779,
+        "normW": 0.008075347313514123,
+        "normH": 0.010326385498046875
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "1.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:03 GMT",
+        "label": "tie",
+        "confidence": 0.48638609051704407,
+        "normX": 0.4147602961613582,
+        "normY": 0.2639577388763428,
+        "normW": 0.15553558789766753,
+        "normH": 0.622814050087562
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "5.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:05 GMT",
+        "label": "person",
+        "confidence": 0.6922329068183899,
+        "normX": 0.49297842612633336,
+        "normY": 0.30976123076218826,
+        "normW": 0.48608710215641904,
+        "normH": 0.6861492670499362
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "cell phone",
+        "confidence": 0.7835049629211426,
+        "normX": 0.4498441402728741,
+        "normY": 0.5893684533926157,
+        "normW": 0.15482411017784706,
+        "normH": 0.11031018770658053
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "cell phone",
+        "confidence": 0.7096512317657471,
+        "normX": 0.4355613268338717,
+        "normY": 0.3738696391765888,
+        "normW": 0.22442179459791917,
+        "normH": 0.2902406912583571
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "cell phone",
+        "confidence": 0.6156507730484009,
+        "normX": 0.4132957458496094,
+        "normY": 0.3602313995361328,
+        "normW": 0.22604223398061898,
+        "normH": 0.3017475421612079
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "cell phone",
+        "confidence": 0.5941104888916016,
+        "normX": 0.4473900061387282,
+        "normY": 0.3951914127056415,
+        "normW": 0.20963379052969125,
+        "normH": 0.33867645263671875
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "cell phone",
+        "confidence": 0.46184486150741577,
+        "normX": 0.4137939673203688,
+        "normY": 0.38402806795560396,
+        "normW": 0.21335341380192682,
+        "normH": 0.3650313890897311
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "person",
+        "confidence": 0.4228624999523163,
+        "normX": 0.3561532680804913,
+        "normY": 0.00824429438664363,
+        "normW": 0.13788256278404823,
+        "normH": 0.11890834111433762
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:06 GMT",
+        "label": "cell phone",
+        "confidence": 0.4038279354572296,
+        "normX": 0.46093104435847354,
+        "normY": 0.39463560397808367,
+        "normW": 0.18720186673677885,
+        "normH": 0.20231312971848708
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_04.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "person",
+        "confidence": 0.9184790849685669,
+        "normX": 0.07111196334545429,
+        "normY": 0.33728918662438023,
+        "normW": 0.21785969917590803,
+        "normH": 0.42807377301729643
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_04.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "bird",
+        "confidence": 0.6082524657249451,
+        "normX": 0.48844436498788685,
+        "normY": 0.09203757689549373,
+        "normW": 0.0202026000389686,
+        "normH": 0.01275013960324801
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_04.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "tie",
+        "confidence": 0.43949460983276367,
+        "normX": 0.08855114533351018,
+        "normY": 0.4825127674983098,
+        "normW": 0.03857851028442383,
+        "normH": 0.049404144287109375
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_04.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "person",
+        "confidence": 0.4043314754962921,
+        "normX": 0.07150412522829495,
+        "normY": 0.3532075881958008,
+        "normW": 0.15475558317624605,
+        "normH": 0.40806029393122745
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portraitstudioabove_below_photocredit_aniachatherine_imagesource_courtesyoftheartist.png.png",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "person",
+        "confidence": 0.5760011076927185,
+        "normX": 0.11731420113490178,
+        "normY": 0.23992773202749398,
+        "normW": 0.45515719743875355,
+        "normH": 0.760072267972506
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portraitstudioabove_below_photocredit_aniachatherine_imagesource_courtesyoftheartist.png.png",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "person",
+        "confidence": 0.5701239109039307,
+        "normX": 0.0987396790431096,
+        "normY": 0.09803506961235633,
+        "normW": 0.5014348213489239,
+        "normH": 0.9019649303876437
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portraitstudioabove_below_photocredit_aniachatherine_imagesource_courtesyoftheartist.png.png",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "person",
+        "confidence": 0.4821452796459198,
+        "normX": 0.14003605108994704,
+        "normY": 0.2147048986875094,
+        "normW": 0.558387407889733,
+        "normH": 0.7852951013124906
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "portraitstudioabove_below_photocredit_aniachatherine_imagesource_courtesyoftheartist.png.png",
+        "timestamp": "Fri, 17 Mar 2023 16:28:08 GMT",
+        "label": "person",
+        "confidence": 0.409137099981308,
+        "normX": 0.29468976534329927,
+        "normY": 0.2750694751739502,
+        "normW": 0.5663928985595703,
+        "normH": 0.7249305248260498
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "studioabove_below_entagledlandscape_03.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:28:09 GMT",
+        "label": "tvmonitor",
+        "confidence": 0.4842323362827301,
+        "normX": 0.12443199524512658,
+        "normY": 0,
+        "normW": 0.4475937806642972,
+        "normH": 0.9136659182035006
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "0t1a8171.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:47 GMT",
+        "label": "person",
+        "confidence": 0.9523015022277832,
+        "normX": 0.4281265437602997,
+        "normY": 0.3709503412246704,
+        "normW": 0.18728730082511902,
+        "normH": 0.407825231552124
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "0t1a8214.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:47 GMT",
+        "label": "person",
+        "confidence": 0.5938043594360352,
+        "normX": 0.746849775314331,
+        "normY": 0.045511722564697266,
+        "normW": 0.13589131832122803,
+        "normH": 0.5799069404602051
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "4.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:49 GMT",
+        "label": "tv",
+        "confidence": 0.8548732399940491,
+        "normX": 0.004772543907165527,
+        "normY": 0.05781862139701843,
+        "normW": 0.9592328667640686,
+        "normH": 0.9164303839206696
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "7.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:50 GMT",
+        "label": "person",
+        "confidence": 0.8358167409896851,
+        "normX": 0.7097980380058289,
+        "normY": 0.20877763628959656,
+        "normW": 0.2379746437072754,
+        "normH": 0.7483238279819489
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "7.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:50 GMT",
+        "label": "tv",
+        "confidence": 0.5556829571723938,
+        "normX": 0.04464563727378845,
+        "normY": 0.7069782018661499,
+        "normW": 0.3871201276779175,
+        "normH": 0.2636195421218872
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "9.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:50 GMT",
+        "label": "tv",
+        "confidence": 0.5958333611488342,
+        "normX": -0.007842034101486206,
+        "normY": 0.6084088087081909,
+        "normW": 0.4402402341365814,
+        "normH": 0.3529167175292969
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:50 GMT",
+        "label": "person",
+        "confidence": 0.9776028990745544,
+        "normX": 0.29967349767684937,
+        "normY": 0.47829678654670715,
+        "normW": 0.7048149704933167,
+        "normH": 0.5115054547786713
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "ar-scultpure-workshop-london-city-island-unity-art-festival-studio-above_below-2019.-image-by-daria-jelonek.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:50 GMT",
+        "label": "cell phone",
+        "confidence": 0.8727403283119202,
+        "normX": 0.41437533497810364,
+        "normY": 0.37872689962387085,
+        "normW": 0.2450866997241974,
+        "normH": 0.3331165313720703
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_01.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:51 GMT",
+        "label": "person",
+        "confidence": 0.9046648740768433,
+        "normX": 0.7730734348297119,
+        "normY": 0.31989535689353943,
+        "normW": 0.20800232887268066,
+        "normH": 0.6701386272907257
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_02.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:51 GMT",
+        "label": "person",
+        "confidence": 0.8797946572303772,
+        "normX": 0.40104398131370544,
+        "normY": 0.26508304476737976,
+        "normW": 0.3238842785358429,
+        "normH": 0.7353599369525909
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_03.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:51 GMT",
+        "label": "person",
+        "confidence": 0.8875207304954529,
+        "normX": 0.11887698620557785,
+        "normY": 0.1287197768688202,
+        "normW": 0.2163204625248909,
+        "normH": 0.861566811800003
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_04.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.992305338382721,
+        "normX": 0.061127737164497375,
+        "normY": 0.37682434916496277,
+        "normW": 0.20991729199886322,
+        "normH": 0.3688923418521881
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_indoor_04.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "bird",
+        "confidence": 0.7117181420326233,
+        "normX": 0.019609659910202026,
+        "normY": 0.046092063188552856,
+        "normW": 0.8764268457889557,
+        "normH": 0.5133118331432343
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_process_08.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.8511665463447571,
+        "normX": 0.011763304471969604,
+        "normY": -0.0036187171936035156,
+        "normW": 0.7627679407596588,
+        "normH": 0.873431921005249
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "copy-of-copy-of-digitalatmosphere_process_08.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.5841684341430664,
+        "normX": 0.4987885057926178,
+        "normY": 0.015815913677215576,
+        "normW": 0.49732038378715515,
+        "normH": 0.7210832834243774
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "portraitstudioabove_below_photocredit_aniachatherine_imagesource_courtesyoftheartist.png.png",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.9223588109016418,
+        "normX": 0.11457961797714233,
+        "normY": 0.11129078269004822,
+        "normW": 0.4042677879333496,
+        "normH": 0.8839419186115265
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "portraitstudioabove_below_photocredit_aniachatherine_imagesource_courtesyoftheartist.png.png",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.862208902835846,
+        "normX": 0.4681018888950348,
+        "normY": 0.21828186511993408,
+        "normW": 0.5081411302089691,
+        "normH": 0.768625020980835
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "studioabove_below_entagledlandscape_02.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.9429227113723755,
+        "normX": 0.5690026879310608,
+        "normY": 0.3151106834411621,
+        "normW": 0.1284276247024536,
+        "normH": 0.6667757034301758
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "studioabove_below_entagledlandscape_02.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.9399160742759705,
+        "normX": 0.04641786962747574,
+        "normY": 0.3336687684059143,
+        "normW": 0.1570306345820427,
+        "normH": 0.6624431610107422
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "studioabove_below_entagledlandscape_02.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.7665663957595825,
+        "normX": 0.4584633708000183,
+        "normY": 0.35168617963790894,
+        "normW": 0.11406815052032471,
+        "normH": 0.6226774454116821
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "studioabove_below_entagledlandscape_02.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.7146411538124084,
+        "normX": 0.8041630983352661,
+        "normY": 0.3920895755290985,
+        "normW": 0.09433245658874512,
+        "normH": 0.33011797070503235
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "studioabove_below_entagledlandscape_02.jpg",
+        "timestamp": "Fri, 17 Mar 2023 16:26:52 GMT",
+        "label": "person",
+        "confidence": 0.644302487373352,
+        "normX": 0.37348100543022156,
+        "normY": 0.37996816635131836,
+        "normW": 0.08272498846054077,
+        "normH": 0.3527998924255371
+    }
+]

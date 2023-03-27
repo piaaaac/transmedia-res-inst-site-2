@@ -1,0 +1,64 @@
+Title: XR for non-humans
+
+----
+
+Names: Studio Above&Below
+
+----
+
+Datetext:
+
+3, 4, 5, 6, 7 July, 2023 workshop
+8, 9 July, 2023 final exhibition
+
+----
+
+Shortdescription: Explore the aquatic life of the Adriatic Sea through digital tools. Using mixed reality tools like Unity/WebAR, Unreal, Touchdesigner and others you will build XR projects of practical, artistic or speculative nature.
+
+----
+
+Fulldescription:
+
+This summer school will explore the aquatic life of the Adriatic Sea through digital tools. We will explore design approaches which are aimed towards non-human and all planet benefits rather than following pure human centered goals. We will therefore explore the ecosystems and machines which can be found around the port of Fano. The outcomes will be XR projects which can be of a practical, artistic or speculative nature.
+
+Technically, we will learn about mixed reality tools, including but not limited to AR (Unity/WebAR) and inspirations from Unreal, Touchdesigner and other 3D software.
+
+----
+
+Computervisionjson: 
+
+----
+
+Description:
+
+This summer school will explore the aquatic life of the Adriatic Sea through digital tools. We will explore design approaches which are aimed towards non-human and all planet benefits rather than following pure human centered goals. We will therefore explore the ecosystems and machines which can be found around the port of Fano. The outcomes will be XR projects which can be of a practical, artistic or speculative nature.
+
+Technically, we will learn about mixed reality tools, including but not limited to AR (Unity/WebAR) and inspirations from Unreal, Touchdesigner and other 3D software.
+
+----
+
+Startdate: 2023-07-03
+
+----
+
+Enddate: 2023-07-09
+
+----
+
+Starttime: 
+
+----
+
+Endtime: 
+
+----
+
+Text: 
+
+----
+
+Uuid: 9W6ktuNwJFUKv3x1
+
+----
+
+Shortintro: 
