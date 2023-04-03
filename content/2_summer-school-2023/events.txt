@@ -17,38 +17,47 @@ Running from Monday, July 3rd to Sunday, July 9th, the format of the summer scho
 Program:
 
 - 
+  categoryvisibility: 'true'
   categorytext: |
     Workshops
     Five days, 3—7 July
   categoryevents:
     - page://9W6ktuNwJFUKv3x1
     - page://ewdOw08cBcAKomWS
-    - page://GECkanAL8mYUv10Y
     - page://O4MMZ7wCe1jBsZXt
+    - page://egUQukH2WgvHrQlU
+    - page://GECkanAL8mYUv10Y
+  categorytext2: ""
 - 
+  categoryvisibility: 'true'
   categorytext: |
     Workshops
     Weekend 8—9 July
-  categoryevents:
-    - page://Ij6jXm7sZtVF4ouG
-    - page://egUQukH2WgvHrQlU
+  categoryevents: [ ]
+  categorytext2: '<span class="color-white-20">to be announced soon</span>'
 - 
+  categoryvisibility: 'true'
   categorytext: |
-    Master classes
+    Masterclass
     3, 4, 5, 6 and 7 July, 18:30—19:30
-  categoryevents:
-    - page://SrHcIrRFHvoWStRB
+  categoryevents: [ ]
+  categorytext2: '<span class="color-white-20">to be announced soon</span>'
 - 
+  categoryvisibility: 'true'
   categorytext: |
     Live performance
     8 July, 21:00
-  categoryevents:
-    - page://YqOjw72lgrk2KoBW
+  categoryevents: [ ]
+  categorytext2: '<span class="color-white-20">to be announced soon</span>'
 - 
+  categoryvisibility: 'true'
   categorytext: |
     Exhibition
     8—9 July
   categoryevents: [ ]
+  categorytext2: >
+    Collective exhibition of workshop
+    outcomes
 
 ----
 

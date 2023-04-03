@@ -7,7 +7,7 @@ return [
   "debug" => true,
   "whoops" => true,
 
-  // "routes" => require_once 'routes.php',
+  "routes" => require_once 'routes.php',
 
   // "hooks" => require_once "hooks.php", // currently []
   
@@ -21,13 +21,9 @@ return [
   "pedroborges.meta-tags.default" => function ($page, $site) {
 
     // default
-    $socialTitle = $site->title();
-    $socialDesc = $site->description();
-    
-    $socialImgUrl = "";
-    if ($site->socialImage()->isNotEmpty()) {
-      $socialImgUrl = $site->socialImage()->toFile()->url();
-    } 
+    $socialTitle = "Summer School of Bits and Atoms";
+    $socialDesc = "Transmedia Research Institute";
+    $socialImgUrl = $site->url() ."/assets/images/socialcard.jpg";
 
     return [
       'title'         => $site->title() ." | ". $page->title(),

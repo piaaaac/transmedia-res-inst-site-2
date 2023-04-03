@@ -1,0 +1,128 @@
+Title: Sizzling Semiconductors and Fluid Forms
+
+----
+
+Names: Ioana Vreme Moser
+
+----
+
+Datetext:
+
+Politics of Parts hybrid workshop
+3—7 July, 2023
+
+----
+
+Shortdescription: 
+
+----
+
+Fulldescription:
+
+Sizzling Semiconductors and Fluid Forms commences as a screaming tone at the precise touch of a radio-sensitive mineral and at the laminar flow of a water jet.
+~
+The workshop proposes the construction of oscillating instruments from scratch to investigate the multifaceted history of electronic parts, semiconductive stones, their presence in electronic devices, and environmental decay. An old screw can become a surrogate for a transistor to scream modulated tones when treated properly. 
+~
+Inspired by early 20th-century radio discoveries, we will create sounding electronic instruments out of scrap metal pieces and stones and manipulate them with water circuits. We will look at mineral hardware and compare it with fluidics to explore and reimagine forms for electronic-hybrid sound instruments.
+~
+The participants will acquire knowledge in both technical and historical aspects of electronics and fluidics to understand the mechanisms and politics of modern computing devices. They will be guided to construct, bend, drill, solder, burn and reinvent circuitry. No prior experience in electronics is necessary.
+ 
+
+~
+*Ioana Vreme Moser* (b. 1994) is a Romanian sound artist engaged with hardware electronics, speculative research, and tactile experimentation.
+~
+In her practice, she uses rough electronic processes to obtain different materialities of sound. She places electronic components and control voltages in different situations of interaction with her body, organic materials, lost and found items, and environmental stimuli. From these collisions, synthesized sounds emerge to carry personal narrations and observations on the history of electronics, their production chains, wastelands, and entanglements in the natural world.
+~
+Amongst others, she has performed and exhibited at the National Gallery of Denmark (DK), Fonderie Darling (CA), Akademie der Künste Berlin (DE); Manifesta 14 (XK); SFX - Sound Effects Seoul (KR), Ars Electronica (AT), Bunkier Sztuki Gallery Krakow (PL); Simultan Festival (RO); Eigen+Art Lab - Transmediale, Berlin (DE).
+
+----
+
+Computervisionjson:
+
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "car",
+        "confidence": 0.5835533738136292,
+        "normX": 0.639827141394982,
+        "normY": 0.804168701171875,
+        "normW": 0.34652159764216495,
+        "normH": 0.17513700631948617
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "car",
+        "confidence": 0.5554743409156799,
+        "normX": 0.6792557056133564,
+        "normY": 0.8232608941885141,
+        "normW": 0.2817241962139423,
+        "normH": 0.1442422866821289
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "car",
+        "confidence": 0.5165728330612183,
+        "normX": 0.7441560305081881,
+        "normY": 0.8020926989041842,
+        "normW": 0.23889600313626802,
+        "normH": 0.15460322453425482
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:37:20 GMT",
+        "label": "person",
+        "confidence": 0.43208181858062744,
+        "normX": 0.013570659435712375,
+        "normY": 0.8143000969519982,
+        "normW": 0.08579435486059922,
+        "normH": 0.16614209688626802
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "above-and-belowdigitalatmosphere_outdoor_06.jpg",
+        "timestamp": "Sat, 25 Feb 2023 12:39:32 GMT",
+        "label": "car",
+        "confidence": 0.6085864901542664,
+        "normX": 0.6696848273277283,
+        "normY": 0.7514580488204956,
+        "normW": 0.3301049470901489,
+        "normH": 0.24528682231903076
+    }
+]
+
+----
+
+Uuid: egUQukH2WgvHrQlU

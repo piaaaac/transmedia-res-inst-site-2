@@ -1,0 +1,62 @@
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-3.png",
+        "timestamp": "Thu, 30 Mar 2023 21:03:35 GMT",
+        "label": "tvmonitor",
+        "confidence": 0.552126407623291,
+        "normX": 0.06213387159200815,
+        "normY": 0.40482447697566104,
+        "normW": 0.20746450240795428,
+        "normH": 0.17554737971379206
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-5.png",
+        "timestamp": "Thu, 30 Mar 2023 21:03:35 GMT",
+        "label": "person",
+        "confidence": 0.4830324947834015,
+        "normX": 0.3595876693725586,
+        "normY": 0.2747553311861478,
+        "normW": 0.06145741389347957,
+        "normH": 0.14484834671020508
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-5.png",
+        "timestamp": "Thu, 30 Mar 2023 21:04:35 GMT",
+        "label": "person",
+        "confidence": 0.5653973817825317,
+        "normX": 0.1590789407491684,
+        "normY": 0.08847901225090027,
+        "normW": 0.05405759811401367,
+        "normH": 0.09535285830497742
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-5.png",
+        "timestamp": "Thu, 30 Mar 2023 21:04:35 GMT",
+        "label": "person",
+        "confidence": 0.502956748008728,
+        "normX": 0.8288537263870239,
+        "normY": 0.23955073952674866,
+        "normW": 0.045848846435546875,
+        "normH": 0.09912794828414917
+    }
+]

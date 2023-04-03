@@ -15,8 +15,14 @@ foreach ($page->children()->listed() as $event) {
 
 $json["program"] = [];
 foreach ($page->program()->toStructure() as $category) {
-  $categoryHtml = snippet("inspector-content-program-category", ["text" => $category->categoryText(), "events" => $category->categoryEvents()], true);
-  $json["htmlProgramCategories"][] = $categoryHtml;
+  if ($category->categoryVisibility()->toBool()) {
+    $categoryHtml = snippet("inspector-content-program-category", [
+      "text" => $category->categoryText(), 
+      "text2" => $category->categoryText2(), 
+      "events" => $category->categoryEvents()
+    ], true);
+    $json["htmlProgramCategories"][] = $categoryHtml;
+  }
 }
 
 

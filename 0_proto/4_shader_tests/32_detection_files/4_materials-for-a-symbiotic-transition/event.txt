@@ -1,0 +1,384 @@
+Title: Materials for a symbiotic transition
+
+----
+
+Names: Luca Alessandrini e Davide Balda
+
+----
+
+Datetext:
+
+3—9 July 2023
+(workshop in lingua italiana)
+
+----
+
+Shortdescription: 
+
+----
+
+Fulldescription:
+
+Questo workshop definisce il ruolo del design come veicolo di cambiamento e transizione per la sostenibilità, esplorando metodi alternativi per produrre materiali sostenibili.
+~
+Nei primi due giorni verrà condivisa una nuova metodologia volta a creare reti di simbiosi industriale tra aziende e designer.
+~
+Seguirà un'introduzione teorica e metodologica sui biomateriali e una fase di sperimentazione di un nuovo biomateriale creato con scarti e residui di origine marina prelevati da aziende locali. 
+~
+I risultati delle sperimentazioni materiche comporranno una installazione urbana artistica o funzionale.
+ 
+
+~
+*Luca Alessandrini* cresce immerso nel mondo del design e dell'imprenditoria lavorando come designer e project manager per Stilema s.r.l. dal 2010 al 2015 viaggiando tra Cina, Italia e Medio Oriente.
+~
+Nel 2014 Luca si trasferisce a Londra per partecipare al doppio MSc/MA in Innovation Design Engineering tra Royal College of Art e Imperial College.
+~
+Nel 2020 Luca è dottorando di ricerca finanziato presso il Politecnico di Milano, sostenendo la sua ricerca precedentemente sviluppata lavorando con materiali naturali; nel frattempo è consulente di marchi, progettando e ingegnerizzando prodotti innovativi in un'ottica consapevole che porta a percorsi produttivi sostenibili.
+ 
+
+~
+*Davide Balda* è un designer multidisciplinare, interessato a scoprire nuovi materiali e processi di  produzione sostenibili. Si è laureato in design del prodotto allo IED di Torino e nel master di primo  livello Design, Creatività e Pratiche Sociali presso l’Accademia Unidee e la Fondazione Pistoletto a Biella.
+~
+Davide predilige un’indagine antropologica e archeologica, coinvolgendo attivamente la comunità  del luogo e interagendo con i materiali prodotti dalle attività locali.
+
+----
+
+Computervisionjson:
+
+[
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-12.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:22 GMT",
+        "label": "person",
+        "confidence": 0.9909635186195374,
+        "normX": 0.04917418956756592,
+        "normY": 0.3948180079460144,
+        "normW": 0.4599270820617676,
+        "normH": 0.3674652576446533
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-12.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:22 GMT",
+        "label": "cake",
+        "confidence": 0.7251775860786438,
+        "normX": 0.21290159225463867,
+        "normY": 0.06076568365097046,
+        "normW": 0.5967535972595215,
+        "normH": 0.8447886109352112
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-13.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:23 GMT",
+        "label": "person",
+        "confidence": 0.7153034210205078,
+        "normX": 0.015317142009735107,
+        "normY": 0.16619589924812317,
+        "normW": 0.9374507069587708,
+        "normH": 0.7790386378765106
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-14.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:23 GMT",
+        "label": "cake",
+        "confidence": 0.7062284350395203,
+        "normX": 0.10240393877029419,
+        "normY": 0.3892153799533844,
+        "normW": 0.7302221655845642,
+        "normH": 0.5101175010204315
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-15.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:23 GMT",
+        "label": "person",
+        "confidence": 0.8840538263320923,
+        "normX": 0.03349226713180542,
+        "normY": 0.08758044242858887,
+        "normW": 0.8156927824020386,
+        "normH": 0.9212489128112793
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-16.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:23 GMT",
+        "label": "person",
+        "confidence": 0.9266199469566345,
+        "normX": 0.0013922154903411865,
+        "normY": 0.49458110332489014,
+        "normW": 0.5115397274494171,
+        "normH": 0.4990200996398926
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-17.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:23 GMT",
+        "label": "person",
+        "confidence": 0.8927808403968811,
+        "normX": 0.05090075731277466,
+        "normY": 0.31172898411750793,
+        "normW": 0.6999832391738892,
+        "normH": 0.7018878161907196
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-17.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:23 GMT",
+        "label": "cell phone",
+        "confidence": 0.7708941698074341,
+        "normX": 0.23243333399295807,
+        "normY": 0.04002919793128967,
+        "normW": 0.4124673455953598,
+        "normH": 0.9089497029781342
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-19.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:24 GMT",
+        "label": "oven",
+        "confidence": 0.6396722197532654,
+        "normX": 0.0032439827919006348,
+        "normY": 0.019327819347381592,
+        "normW": 0.9330580830574036,
+        "normH": 0.9656002521514893
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-20.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:24 GMT",
+        "label": "cake",
+        "confidence": 0.8496231436729431,
+        "normX": 0.19470959901809692,
+        "normY": 0.00982367992401123,
+        "normW": 0.6905745267868042,
+        "normH": 0.8359856605529785
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-21.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:24 GMT",
+        "label": "cake",
+        "confidence": 0.756759524345398,
+        "normX": 0.07891914248466492,
+        "normY": 0.09306687116622925,
+        "normW": 0.8124754726886749,
+        "normH": 0.6488436460494995
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-6.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:25 GMT",
+        "label": "bear",
+        "confidence": 0.6180636882781982,
+        "normX": 0.15984605252742767,
+        "normY": 0.6706384420394897,
+        "normW": 0.14966459572315216,
+        "normH": 0.20292723178863525
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-7.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:25 GMT",
+        "label": "dining table",
+        "confidence": 0.7698476910591125,
+        "normX": 0.43805134296417236,
+        "normY": 0.13221070170402527,
+        "normW": 0.435799241065979,
+        "normH": 0.24224311113357544
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-8.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:26 GMT",
+        "label": "person",
+        "confidence": 0.5157680511474609,
+        "normX": 0.5144641995429993,
+        "normY": -0.0048956722021102905,
+        "normW": 0.13866055011749268,
+        "normH": 0.31633947789669037
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image-9.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:47:26 GMT",
+        "label": "cake",
+        "confidence": 0.7424502372741699,
+        "normX": 0.0038833022117614746,
+        "normY": 0.28808411955833435,
+        "normW": 0.993827223777771,
+        "normH": 0.698875218629837
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-1.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:11 GMT",
+        "label": "car",
+        "confidence": 0.4655112326145172,
+        "normX": 0.2492360518528865,
+        "normY": 0.5901212692260742,
+        "normW": 0.18801569938659668,
+        "normH": 0.15412220588097206
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-13.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:12 GMT",
+        "label": "cat",
+        "confidence": 0.46567803621292114,
+        "normX": 0.03290832042694092,
+        "normY": 0.07995498180389404,
+        "normW": 0.9670916795730591,
+        "normH": 0.920045018196106
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-13.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:12 GMT",
+        "label": "cat",
+        "confidence": 0.4323333203792572,
+        "normX": 0.10614949006300706,
+        "normY": 0.32452895091130185,
+        "normW": 0.8938505099369929,
+        "normH": 0.6476644002474271
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-14.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:12 GMT",
+        "label": "sandwich",
+        "confidence": 0.5865961909294128,
+        "normX": 0.11227736106285682,
+        "normY": 0.3028750419616699,
+        "normW": 0.7898876850421612,
+        "normH": 0.6971249580383301
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-18.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:13 GMT",
+        "label": "cat",
+        "confidence": 0.6573390364646912,
+        "normX": 0,
+        "normY": 0.1379854128910945,
+        "normW": 1,
+        "normH": 0.8620145871089056
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-3.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:14 GMT",
+        "label": "tvmonitor",
+        "confidence": 0.5790020823478699,
+        "normX": 0.06509582812969501,
+        "normY": 0.40524871532733625,
+        "normW": 0.2033117000873272,
+        "normH": 0.17278176087599534
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-5.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:14 GMT",
+        "label": "bird",
+        "confidence": 0.4939263164997101,
+        "normX": 0.37821589983426607,
+        "normY": 0.3109252636249249,
+        "normW": 0.03465395707350511,
+        "normH": 0.0701733735891489
+    },
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image-7.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:50:15 GMT",
+        "label": "car",
+        "confidence": 0.5779342651367188,
+        "normX": 0.824592663691594,
+        "normY": 0.15575618010300857,
+        "normW": 0.10371552980863132,
+        "normH": 0.044591628588162936
+    }
+]
+
+----
+
+Uuid: O4MMZ7wCe1jBsZXt

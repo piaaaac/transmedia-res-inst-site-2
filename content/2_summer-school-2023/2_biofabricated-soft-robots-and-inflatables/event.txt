@@ -8,8 +8,8 @@ Names: Marisa Satsia
 
 Datetext:
 
-3, 4, 5, 6, 7 July, 2023 workshop
-8, 9 July, 2023 final exhibition
+3—7 July, 2023 workshop
+8—9 July, 2023 final exhibition
 
 ----
 
@@ -19,9 +19,16 @@ Shortdescription: In this 5 day workshop participants will be experimenting with
 
 Fulldescription:
 
-In this 5 day workshop participants will be experimenting with DIY and DIWO/DIT biofabrication techniques for the fabrication of soft robots and inflatable structures. We will be cultivating and crafting some of our own materials such as bacterial cellulose and alginate/gelatine bioplastics and investigating their material properties as inflatable structures.					At first we will look at materials and techniques that are already widely being used for the fabrication of soft robots and inflatable structures like silicone, PVC or other found materials in order to understand the fundamentals of fabricating inflatable structures.
+In this 5 day workshop participants will be experimenting with DIY and DIWO/DIT biofabrication techniques for the fabrication of soft robots and inflatable structures. We will be cultivating and crafting some of our own materials such as bacterial cellulose and alginate/gelatine bioplastics and investigating their material properties as inflatable structures.
+~
+At first we will look at materials and techniques that are already widely being used for the fabrication of soft robots and inflatable structures like silicone, PVC or other found materials in order to understand the fundamentals of fabricating inflatable structures.
+ 
 
-(link: https://www.eventbrite.com/e/registrazione-disegnare-la-complessita-incontro-con-michele-mauri-579247403577?aff=ebdssbdestsearch&keep_tld=1 text: Register for the workshop target: _blank)
+~
+MARISA SATSIA is a multidisciplinary artist and researcher specialising in medical and biological arts. She is a medical artist and illustrator and an amateur biologist and biotechnologist. In her work she aims to re-imagine and challenge the future developments of biotechnologies of self health/care and make biology and scientific knowledge more accessible through the adoption of processes, techniques, materials and tools that are related to DIY Biology, digital fabrication, biofabrication and biotinkering in her artistic practice.
+
+Price: 150€ / Students: 100€
+(link: https://www.tickettailor.com/events/umanesimoartificiale/891014 class: color-uicolor text: Workshop registration target: _blank)
 
 ----
 

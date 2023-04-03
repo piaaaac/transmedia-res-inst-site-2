@@ -1,6 +1,6 @@
 <?php
 
-return function ($page, $site, $kirby) {
+return function ($page, $site, $kirby, $eventUid) {
 
   // do something with the page, site and kirby
 
@@ -21,7 +21,6 @@ return function ($page, $site, $kirby) {
 
   // keep this list updated!
   $trash_by_source = [];
-  $trash_by_source["site_contents"] = [];
   // $trash_by_source["geoplugin_raw"] = null;
   $trash_by_source["geoplugin_parsed"] = null;
   $trash_by_source["wikipedia_api"] = null;
@@ -30,6 +29,7 @@ return function ($page, $site, $kirby) {
   $trash_by_source["hardcoded_server"] = null;
   $trash_by_source["hardcoded_all"] = null;
   $trash_by_source["apache_request_headers"] = null;
+  $trash_by_source["site_contents"] = [];
 
   // ------------------------------
   // 1A. Site contents
@@ -89,24 +89,21 @@ return function ($page, $site, $kirby) {
 
   // TEST IPs
   // https://www.dotcom-monitor.com/wiki/knowledge-base/network-location-ip-addresses/
-  $testIps = ["209.142.68.29", "69.162.81.155", "192.199.248.75", "162.254.206.227", "207.250.234.100", "108.163.153.6", "206.71.50.230", "65.49.22.66", "23.81.0.59", "207.228.238.7", "200.7.98.19", "131.255.7.26", "95.142.107.181", "185.206.224.67", "195.201.213.247", "5.152.197.179", "195.12.50.155", "92.204.243.227", "46.248.187.100", "197.221.23.194", "185.229.226.83", "103.159.84.142", "47.94.129.116", "47.108.182.80", "8.134.33.121", "103.1.14.238", "47.104.1.98", "106.14.156.213", "47.119.149.69", "110.50.243.6", "185.235.10.211", "223.252.19.130", "101.0.86.43", "207.250.235.10"];
-  $rk = array_rand($testIps);
-  $ipAddress = $testIps[$rk];
+  // $testIps = ["209.142.68.29", "69.162.81.155", "192.199.248.75", "162.254.206.227", "207.250.234.100", "108.163.153.6", "206.71.50.230", "65.49.22.66", "23.81.0.59", "207.228.238.7", "200.7.98.19", "131.255.7.26", "95.142.107.181", "185.206.224.67", "195.201.213.247", "5.152.197.179", "195.12.50.155", "92.204.243.227", "46.248.187.100", "197.221.23.194", "185.229.226.83", "103.159.84.142", "47.94.129.116", "47.108.182.80", "8.134.33.121", "103.1.14.238", "47.104.1.98", "106.14.156.213", "47.119.149.69", "110.50.243.6", "185.235.10.211", "223.252.19.130", "101.0.86.43", "207.250.235.10"];
+  // $rk = array_rand($testIps);
+  // $ipAddress = $testIps[$rk];
 
   // Real IP
-  // $ipAddress = $_SERVER['REMOTE_ADDR'];
+  $ipAddress = $_SERVER['REMOTE_ADDR'];
 
   $geo = [];
   try {
     $geoRaw = file_get_contents('http://www.geoplugin.net/php.gp?ip='. $ipAddress);
-    // $trash_by_source["geoplugin_raw"] = [$geoRaw];
     $geo = unserialize($geoRaw);
   } catch (Exception $e) {
     $geo["geoplugin_status"] = 666;
     $geo["exception"] = 'Error getting location: '. $e->getMessage();
   }
-
-// return [ "trash" => $geo ]; // return debug data from controller
 
   if (isset($geo["geoplugin_status"]) && $geo["geoplugin_status"] === 200) { // if successfully got location info
 
@@ -114,33 +111,34 @@ return function ($page, $site, $kirby) {
 
     // ------------------------------------------------------
     // Wikipedia.org API - https://en.wikipedia.org/w/api.php
+/*
+*/
+    try {
+      // City, region, country or continent
+      $geoplugin_key = null;
+      if (isset($geo["geoplugin_city"]) && strlen($geo["geoplugin_city"]) > 0) { $geoplugin_key = "geoplugin_city"; }
+      elseif (isset($geo["geoplugin_regionName"]) && strlen($geo["geoplugin_regionName"]) > 0) { $geoplugin_key = "geoplugin_regionName"; }
+      elseif (isset($geo["geoplugin_countryName"]) && strlen($geo["geoplugin_countryName"]) > 0) { $geoplugin_key = "geoplugin_countryName"; }
+      elseif (isset($geo["geoplugin_continentName"]) && strlen($geo["geoplugin_continentName"]) > 0) { $geoplugin_key = "geoplugin_continentName"; }
+      $wikiRequestName = urlencode($geo[$geoplugin_key]);
+      $wikiJson = file_get_contents("https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=". $wikiRequestName ."&explaintext&format=json");
+      // $trash_by_source[] = $wikiJson;
+      $wiki = json_decode($wikiJson, true);
 
-    /*
-    // debug (Hawaii)
-    $wiki = json_decode(file_get_contents("https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=hawaii&explaintext&format=json"), true);
-    */
-
-
-    // City, region, country or continent
-    $geoplugin_key = null;
-    if (isset($geo["geoplugin_city"]) && strlen($geo["geoplugin_city"]) > 0) { $geoplugin_key = "geoplugin_city"; }
-    elseif (isset($geo["geoplugin_regionName"]) && strlen($geo["geoplugin_regionName"]) > 0) { $geoplugin_key = "geoplugin_regionName"; }
-    elseif (isset($geo["geoplugin_countryName"]) && strlen($geo["geoplugin_countryName"]) > 0) { $geoplugin_key = "geoplugin_countryName"; }
-    elseif (isset($geo["geoplugin_continentName"]) && strlen($geo["geoplugin_continentName"]) > 0) { $geoplugin_key = "geoplugin_continentName"; }
-    $wikiRequestName = urlencode($geo[$geoplugin_key]);
-    $wikiJson = file_get_contents("https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles=". $wikiRequestName ."&explaintext&format=json");
-    // $trash_by_source[] = $wikiJson;
-    $wiki = json_decode($wikiJson, true);
-
-    $wikiText = null;
-    if (isset($wiki["query"]) && isset($wiki["query"]["pages"])) {
-      foreach ($wiki["query"]["pages"] as $key => $p) {
-        if (isset($p["extract"]) && $wikiText === null) {
-          $wikiText = $p["extract"]; // save text of first of returned pages
-          $trash_by_source["wikipedia_api"] = [$wikiText];
+      $wikiText = null;
+      if (isset($wiki["query"]) && isset($wiki["query"]["pages"])) {
+        foreach ($wiki["query"]["pages"] as $key => $p) {
+          if (isset($p["extract"]) && $wikiText === null) {
+            $wikiText = $p["extract"]; // save text of first of returned pages
+            $trash_by_source["wikipedia_api"] = [$wikiText];
+          }
         }
       }
+    } catch (Exception $e) {
+      die("ERROR (23987592) " . $e->getMessage());
     }
+/*
+*/
   }
 
   // ------------------------------------------------------------
@@ -358,12 +356,19 @@ return function ($page, $site, $kirby) {
     $trash_fragments[] = $piece ."\n\n\n";
   }
 
-  return [
+  $out = [
+    "eventUid" => $eventUid,
     "trash" => [
       "by_source" => $trash_by_source,
       "fragments" => $trash_fragments,
     ],
   ];
+
+  // var_dump($out);
+  // echo json_encode($out);
+  // die();
+
+  return $out;
 
   // --- End of controller
 

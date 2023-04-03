@@ -13,14 +13,24 @@ columns:
           program:
             type: structure
             fields:
+              categoryVisibility:
+                label: State
+                type: toggle
+                text:
+                  - "Hidden"
+                  - "Visible"
               categoryText:
                 type: textarea
                 size: small
                 width: 1/2
               categoryEvents:
                 type: pages
-                query: page.children.listed
+                query: page.children
                 # min: 1
+                width: 1/2
+              categoryText2:
+                type: textarea
+                size: small
                 width: 1/2
   sidebar:
     width: 1/3

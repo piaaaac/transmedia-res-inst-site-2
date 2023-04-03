@@ -54,7 +54,7 @@ columns:
             label: Full description
             type: textarea
             size: tiny
-            maxlength: 1000
+            # maxlength: 1000
 
           computerVisionJson:
             type: textarea

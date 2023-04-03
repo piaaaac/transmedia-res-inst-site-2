@@ -1,0 +1,11 @@
+title: Event image
+
+# accept:
+#   extension: jpg, png, gif
+#   maxsize: 4000000 # 4MB
+
+fields:
+  computerVisionJson:
+    type: textarea
+    buttons: false
+    font: monospace

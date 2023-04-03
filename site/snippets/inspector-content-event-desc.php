@@ -12,9 +12,11 @@
 
 <div>
   <div class="font-sans-m">
-    <?= $event->fullDescription()->kt() ?>
+    <!-- <?= $event->fullDescription()->kt() ?> -->
+    <?= $site->organicParagraphsTilde($event->fullDescription()->value()) ?>
   </div>
-  <div class="font-sans-m text-center mt-3">
+  <div class="font-sans-m text-center">
+    <br />
     <a class="pointer" onclick="loadEvents();">Program</a>
     &nbsp;
     <a class="pointer" onclick="loadAbout();">About</a>

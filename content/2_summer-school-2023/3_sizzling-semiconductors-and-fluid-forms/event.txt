@@ -1,0 +1,132 @@
+Title: Sizzling Semiconductors and Fluid Forms
+
+----
+
+Names: Ioana Vreme Moser
+
+----
+
+Datetext:
+
+Politics of Parts hybrid workshop
+3—7 July, 2023
+
+----
+
+Shortdescription: 
+
+----
+
+Fulldescription:
+
+Sizzling Semiconductors and Fluid Forms commences as a screaming tone at the precise touch of a radio-sensitive mineral and at the laminar flow of a water jet.
+~
+The workshop proposes the construction of oscillating instruments from scratch to investigate the multifaceted history of electronic parts, semiconductive stones, their presence in electronic devices, and environmental decay. An old screw can become a surrogate for a transistor to scream modulated tones when treated properly. 
+~
+Inspired by early 20th-century radio discoveries, we will create sounding electronic instruments out of scrap metal pieces and stones and manipulate them with water circuits. We will look at mineral hardware and compare it with fluidics to explore and reimagine forms for electronic-hybrid sound instruments.
+~
+The participants will acquire knowledge in both technical and historical aspects of electronics and fluidics to understand the mechanisms and politics of modern computing devices. They will be guided to construct, bend, drill, solder, burn and reinvent circuitry. No prior experience in electronics is necessary.
+ 
+
+~
+IOANA VREME MOSER (b. 1994) is a Romanian sound artist engaged with hardware electronics, speculative research, and tactile experimentation.
+~
+In her practice, she uses rough electronic processes to obtain different materialities of sound. She places electronic components and control voltages in different situations of interaction with her body, organic materials, lost and found items, and environmental stimuli. From these collisions, synthesized sounds emerge to carry personal narrations and observations on the history of electronics, their production chains, wastelands, and entanglements in the natural world.
+~
+Amongst others, she has performed and exhibited at the National Gallery of Denmark (DK), Fonderie Darling (CA), Akademie der Künste Berlin (DE); Manifesta 14 (XK); SFX - Sound Effects Seoul (KR), Ars Electronica (AT), Bunkier Sztuki Gallery Krakow (PL); Simultan Festival (RO); Eigen+Art Lab - Transmediale, Berlin (DE).
+
+Price: 150€ / Students: 100€
+(link: https://www.tickettailor.com/events/umanesimoartificiale/891067 class: color-uicolor text: Workshop registration target: _blank)
+
+----
+
+Computervisionjson:
+
+[
+    {
+        "modelName": "yolo",
+        "modelOptions":
+        {
+            "filterBoxesThreshold": 0.1,
+            "IOUThreshold": 0.8,
+            "classProbThreshold": 0.4
+        },
+        "imageFilename": "image.by.ozan.tezvaran.at.tangible.musik.lab.post-digital-workshop-3421.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:33:15 GMT",
+        "label": "cat",
+        "confidence": 0.42426958680152893,
+        "normX": 0.3734957988445575,
+        "normY": 0.8113815601055439,
+        "normW": 0.5555690985459548,
+        "normH": 0.17118718073918268
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "docuformforfluidcomputer2.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:35:31 GMT",
+        "label": "clock",
+        "confidence": 0.8174023628234863,
+        "normX": 0.008362501859664917,
+        "normY": 0.007400989532470703,
+        "normW": 0.9875389635562897,
+        "normH": 0.9727010130882263
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dsc02533.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:35:32 GMT",
+        "label": "microwave",
+        "confidence": 0.7378445267677307,
+        "normX": 0.21378463506698608,
+        "normY": 0.05442327260971069,
+        "normW": 0.48170286417007446,
+        "normH": 0.413787305355072
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "dsc02533.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:35:32 GMT",
+        "label": "bench",
+        "confidence": 0.5272974371910095,
+        "normX": 0.194284588098526,
+        "normY": 0.007564902305603027,
+        "normW": 0.7512393891811371,
+        "normH": 0.9755111932754517
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "fluidicmodulesx2.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:35:32 GMT",
+        "label": "bicycle",
+        "confidence": 0.5597103238105774,
+        "normX": 0.29994040727615356,
+        "normY": 0.4453430771827698,
+        "normW": 0.3329482674598694,
+        "normH": 0.3368021249771118
+    },
+    {
+        "modelName": "cocossd",
+        "modelOptions":
+        {},
+        "imageFilename": "image.by.ozan.tezvaran.at.tangible.musik.lab.post-digital-workshop-3421.jpg",
+        "timestamp": "Thu, 30 Mar 2023 20:35:33 GMT",
+        "label": "person",
+        "confidence": 0.9724021553993225,
+        "normX": 0.11693987250328064,
+        "normY": 0.172399640083313,
+        "normW": 0.8683140575885773,
+        "normH": 0.6450017094612122
+    }
+]
+
+----
+
+Uuid: egUQukH2WgvHrQlU

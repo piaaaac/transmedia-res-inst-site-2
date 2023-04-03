@@ -5,8 +5,11 @@
 // $path  = 'images/language';
 
 // Prod
-$path  = '32_detection_files/1_xr-for-non-humans';
+// $path  = '32_detection_files/1_xr-for-non-humans';
 // $path  = '32_detection_files/2_biofabricated-soft-robots-and-inflatables';
+// $path  = '32_detection_files/3_sizzling-semiconductors-and-fluid-forms';
+$path  = '32_detection_files/4_materials-for-a-symbiotic-transition';
+// $path  = '32_detection_files/4_enhanced';
 
 $images = glob("$path/*.{jpeg,jpg,gif,png,webp}", GLOB_BRACE);
 ?>

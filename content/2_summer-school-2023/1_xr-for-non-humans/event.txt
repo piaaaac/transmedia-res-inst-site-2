@@ -8,7 +8,8 @@ Names: Studio Above&Below
 
 Datetext:
 
-3, 4, 5, 6, 7 July, 2023 workshop
+Five-days full-time workshop in Fano, Italy
+3—7 July, 2023 from 9.30 to 17.30
 8, 9 July, 2023 final exhibition
 
 ----
@@ -19,11 +20,19 @@ Shortdescription: Explore the aquatic life of the Adriatic Sea through digital t
 
 Fulldescription:
 
-This summer school will explore the aquatic life of the Adriatic Sea through digital tools. We will explore design approaches which are aimed towards non-human and all planet benefits rather than following pure human centered goals. We will therefore explore the ecosystems and machines which can be found around the port of Fano. The outcomes will be XR projects which can be of a practical, artistic or speculative nature.
-
+This summer school will explore the aquatic life of the adriatic sea through digital tools. We will explore design approaches which are aimed towards non-human and all planet benefits rather than following pure human centered goals. We will therefore explore the ecosystems and machines which can be found around the port of Fano. The outcomes will be XR projects which can be of a practical, artistic or speculative nature.
 Technically, we will learn about mixed reality tools, including but not limited to AR (Unity/WebAR) and inspirations from Unreal, Touchdesigner and other 3D software.
+ 
 
-(link: https://www.eventbrite.com/e/registrazione-disegnare-la-complessita-incontro-con-michele-mauri-579247403577?aff=ebdssbdestsearch&keep_tld=1 text: Subscribe to this event target: _blank)
+~
+STUDIO ABOVE&BELOW is a London-based art, design and technology studio founded by Daria Jelonek (GER) and Perry-James Sugden (UK) after graduating from the Royal College of Art. Their work combines digital art, data and XR in order to draw together unseen connections between humans, machines and the environment.
+~
+Believing in research-based projects, Studio Above&Below often works with scientists, technologists, brands and communities to push the boundaries of digital media for future living. Over the last years the duo has created groundbreaking and innovative artworks using immersive technologies and data in order to make the invisible visible and to give our environment a voice to express itself.
+~
+Their work has been shown internationally at institutions and festivals including the Royal Academy, Tate Modern, V&A London, Nottingham Contemporary, Photophore during the Venice Biennale, HeK Basel, MEET Milan, NRW Forum, UCCA Shanghai, Today Art Museum, WRO Biennale, WIRED Japan, and Sonar+D. Previous prizes and fundings Lumen Prize (shortlisted), Bloomberg Bursary, the Battersea Sculpture Prize, Factory Berlin x Sonar+D Artist in Residency and the S+T+Arts x Nesta Italia City of the Future prize. Their work has been published in magazines including the New York Times, MAXON, Arte and It’s Nice That.
+
+Price: 150€ / Students: 100€
+(link: https://www.tickettailor.com/events/umanesimoartificiale/891062 class: color-uicolor text: Workshop registration target: _blank)
 
 ----
 

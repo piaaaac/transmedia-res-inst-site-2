@@ -1,22 +1,3 @@
-<script>
-/*
-// https://stackoverflow.com/a/57795495/2501713
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  // dark mode
-}
-
-// move threejs canvas
-var c = document.querySelector("canvas")
-c.style.transform = "translateX(-500px)"
-'translateX(-500px)'
-
-*/
-</script>
-
-
-
-
-
 <?php
 /**
  * @param $trash from controller
@@ -28,20 +9,32 @@ $images1Language = page("landing/language")->files()->shuffle();
 $filedata = file_get_contents($kirby->root('assets') .'/data/5-merge1-2-4-objectsDetected.json');
 $allDetectedObjects = json_decode($filedata, true);
 
-// Later
-// $imagesPerRow = 10;
-// make wrappers each row to minimize the n of observed elements
-
-// kill($trash);
+if (!$trash || $trash == null || $trash == "" || !isset($trash)) {
+  kill("no trash");
+}
 ?>
+<!-- 
+<?php
+// var_dump($trash);
+?>
+ -->
+<script>
+// Variables from php
+
+var cc, cmain;
+// var trash = <?= json_encode($trash) ?>;
+var trash = <?= safe_json_encode($trash) ?>;
+var eventUid = "<?= $eventUid ?>";
+
+console.log(trash)
+console.log(eventUid);
+</script>
+
 
 <?php snippet("header") ?>
 
 <?php
 $stepMarkers = [
-  ["advancement" => 0.2, "id" => "appear"],
-  ["advancement" => 0.3, "id" => "flick"],
-  ["advancement" => 0.4, "id" => "flick"],
   ["advancement" => 0.5, "id" => "console"],
 ];
 function marker ($id) {
@@ -60,11 +53,15 @@ function marker ($id) {
     $index = -1;
     $nextAdvancementIndex = 0;
     $fff = new Files();
-    $fff->add($images0Shape->slice(0, 80));
+    $fff->add($images0Shape);
     $fff->add($images1Language);
-    foreach ($fff as $file): 
+    $fffEdited = $fff->shuffle()->slice(0, 120);
+    
+    /* REC */ // $fffEdited = $fff->shuffle();
+
+    foreach ($fffEdited as $file): 
       $index++;
-      $normAdvancement = map($index, 0, $fff->count(), 0, 1);
+      $normAdvancement = map($index, 0, $fffEdited->count(), 0, 1);
       $probHighlight = map($normAdvancement, 0, 1, 0.5, 1);
       $probHighlight = pow($probHighlight, 2);
       $amtHighlightTexts = rand(0, 1000)/1000;
@@ -97,15 +94,15 @@ function marker ($id) {
 </div>
 
 <!-- --------------------------------------- -->
+<!-- Easter -->
+<!-- --------------------------------------- -->
+
+<div id="easter"></div>
+
+<!-- --------------------------------------- -->
 <!-- Create js variables -->
 <!-- Inspector, Creature -->
 <!-- --------------------------------------- -->
-
-<script>
-var cc, cmain;
-var trash = <?= json_encode($trash) ?>;
-console.log(trash)
-</script>
 
 <?php snippet("inspector") ?>
 
@@ -152,8 +149,16 @@ function toggleInspector (bool) {
     document.body.dataset.inspectorOpen = "true";
 
     // focus console input
-    var input = document.getElementById("console-input")
-    input.focus()  
+    // var input = document.getElementById("console-input")
+    // input.focus()  
+
+    // change observer margin on small screens
+    // if (breakpointIs("md", "down")) {
+    //   highlightsObserver.disconnect();
+    //   highlights.forEach(h => { highlightsObserverHalfH.observe(h); });
+    // }
+    refreshHighlightObserver();
+
   } else {
     document.body.dataset.inspectorOpen = "false";
   }
@@ -232,9 +237,8 @@ markers.forEach(h => { observerMarkers.observe(h); });
 // HIGHLIGHTS
 // ----------------------------------------
 
-// var highlights = document.querySelectorAll("#tiles .tile .highlight")
-var highlights = document.querySelectorAll(".highlight")
-const highlightsObserver = new IntersectionObserver(entries => {
+
+function highlightsObserverCallback (entries) {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       // console.log(entry)
@@ -243,17 +247,36 @@ const highlightsObserver = new IntersectionObserver(entries => {
           highlightOn(entry.target)
           setTimeout(() => {
             highlightOff(entry.target) 
-          }, 2500); // duration on screen
+          }, 2500 + Math.random() * 2500); // duration on screen
         }, Math.random() * 1500); // time on
       }
     }
   })
-}, { 
-  // options
+}
+
+// var highlights = document.querySelectorAll("#tiles .tile .highlight")
+var highlights = document.querySelectorAll(".highlight")
+const highlightsObserver = new IntersectionObserver(highlightsObserverCallback, { 
   // threshold: [ 0.3 ], // relative to element
   rootMargin: "100px 0px", // relative to window (or other container)
-})
+});
+const highlightsObserverHalfH = new IntersectionObserver(highlightsObserverCallback, { 
+  rootMargin: "100px 0px "+ -window.innerHeight*0.60 + "px 0px",
+});
+
+var currentHighlightsObserver = highlightsObserver; // always start with full height
 highlights.forEach(h => { highlightsObserver.observe(h); });
+
+function refreshHighlightObserver () {
+  currentHighlightsObserver.disconnect();
+  if (breakpointIs("md", "down")) {
+    currentHighlightsObserver = highlightsObserverHalfH;
+  } else {
+    currentHighlightsObserver = highlightsObserver;
+  }
+  highlights = document.querySelectorAll(".highlight")
+  highlights.forEach(h => { currentHighlightsObserver.observe(h); });
+}
 
 function tileHighlightsOn (el) {
   var highlights = el.querySelectorAll(".highlight");
@@ -272,6 +295,11 @@ function highlightOn (highlightEl) {
   h.style.width = h.dataset.highlightW * 100 +"%";
   h.style.height = h.dataset.highlightH * 100 +"%";
   // console.log(highlightEl);
+
+  increaseEasterInteractions();
+  var span = document.createElement("span");
+  span.textContent = JSON.stringify(h.dataset);
+  easterLog(span);
 }
 
 function highlightOff (highlightEl) {
@@ -291,14 +319,76 @@ function highlightRandomTile () {
 }
 
 // -------------------------
+// Easter
+// -------------------------
+
+var interactions = 0;
+var firstAppearance = 1500;
+var nextAppearance = firstAppearance;
+var every = 50;
+var easterFS = 11;
+var easterOp = 0.3;
+var easterEl = document.getElementById("easter");
+function increaseEasterInteractions (amt = 1) {
+  interactions += amt;
+  if (interactions > nextAppearance) {
+    easterFS++;
+    easterOp += 0.1;
+    if (easterOp > 0.5) { easterOp = Math.random() * 0.3; }
+    nextAppearance += every;
+    easterEl.style.opacity = easterOp;
+  }
+  console.log(interactions +"/"+ nextAppearance);
+}
+function easterLog (node) {
+  if (interactions > firstAppearance) {
+    if (Math.random < 0.02) {
+      var span = document.createElement("span");
+      span.textContent = "";
+      while (Math.random() < 0.5) {
+        span.textContent += `                  `;;
+      }
+      easterLog(span);
+    }
+    if (Math.random() < 0.05) {
+      node.classList.add("font-asem-s-important");
+    }
+    easterEl.prepend(node);
+  }
+}
+
+// -------------------------
 // Storyboard
 // -------------------------
 
 window.addEventListener('keydown', (e) => {
-  // if (e.key == "a") { log("pressed a")}
-  // if (e.key == "s") { cc.actions.start()}
-  // if (e.key == "a") { log("pressed a")}
+  increaseEasterInteractions(5);
+
+  // --- c ----------------------------
+  // if (e.key == "c") {
+  //   clearConsole();
+  // }
+  // --- p ----------------------------
+  if (e.key == "p") {
+    var randomLogOptions = {
+      trashType: "all",
+      forceLogMode: "append",
+    };
+    console.log("randomLogOptions", randomLogOptions)
+    cmain.conciousness.randomLogs(40, randomLogOptions, null);
+  }
+  // ----------------------------------
+
 });
+window.addEventListener('click', (e) => {
+  increaseEasterInteractions(5);
+});
+
+
+// Load event if uid from route > controller
+if (eventUid) {
+  loadEvent(eventUid);
+}
 
 
 </script>

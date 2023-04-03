@@ -16,6 +16,37 @@ Nice to have
 - BILINGUE (Solo eventi)
 
 
+# UTIL
+
+*Dark mode detect*
+https://stackoverflow.com/a/57795495/2501713
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  // dark mode
+}
+
+*Native Share*
+https://griffadev.medium.com/using-the-web-share-api-and-meta-tags-for-simple-native-sharing-582e0ef3f67f
+if(navigator.share) {
+  const nativeShare = document.querySelector('.native-share');
+  if (nativeShare) {
+    // make the button visible
+    nativeShare.style.display = 'flex';
+    nativeShare.querySelector('button').addEventListener('click', (e) => {
+      const button = e.currentTarget;
+      navigator.share({
+        // grab the data attributes from the html
+        text:button.getAttribute('data-text'),
+        title: button.getAttribute('data-title'),
+        url: button.getAttribute('data-url')
+      }).then(() => {
+        // show some content to say it was shared, e.g. thank the user.
+        nativeShare.classList.add('shared');
+      }).catch(() =>  {
+      })
+    });
+  }
+}
+
 # HIGHLIGHT JS DARK THEMES
 
     atom-one-dark

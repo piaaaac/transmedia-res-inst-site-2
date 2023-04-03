@@ -22,12 +22,21 @@ $events = page("summer-school-2023")->children()->listed();
   
   <!-- network -->
   <div class="content" id="inspector-content-network">
-    <?php foreach ($events as $event): ?>
+    <?php /*
+    <?php foreach ($events as $event): ? >
       <div class="item c-content">
-        <?php snippet("inspector-content-event-preview", ["event" => $event]) ?>
+        <?php snippet("inspector-content-event-preview", ["event" => $event]) ? >
       </div>
-    <?php endforeach ?>
+    <?php endforeach ? >
+    */ ?>
     <div class="item c-log">
+      <p class="font-asem-s">$trash["by_source"]["wikipedia_api"]</p>
+      <?= 
+        (isset($trash["by_source"]) && isset($trash["by_source"]["wikipedia_api"]))
+          ? substr(print_r($trash["by_source"]["wikipedia_api"], true), 0, 2200)
+          : ""
+      ?>
+      <span class="font-asem-s">$trash["by_source"]["wikipedia_api"]</span>
       <?php snippet("inspector-code-network-trash") ?>
     </div>
   </div>
@@ -91,10 +100,21 @@ $events = page("summer-school-2023")->children()->listed();
 
   function focusInput () {
     var input = document.getElementById("console-input")
-    input.focus()
+    // input.focus()
+  }
+
+  function blurContent (bool) {
+    if (bool) {
+      // bodyContent.classList.add("blur");
+      document.body.dataset.blurContent = "true";
+    } else {
+      // bodyContent.classList.remove("blur")
+      document.body.dataset.blurContent = "false";
+    }
   }
 
   function loadAbout () {
+    setUrlHome();
     toggleInspector(true);
     var url = "<?= $site->url() ?>/summer-school-2023.json";
     fetch(url).then(response => {
@@ -102,17 +122,20 @@ $events = page("summer-school-2023")->children()->listed();
       }).then(jsonData => {
         // console.log(jsonData)
         handleReceivedAboutData(jsonData.htmlText);
-        bodyContent.classList.add("blur")
+        blurContent(true)
       }).catch(err => {
         console.log("Error fetching page:", err);
       });
   }
 
   function loadEvents () {
+    setUrlHome();
+    toggleInspector(true);
     var url = "<?= $site->url() ?>/summer-school-2023.json";
     fetch(url).then(response => {
         return response.json();
       }).then(jsonData => {
+        blurContent(true)
         // console.log(jsonData)
         handleReceivedProgramData(jsonData.htmlProgramCategories);
         // handleReceivedEventsData(jsonData.events);
@@ -122,11 +145,13 @@ $events = page("summer-school-2023")->children()->listed();
   }
 
   function loadEvent (uid) {
+    setUrlEvent(uid);
+    toggleInspector(true);
     var url = "<?= $site->url() ?>/summer-school-2023/"+ uid +".json";
     fetch(url).then(response => {
         return response.json();
       }).then(jsonData => {
-        bodyContent.classList.add("blur")
+        blurContent(true)
         setTimeout(() => { 
           // bodyContent.textContent = ""
           handleReceivedEventData(jsonData)
@@ -136,18 +161,25 @@ $events = page("summer-school-2023")->children()->listed();
       });
   }
 
+  // function handleReceivedAboutData (aboutHtml) {
+  //   setTimeout(() => { cc.randomLogs(140); }, 50);
+  //   setTimeout(() => {
+  //     var stickTo = log(aboutHtml, { type: "content", srcFile: false, content: "html" })
+  //     stickConsole(stickTo)
+  //   }, 150);
+  //   setTimeout(() => { cc.randomLogs(6, {}, unstickConsole); }, 250);
+  // }
+
   function handleReceivedAboutData (aboutHtml) {
-    setTimeout(() => { cc.randomLogs(4); }, 50);
-    setTimeout(() => {
-      var stickTo = log(aboutHtml, { type: "content", srcFile: false, content: "html" })
-      stickConsole(stickTo)
-    }, 150);
-    setTimeout(() => { cc.randomLogs(6, {}, unstickConsole); }, 250);
+    setTimeout(() => { 
+      cc.randomLogs(24, {}, () => {
+        var stickTo = log(aboutHtml, { type: "content", srcFile: false, content: "html" })
+        stickConsole(stickTo)
+        setTimeout(() => { cc.randomLogs(6, {}, unstickConsole); }, 50);
+      }); 
+    }, 50);
   }
-
   
-
-
   function handleReceivedProgramData (htmlProgramCategories) {
     // setTimeout(() => { 
       cc.randomLogs(12, {}, () => {
@@ -164,7 +196,19 @@ $events = page("summer-school-2023")->children()->listed();
     // }, 50);
   }
 
-  
+  // url
+
+  function setUrlHome () {
+    const url = new URL("<?= $site->url() ?>");
+    history.pushState({}, "", url);
+  }
+  function setUrlEvent (uid) {
+    const url = new URL("<?= $site->url() ?>/summer-school-2023/"+ uid);
+    history.pushState({}, "", url);
+  }
+  addEventListener("popstate", (event) => {
+    console.log(event)
+  });
 
 
   /* OLD */
@@ -240,13 +284,14 @@ $events = page("summer-school-2023")->children()->listed();
       bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
       bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
       bodyContent.insertAdjacentHTML("afterbegin", jsonData.htmlImages)
-      bodyContent.classList.remove("blur")
+      blurContent(false)
       window.scrollTo(0, 0);
 
       // connect intersectionObserver
-      highlightsObserver.disconnect();
-      highlights = document.querySelectorAll(".highlight")
-      highlights.forEach(h => { highlightsObserver.observe(h); });
+      // highlightsObserver.disconnect();
+      // highlights = document.querySelectorAll(".highlight")
+      // highlights.forEach(h => { highlightsObserver.observe(h); });
+      refreshHighlightObserver();
     });
   }
 
@@ -336,14 +381,20 @@ $events = page("summer-school-2023")->children()->listed();
     } else {
       consoleContentDiv.scrollTo(0, 1000000)
     }
+
+    easterLog(item.cloneNode(true));
+
     focusInput()
     return(item)
+
   }
 
   function toTab (name) {
     document.getElementById("inspector").dataset.tab = name;
     if (name === "console") {
       focusInput()
+    } else {
+      increaseEasterInteractions(100);
     }
   }
 
@@ -486,6 +537,7 @@ $events = page("summer-school-2023")->children()->listed();
      *        hardcoded_server
      *        hardcoded_all
      *        apache_request_headers
+     *        all
      *    forceLogMode
      *        false         - random
      *        "append"      - according to log options
@@ -496,8 +548,9 @@ $events = page("summer-school-2023")->children()->listed();
      * */
     this.randomLog = (randomLogOptions) => {
       var defaults = {
-        trashType: "hardcoded_server",
+        // trashType: "hardcoded_server",
         trashType: "all",
+        // trashType: "hardcoded_git_create",
         forceLogMode: false,
       };
       // remove undefined (via https://stackoverflow.com/a/38340374/2501713)
@@ -513,8 +566,19 @@ $events = page("summer-school-2023")->children()->listed();
       }
 
       var logTypes = ["log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "log", "alert", "alert", "alert", "error"];
+      if (Math.random() < 0.3) {
+        logTypes = ["log"];
+      }
+      if (Math.random() < 0.05) {
+        logTypes = ["error"];
+      }
+
+
       var logModes = ["append", "append", "replaceLast"];
-      var logTextClasses = ["font-asem-s", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+      
+      /* ORI */ var logTextClasses = ["font-asem-s", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+      /* REC */ // var logTextClasses = ["font-asem-s"];
+
       var logType = logTypes[Math.floor(Math.random() * logTypes.length)];
       var logMode = logModes[Math.floor(Math.random() * logModes.length)];
       if (options.forceLogMode !== false) { logMode = options.forceLogMode; }
@@ -529,7 +593,7 @@ $events = page("summer-school-2023")->children()->listed();
         console.log("trashArray", trashArray)
         data = data.substring(0, 150) +" […"+ (data.length-150) +"chr]";
       } else {
-        console.log("data", data)
+        // console.log("data", data)
 
       }
       log(data, {"type": logType, "mode": logMode, "textClass": logTextClass});
@@ -540,10 +604,13 @@ $events = page("summer-school-2023")->children()->listed();
       for (var i = 0; i < times; i++) {
         setTimeout(function () {
           self.randomLog(randomLogOptions); 
-        }, 10*i);
+
+        /* ORI */ }, 50*i);
+        // /* REC */  }, 160*i);
+
       }
       if (callback && typeof callback === "function") {
-        setTimeout(callback, times * 100 + 10);
+        setTimeout(callback, times * 50 + 10);
       }
     }
 
