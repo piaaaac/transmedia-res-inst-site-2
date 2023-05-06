@@ -1,4 +1,9 @@
 <?php
+/**
+ * 
+ * @param $eventUid - from route pattern "summer-school-2023/(:any)"
+ * 
+ * */
 
 return function ($page, $site, $kirby, $eventUid) {
 

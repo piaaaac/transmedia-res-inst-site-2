@@ -43,7 +43,7 @@ function randomAlign () {
     -->
   </div>
   
-  <div class="font-sans-m">
+  <div class="font-sans-m color-white-20">
     <br />
     Website: <a href="https://alexpiacentini.com/" target="_blank">Alex Piacentini</a>
   </div>
