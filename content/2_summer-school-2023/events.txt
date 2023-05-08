@@ -33,7 +33,8 @@ Program:
   categorytext: |
     Workshops
     Weekend 8—9 July
-  categoryevents: [ ]
+  categoryevents:
+    - page://9W6ktuNwJFUKv3x1
   categorytext2: '<span class="color-white-20">to be announced soon</span>'
 - 
   categoryvisibility: 'true'
