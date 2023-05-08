@@ -10,7 +10,6 @@
 
 
 <div class="font-sans-m color-uicolor"><?= $text->kt() ?></div>
-<div class="font-sans-m pl-3"><?= $text2->kt() ?></div>
 <div class="pl-3">
 <?php 
 $links = [];
@@ -25,3 +24,4 @@ foreach ($events->toPages()->listed() as $event):
   </p>
 <?php endforeach ?>
 </div>
+<div class="font-sans-m pl-3"><?= $text2->kt() ?></div>

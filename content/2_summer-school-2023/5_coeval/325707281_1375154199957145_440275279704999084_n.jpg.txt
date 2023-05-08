@@ -1,0 +1,9 @@
+Computervisionjson: [{"normX":0.35299999999999954,"normY":0.0697674977041504,"normW":0.4472353346441787,"normH":0.38616801948361285}]
+
+----
+
+Sort: 8
+
+----
+
+Uuid: sxJSyUQNhylrRoCt

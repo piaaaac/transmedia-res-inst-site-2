@@ -70,6 +70,7 @@ columns:
         template: default
       files:
         type: files
+        limit: 100
 
 
 
