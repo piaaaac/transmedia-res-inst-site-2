@@ -35,7 +35,8 @@ Program:
     Weekend 8—9 July
   categoryevents:
     - page://SmS4xYac7Bi92640
-  categorytext2: '<span class="color-white-20">more to be announced soon</span>'
+    - page://kIhwveuW8VVAvzJM
+  categorytext2: ""
 - 
   categoryvisibility: 'true'
   categorytext: |
