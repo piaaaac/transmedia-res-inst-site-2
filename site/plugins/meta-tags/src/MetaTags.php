@@ -8,6 +8,7 @@ use Kirby\Cms\Field;
 use Kirby\Cms\Page;
 use PedroBorges\MetaTags\MetaTags as Tags;
 
+#[\AllowDynamicProperties]
 class MetaTags
 {
     public $tags;
@@ -61,12 +62,12 @@ class MetaTags
     }
 
     /**
-    * Return an existing instance or create a new one.
-    *
-    * @param  Page  $page
-    *
-    * @return HeadTags
-    */
+     * Return an existing instance or create a new one.
+     *
+     * @param  Page  $page
+     *
+     * @return HeadTags
+     */
     public static function instance($page)
     {
         return static::$instance = is_null(static::$instance)
