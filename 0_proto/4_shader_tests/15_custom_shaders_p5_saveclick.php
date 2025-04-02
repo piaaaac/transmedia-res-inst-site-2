@@ -1,5 +1,6 @@
 <?php
 $path  = 'images/dall-e';
+$path  = 'images/micro';
 $images = glob("$path/*.{jpeg,jpg,gif,png}", GLOB_BRACE);
 ?>
 
@@ -63,7 +64,8 @@ void main() {
 
   vec4 c = vec4(0.0, 0.0, 0.0, 1.0);
 
-  float typeSpace = 0.1;
+  // float typeSpace = 0.1;
+  float typeSpace = 0.0;
   float threshold = mouse.y * 2.0 + typeSpace * 1.2;
 
   float r = texture2D(texture1, uv).r + texture2D(texture2, uv).r;
